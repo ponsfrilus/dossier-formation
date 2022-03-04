@@ -1,0 +1,275 @@
+[
+  {
+    "id": "a",
+    "title": "Domaine de compétences opérationnelles a",
+    "subject": "Suivi des projets ICT",
+    "competences": [
+      {
+        "id": "a1",
+        "title": "Compétence opérationnelle a1",
+        "subject": "Clarifier et documenter les besoins des parties prenantes dans le cadre d’un projet ICT",
+        "description": "Les informaticiens et informaticiennes recueillent les objectifs du projet et les besoins des parties prenantes et les documentent: Ils s’enquièrent tout d’abord des objectifs du projet et en clarifient les paramètres généraux tels que coûts, durée, qualité, périmètre, responsabilités et méthodologie (séance initiale pour établir une feuille de route). Pour ce faire, ils appliquent diverses techniques d’audition et d’observation (p. ex. questions ouvertes, questions fermées, réunion, workshop, technique du shadowing, simulation de la solution à rechercher en opérant un saut dans le temps). Grâce à leur empathie, ils sont en mesure de saisir au mieux les besoins des parties prenantes/de la clientèle et de conduire l’entretien de manière ciblée. Puis, ils analysent le contexte du système: quelles exigences le système à développer doit-il remplir? Ils clarifient la délimitation du système et du contexte et identifient les interfaces. Ils élaborent des solutions pour prévenir les éventuels conflits d’objectifs. (Elucidation des exigences)<br>Ensuite, ils transposent la définition exprimée dans le langage naturel (des parties prenantes) dans une documentation modélisée et classent les objectifs et exigences du projet (p. ex. modèle de Kano). Ils veillent à limiter les marges d’interprétation. Le but est de disposer d’objectifs et d’exigences de projet clairs, non ambigus et référençables servant de base à la suite du processus d’ingénierie. (Documentation / Communication des exigences)<br>Au terme de ces étapes, ils vérifient les objectifs et exigences de projet définis quant à leur mesurabilité, cohérence, exhaustivité, nécessité, exactitude et référençabilité. A cet effet, ils utilisent des techniques de soutien (p. ex. inspection, walkthrough, lecture basée sur les perspectives, vérification par prototypage). (Validation des exigences)<br>Enfin, ils définissent les caractéristiques de traitement des exigences et objectifs de projet individuels (p. ex. gestion des versions, identificateur de référençabilité, description, auteur, source, criticité, priorité). (Gestion des exigences)",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a1.1",
+            "descr": "Ils clarifient les objectifs du projet ICT et ses paramètres généraux tels que coûts, durée, qualité, périmètre, responsabilités et méthodologie. (C3)"
+          },
+          {
+            "id": "a1.2",
+            "descr": "Ils appliquent diverses techniques d’audition et d’observation (p. ex. questions ouvertes, questions fermées, réunion, workshop, technique du shadowing, simulation de la solution à rechercher en opérant un saut dans le temps. (C5)"
+          },
+          {
+            "id": "a1.3",
+            "descr": "Ils analysent le contexte du système, procèdent à une délimitation du système et du contexte et identifient les interfaces. (C4)"
+          },
+          {
+            "id": "a1.4",
+            "descr": "Ils élaborent des solutions pour prévenir les éventuels conflits d’objectifs. (C5)"
+          },
+          {
+            "id": "a1.5",
+            "descr": "Ils transposent la définition exprimée dans le langage naturel (des parties prenantes) dans une documentation modélisée contenant des objectifs et des exigences de projet clairs, non ambigus et référençables. (C5)"
+          },
+          {
+            "id": "a1.6",
+            "descr": "Ils vérifient les objectifs et exigences de projet définis quant à leur mesurabilité, cohérence, exhaustivité, nécessité, exactitude et référençabilité. (C4)"
+          },
+          {
+            "id": "a1.7",
+            "descr": "Ils définissent les caractéristiques de traitement des exigences et objectifs de projet individuels (p. ex. gestion des versions, identificateur de référençabilité, description, auteur, source, criticité, priorité). (C3)"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "431",
+            "descr": "Exécuter des mandats de manière autonome dans un environnement professionnel"
+          },
+          {
+            "id": "306",
+            "descr": "Réaliser de petits projets dans son propre environnement professionnel"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b",
+    "title": "Domaine de compétences opérationnelles b",
+    "descr": "Assistance et conseils dans l’environnement ICT",
+    "competences": [
+      {
+        "id": "a1",
+        "title": "Compétence opérationnelle XX",
+        "subject": "XXX",
+        "description": "XXX",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a1.1",
+            "descr": "XXX)"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c",
+    "title": "Domaine de compétences opérationnelles c",
+    "descr": "Création et maintenance de données numériques",
+    "competences": [
+      {
+        "id": "a1",
+        "title": "Compétence opérationnelle XX",
+        "subject": "XXX",
+        "description": "XXX",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a1.1",
+            "descr": "XXX)"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d",
+    "title": "Domaine de compétences opérationnelles d",
+    "descr": "Fourniture et exploitation de solutions ICT",
+    "competences": [
+      {
+        "id": "a1",
+        "title": "Compétence opérationnelle XX",
+        "subject": "XXX",
+        "description": "XXX",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a1.1",
+            "descr": "XXX)"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e",
+    "title": "Domaine de compétences opérationnelles e",
+    "descr": "Exploitation des réseaux",
+    "competences": [
+      {
+        "id": "a1",
+        "title": "Compétence opérationnelle XX",
+        "subject": "XXX",
+        "description": "XXX",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a1.1",
+            "descr": "XXX)"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f",
+    "title": "Domaine de compétences opérationnelles f",
+    "descr": "Exploitation des systèmes de serveurs et de leurs services",
+    "competences": [
+      {
+        "id": "a1",
+        "title": "Compétence opérationnelle XX",
+        "subject": "XXX",
+        "description": "XXX",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a1.1",
+            "descr": "XXX)"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g",
+    "title": "Domaine de compétences opérationnelles g",
+    "descr": "Développement d’applications",
+    "competences": [
+      {
+        "id": "a1",
+        "title": "Compétence opérationnelle XX",
+        "subject": "XXX",
+        "description": "XXX",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a1.1",
+            "descr": "XXX)"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h",
+    "title": "Domaine de compétences opérationnelles h",
+    "descr": "Délivrance et fonctionnement des applications",
+    "competences": [
+      {
+        "id": "a1",
+        "title": "Compétence opérationnelle XX",
+        "subject": "XXX",
+        "description": "XXX",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a1.1",
+            "descr": "XXX)"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "",
+            "descr": ""
+          }
+        ]
+      }
+    ]
+  }
+]
