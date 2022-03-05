@@ -29,28 +29,32 @@ if (title) {
   // hack to have a blank page after title block and after TOC
   console.log('\\newpage{}')
   console.log('\\tableofcontents \\newpage{}')
+  console.log('\n\n')
 }
 
 for (domaineDeCompetance of data) {
-  console.log(`\n# ${domaineDeCompetance.title}: ${domaineDeCompetance.subject}\n`)
+  console.log(`# ${domaineDeCompetance.title}: ${domaineDeCompetance.subject}\n`)
   for (competences of domaineDeCompetance.competences) {
     console.log(`## ${competences.title}: ${competences.subject}\n`)
-    console.log(`${competences.description}\n`)
-    console.log(`\n### Objectifs évaluateurs entreprise\n`)
+    console.log(`${competences.description}\n\n`)
+    console.log(`### Objectifs évaluateurs entreprise\n`)
     for (goals of competences['Objectifs évaluateurs entreprise']) {
       console.log(`   - ${goals.id} ${goals.descr}`)
     }
+    console.log(`\n`)
     if (competences['Modules école professionnelle']) {
-      console.log(`\n### Modules école professionnelle\n`)
+      console.log(`### Modules école professionnelle\n`)
       for (courses of competences['Modules école professionnelle']) {
         console.log(`   - ${courses.id} ${courses.descr}`)
       }
+      console.log(`\n`)
     }
     if (competences['Modules cours interentreprises']) {
-      console.log(`\n### Modules cours interentreprises\n`)
+      console.log(`### Modules cours interentreprises\n`)
       for (cie of competences['Modules cours interentreprises']) {
         console.log(`   - ${cie.id} ${cie.descr}`)
       }
+      console.log(`\n`)
     }
   }
 }
