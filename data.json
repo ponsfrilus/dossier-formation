@@ -8,35 +8,301 @@
         "id": "a1",
         "title": "Compétence opérationnelle a1",
         "subject": "Clarifier et documenter les besoins des parties prenantes dans le cadre d’un projet ICT",
-        "description": "Les informaticiens et informaticiennes recueillent les objectifs du projet et les besoins des parties prenantes et les documentent: Ils s’enquièrent tout d’abord des objectifs du projet et en clarifient les paramètres généraux tels que coûts, durée, qualité, périmètre, responsabilités et méthodologie (séance initiale pour établir une feuille de route). Pour ce faire, ils appliquent diverses techniques d’audition et d’observation (p. ex. questions ouvertes, questions fermées, réunion, workshop, technique du shadowing, simulation de la solution à rechercher en opérant un saut dans le temps). Grâce à leur empathie, ils sont en mesure de saisir au mieux les besoins des parties prenantes/de la clientèle et de conduire l’entretien de manière ciblée. Puis, ils analysent le contexte du système: quelles exigences le système à développer doit-il remplir? Ils clarifient la délimitation du système et du contexte et identifient les interfaces. Ils élaborent des solutions pour prévenir les éventuels conflits d’objectifs. (Elucidation des exigences)\n\nEnsuite, ils transposent la définition exprimée dans le langage naturel (des parties prenantes) dans une documentation modélisée et classent les objectifs et exigences du projet (p. ex. modèle de Kano). Ils veillent à limiter les marges d’interprétation. Le but est de disposer d’objectifs et d’exigences de projet clairs, non ambigus et référençables servant de base à la suite du processus d’ingénierie. (Documentation / Communication des exigences)\n\nAu terme de ces étapes, ils vérifient les objectifs et exigences de projet définis quant à leur mesurabilité, cohérence, exhaustivité, nécessité, exactitude et référençabilité. A cet effet, ils utilisent des techniques de soutien (p. ex. inspection, walkthrough, lecture basée sur les perspectives, vérification par prototypage). (Validation des exigences)\n\nEnfin, ils définissent les caractéristiques de traitement des exigences et objectifs de projet individuels (p. ex. gestion des versions, identificateur de référençabilité, description, auteur, source, criticité, priorité). (Gestion des exigences)",
+        "description": "_Les informaticiens et informaticiennes recueillent les objectifs du projet et les besoins des parties prenantes et les documentent:_\n\nIls s’enquièrent tout d’abord des objectifs du projet et en clarifient les paramètres généraux tels que coûts, durée, qualité, périmètre, responsabilités et méthodologie (séance initiale pour établir une feuille de route). Pour ce faire, ils appliquent diverses techniques d’audition et d’observation (p. ex. questions ouvertes, questions fermées, réunion, workshop, technique du shadowing, simulation de la solution à rechercher en opérant un saut dans le temps). Grâce à leur empathie, ils sont en mesure de saisir au mieux les besoins des parties prenantes/de la clientèle et de conduire l’entretien de manière ciblée. Puis, ils analysent le contexte du système: quelles exigences le système à développer doit-il remplir? Ils clarifient la délimitation du système et du contexte et identifient les interfaces. Ils élaborent des solutions pour prévenir les éventuels conflits d’objectifs. (Elucidation des exigences)\n\nEnsuite, ils transposent la définition exprimée dans le langage naturel (des parties prenantes) dans une documentation modélisée et classent les objectifs et exigences du projet (p. ex. modèle de Kano). Ils veillent à limiter les marges d’interprétation. Le but est de disposer d’objectifs et d’exigences de projet clairs, non ambigus et référençables servant de base à la suite du processus d’ingénierie. (Documentation / Communication des exigences)\n\nAu terme de ces étapes, ils vérifient les objectifs et exigences de projet définis quant à leur mesurabilité, cohérence, exhaustivité, nécessité, exactitude et référençabilité. A cet effet, ils utilisent des techniques de soutien (p. ex. inspection, walkthrough, lecture basée sur les perspectives, vérification par prototypage). (Validation des exigences)\n\nEnfin, ils définissent les caractéristiques de traitement des exigences et objectifs de projet individuels (p. ex. gestion des versions, identificateur de référençabilité, description, auteur, source, criticité, priorité). (Gestion des exigences)",
         "Objectifs évaluateurs entreprise": [
           {
             "id": "a1.1",
-            "descr": "Ils clarifient les objectifs du projet ICT et ses paramètres généraux tels que coûts, durée, qualité, périmètre, responsabilités et méthodologie. (C3)"
+            "descr": "Ils clarifient les objectifs du projet ICT et ses paramètres généraux tels que coûts, durée, qualité, périmètre, responsabilités et méthodologie.",
+            "bloom": "C3"
           },
           {
             "id": "a1.2",
-            "descr": "Ils appliquent diverses techniques d’audition et d’observation (p. ex. questions ouvertes, questions fermées, réunion, workshop, technique du shadowing, simulation de la solution à rechercher en opérant un saut dans le temps. (C5)"
+            "descr": "Ils appliquent diverses techniques d’audition et d’observation (p. ex. questions ouvertes, questions fermées, réunion, workshop, technique du shadowing, simulation de la solution à rechercher en opérant un saut dans le temps.",
+            "bloom": "C5"
           },
           {
             "id": "a1.3",
-            "descr": "Ils analysent le contexte du système, procèdent à une délimitation du système et du contexte et identifient les interfaces. (C4)"
+            "descr": "Ils analysent le contexte du système, procèdent à une délimitation du système et du contexte et identifient les interfaces.",
+            "bloom": "C4"
           },
           {
             "id": "a1.4",
-            "descr": "Ils élaborent des solutions pour prévenir les éventuels conflits d’objectifs. (C5)"
+            "descr": "Ils élaborent des solutions pour prévenir les éventuels conflits d’objectifs.",
+            "bloom": "C5"
           },
           {
             "id": "a1.5",
-            "descr": "Ils transposent la définition exprimée dans le langage naturel (des parties prenantes) dans une documentation modélisée contenant des objectifs et des exigences de projet clairs, non ambigus et référençables. (C5)"
+            "descr": "Ils transposent la définition exprimée dans le langage naturel (des parties prenantes) dans une documentation modélisée contenant des objectifs et des exigences de projet clairs, non ambigus et référençables.",
+            "bloom": "C5"
           },
           {
             "id": "a1.6",
-            "descr": "Ils vérifient les objectifs et exigences de projet définis quant à leur mesurabilité, cohérence, exhaustivité, nécessité, exactitude et référençabilité. (C4)"
+            "descr": "Ils vérifient les objectifs et exigences de projet définis quant à leur mesurabilité, cohérence, exhaustivité, nécessité, exactitude et référençabilité.",
+            "bloom": "C4"
           },
           {
             "id": "a1.7",
-            "descr": "Ils définissent les caractéristiques de traitement des exigences et objectifs de projet individuels (p. ex. gestion des versions, identificateur de référençabilité, description, auteur, source, criticité, priorité). (C3)"
+            "descr": "Ils définissent les caractéristiques de traitement des exigences et objectifs de projet individuels (p. ex. gestion des versions, identificateur de référençabilité, description, auteur, source, criticité, priorité).",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "431",
+            "descr": "Exécuter des mandats de manière autonome dans un environnement professionnel"
+          },
+          {
+            "id": "306",
+            "descr": "Réaliser de petits projets dans son propre environnement professionnel"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "title": "Compétence opérationnelle a2",
+        "subject": "Définir un modèle de procédure pour un projet ICT",
+        "description": "_Les informaticiens et informaticiennes choisissent un modèle de procédure adapté aux objectifs et aux exigences du projet:_\n\nIls analysent tout d’abord les paramètres obtenus sous la compétence opérationnelle a1 et les conditions données par le mandant (p. ex. structure de l’équipe, dynamique des exigences, culture de développement, taille de l’équipe).\n\nEnsuite, ils pèsent les avantages et inconvénients de divers modèles de procédure planifiés ou agiles (itératifs, incrémentaux) en relation avec le projet ICT, les évaluent et sélectionnent le modèle approprié. Si nécessaire, ils adaptent le modèle aux spécificités du projet (process tailoring).",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a2.1",
+            "descr": "Ils analysent les paramètres et les conditions données par le mandant.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a2.2",
+            "descr": "Ils pèsent les avantages et inconvénients de divers modèles de procédure planifiés ou agiles (itératifs, incrémentaux) en relation avec le projet ICT et sélectionnent le modèle approprié.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a2.3",
+            "descr": "Ils adaptent le modèle de procédure aux spécificités du projet (process tailoring).",
+            "bloom": "C5"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "431",
+            "descr": "Exécuter des mandats de manière autonome dans un environnement professionnel"
+          },
+          {
+            "id": "306",
+            "descr": "Réaliser de petits projets dans son propre environnement professionnel"
+          }
+        ]
+      },
+      {
+        "id": "a3",
+        "title": "Compétence opérationnelle a3",
+        "subject": "Rechercher des informations sur des solutions ICT et sur les innovations",
+        "description": "_Les informaticiens et informaticiennes recherchent de façon ciblée des informations sur des solutions ICT en vue de combler les lacunes en matière de connaissances ou de faire le point sur l’état de la technique:_\n\nIls recherchent des innovations, p. ex. pour établir une vue d’ensemble de la situation du marché ou déterminer l’état actuel de la technique. A cet effet, ils consultent de façon ciblée et systématique des informations issues de sources numériques et analogiques. Ils examinent les résultats d’un œil critique et identifient les sources fiables et non fiables ou peu sérieuses.\n\nDes résultats obtenus, ils dégagent plusieurs variantes, les comparent et les évaluent. Ce faisant, ils montrent le potentiel technique et les risques des différentes variantes.\n\nPour la variante privilégiée, ils établissent une preuve de concept technique (proof of concept [PoC]) afin de démontrer la faisabilité fondamentale d’un projet (p. ex. pour réduire les risques).",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a3.1",
+            "descr": "Ils cherchent de façon ciblée et systématique des informations de sources numériques et analogiques.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a3.2",
+            "descr": "Ils identifient les sources fiables.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a3.3",
+            "descr": "Ils comparent plusieurs variantes issues des résultats obtenus et les évaluent.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a3.4",
+            "descr": "Ils montrent le potentiel technique des variantes et leurs risques.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a3.5",
+            "descr": "Ils établissent une preuve de concept technique (PoC).",
+            "bloom": "C5"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "241",
+            "descr": "Initialiser des solutions ICT innovantes"
+          },
+          {
+            "id": "245",
+            "descr": "Mettre en œuvre des solutions ICT innovantes"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "248",
+            "descr": "Réaliser des solutions ICT avec des technologies actuelles (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "a4",
+        "title": "Compétence opérationnelle a4",
+        "subject": "Planifier les projets ICT et les tâches selon un modèle de procédure",
+        "description": "_Les informaticiens et informaticiennes planifient les tâches selon le modèle de procédure choisi:_\n\nIndépendamment du modèle de procédure, ils découpent une tâche globale en activités plus restreintes, plus facilement évaluables et attribuables à une ressource (de l’ensemble au détail). Ils différencient les activités en fonction de la charge et de la durée de travail, établissent une estimation temporelle et évaluent le degré de complexité de la tâche.\n\nIls clarifient ensuite les dépendances séquentielles des activités, en définissent l’ordre chronologique et, éventuellement, les ressources nécessaires.\n\nEnfin, ils regroupent et priorisent les activités nécessaires à la réalisation d’un objectif intermédiaire sur la base de directives temporelles ou fonctionnelles et consignent le tout.\n\nCi-après, le déroulement des tâches expliqué simplement à partir de l’exemple du scrum, tous rôles confondus:\n\n\n   - ils définissent et priorisent (p. ex. valeur business [BV], retour sur investissement [ROI]) les user stories dans le product backlog avec les parties prenantes;\n\n   - ils définissent la vitesse et les objectifs (conditions de satisfaction) pour l’itération planifiée (sprint);\n\n   - ils évaluent (story points) les user stories (story poker) et\n\n   - ils définissent le sprint backlog.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a4.1",
+            "descr": "Ils découpent une tâche globale en activités plus restreintes, plus facilement évaluables et attribuables à une ressource.",
+            "bloom": "C3"
+          },
+          {
+            "id": "a4.2",
+            "descr": "Ils identifient les activités selon la charge et la durée de travail.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a4.3",
+            "descr": "Ils évaluent la charge, la durée et le degré de complexité des activités.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a4.4",
+            "descr": "Ils clarifient les dépendances séquentielles des activités et en définissent l’ordre chronologique.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a4.5",
+            "descr": "Ils regroupent et priorisent les activités nécessaires à la réalisation d’un objectif intermédiaire sur la base de directives temporelles ou fonctionnelles.",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "431",
+            "descr": "Exécuter des mandats de manière autonome dans un environnement professionnel"
+          },
+          {
+            "id": "306",
+            "descr": "Réaliser de petits projets dans son propre environnement professionnel"
+          }
+        ]
+      },
+      {
+        "id": "a5",
+        "title": "Compétence opérationnelle a5",
+        "subject": "Visualiser et présenter les variantes de solutions ICT",
+        "description": "_Les informaticiens et informaticiennes procèdent à la visualisation des variantes de solutions ICT et les présentent:_\n\nIls identifient tout d’abord le groupe cible et ses besoins en informations sur les solutions ICT selon le catalogue des exigences.\n\nSur cette base, ils identifient les caractéristiques des solutions ICT qui sont propres au groupe cible. Ils regroupent les constats tirés de ces caractéristiques sous une forme visuelle adaptée au groupe cible et au problème (p. ex. tableau à feuilles, tableau blanc, programme de présentation, vidéoconférence). A cet effet, ils utilisent leur créativité et leur faculté d’abstraction.\n\nEnfin, ils présentent leurs propositions de solution de façon probante et convaincante pour aider les décideurs dans leur prise de décision (p. ex. technique du storytelling).",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a5.1",
+            "descr": "Ils identifient le groupe cible et ses besoins en informations sur une solution ICT selon un catalogue des exigences.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a5.2",
+            "descr": "Ils identifient les caractéristiques des solutions ICT qui sont propres au groupe cible.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a5.3",
+            "descr": "Ils regroupent les constats tirés de ces caractéristiques sous une forme visuelle adaptée au groupe cible et au problème (p. ex. tableau à feuilles, tableau blanc, programme de présentation, vidéoconférence.",
+            "bloom": "C5"
+          },
+          {
+            "id": "a5.4",
+            "descr": "Ils présentent leurs propositions de solution de façon probante et convaincante (p. ex. storytelling).",
+            "bloom": "C5"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "431",
+            "descr": "Exécuter des mandats de manière autonome dans un environnement professionnel"
+          },
+          {
+            "id": "306",
+            "descr": "Réaliser de petits projets dans son propre environnement professionnel"
+          }
+        ]
+      },
+      {
+        "id": "a6",
+        "title": "Compétence opérationnelle a6",
+        "subject": "Vérifier l’avancement des projets ICT et des tâches et en faire état selon le modèle de procédure",
+        "description": "_Les informaticiens et informaticiennes suivent régulièrement l’état d’avancement du projet et des tâches assignées et en font état selon le modèle de procédure spécifique au projet:_\n\nSelon leur rôle, ils demandent ou fournissent une évaluation sur l’état d’avancement des mandats assignés (personnellement ou au moyen d’un outil).\n\nS’ils ont un rôle de coordination ou de conduite de projet, ils procèdent aux étapes suivantes:\n\nIls recueillent les évaluations, les catégorisent et les priorisent. Ils consolident ensuite les évaluations et élaborent, si nécessaire, des propositions de mesures correctives. Dans une autre étape, ils consignent l’état d’avancement du projet, le présentent sous forme visuelle et le communiquent. Enfin, ils définissent, conjointement avec les décideurs, la suite de la procédure, p. ex. prise de décision quant aux mesures correctives.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a6.1",
+            "descr": "Ils établissent une évaluation sur l’état d’avancement des mandats assignés (personnellement ou au moyen d’un outil).",
+            "bloom": "C3"
+          },
+          {
+            "id": "a6.2",
+            "descr": "Ils catégorisent et priorisent les évaluations recueillies.",
+            "bloom": "C4"
+          },
+          {
+            "id": "a6.3",
+            "descr": "Ils consolident les évaluations et élaborent, si nécessaire, des propositions de mesures correctives.",
+            "bloom": "C5"
+          },
+          {
+            "id": "a6.4",
+            "descr": "Ils consignent l’état d’avancement du projet et le présentent sous forme visuelle.",
+            "bloom": "C3"
+          },
+          {
+            "id": "a6.5",
+            "descr": "Ils font état, sous forme résumée, des résultats relatifs à l’avancement du projet selon le modèle de procédure spécifique au projet.",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "431",
+            "descr": "Exécuter des mandats de manière autonome dans un environnement professionnel"
+          },
+          {
+            "id": "306",
+            "descr": "Réaliser de petits projets dans son propre environnement professionnel"
+          }
+        ]
+      },
+      {
+        "id": "a7",
+        "title": "Compétence opérationnelle a7",
+        "subject": "Remettre la solution ICT au client et clôturer le projet",
+        "description": "_Les informaticiens et informaticiennes remettent la solution ICT au client et clôturent le projet selon les dispositions convenues dans le mandat de projet:_\n\nIls identifient tout d’abord auprès du client les personnes à impliquer dans cette étape. Si rien n’a été prévu, ils définissent conjointement avec le client les critères et la procédure de réception ainsi que la chronologie de la remise.\n\nIls mettent ensuite à disposition la documentation convenue dans le mandat de projet. Si nécessaire, ils planifient une formation/instruction et préparent les supports correspondants.\n\nPuis, ils procèdent à la réception du projet par le client selon les critères définis et établissent un procès-verbal de réception.\n\nEnfin, ils archivent et sauvegardent leur travail selon les directives spécifiques à l’entreprise.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "a7.1",
+            "descr": "Ils identifient auprès du mandant les personnes à impliquer.",
+            "bloom": "C3"
+          },
+          {
+            "id": "a7.2",
+            "descr": "Ils définissent conjointement avec le mandant les critères et la procédure de réception ainsi que la chronologie de la remise.",
+            "bloom": "C3"
+          },
+          {
+            "id": "a7.3",
+            "descr": "Ils mettent à disposition la documentation convenue dans le mandat de projet.",
+            "bloom": "C3"
+          },
+          {
+            "id": "a7.4",
+            "descr": "Ils planifient une formation/instruction.",
+            "bloom": "C3"
+          },
+          {
+            "id": "a7.5",
+            "descr": "Ils préparent les supports de formation.",
+            "bloom": "C5"
+          },
+          {
+            "id": "a7.6",
+            "descr": "Ils procèdent à la réception du projet par le mandant selon les critères définis et établissent un procès-verbal de réception.",
+            "bloom": "C3"
+          },
+          {
+            "id": "a7.7",
+            "descr": "Ils archivent et sauvegardent leur travail selon les directives spécifiques à l’entreprise.",
+            "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
@@ -58,25 +324,169 @@
     "subject": "Assistance et conseils dans l’environnement ICT",
     "competences": [
       {
-        "id": "a1",
-        "title": "Compétence opérationnelle XX",
-        "subject": "XXX",
-        "description": "XXX",
+        "id": "b1",
+        "title": "Compétence opérationnelle b1",
+        "subject": "Installer un PC monoposte",
+        "description": "_Les informaticiens et informaticiennes installent leur Poste de travail ICT avec tous les composants nécessaires:_\n\nIls équipent tout d’abord leur ordinateur d’un système d’exploitation, le relient au réseau et testent la connexion. Ils configurent les mesures de sécurité requises (pare-feu, systèmes antivirus, etc.) selon les directives de l’entreprise.\n\nSi nécessaire, ils installent les logiciels, testent leur bon fonctionnement et effectuent éventuellement des mises à jour.\n\nIls relient ensuite leur ordinateur aux autres périphériques et testent leur fonctionnement.\n\nIls installent et règlent ensuite leurs bureau et chaise conformément aux principes ergonomiques.",
         "Objectifs évaluateurs entreprise": [
           {
-            "id": "a1.1",
-            "descr": "XXX)"
+            "id": "b1.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "b1.2",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "b1.3",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "b1.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "b1.5",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "b1.6",
+            "descr": "XXX",
+            "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
-            "id": "",
+            "id": "114",
+            "descr": ""
+          },
+          {
+            "id": "117",
             "descr": ""
           }
         ],
         "Modules cours interentreprises": [
           {
-            "id": "",
+            "id": "187",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "title": "Compétence opérationnelle b2",
+        "subject": "Réceptionner et traiter des demandes d’assistance informatique complexes",
+        "description": "_Les informaticiens et informaticiennes réceptionnent des demandes d’assistance informatique complexes et élaborent des solutions:_\n\nDans le cadre de l’assistance de 3 e niveau, ils reçoivent une demande d’assistance pour un problème informatique complexe. Ils réceptionnent la demande et commencent par analyser immédiatement et de façon systématique son contenu (p. ex. à l’aide d’un catalogue de questions ou d’une check-list).\n\nAu moyen de méthodes adéquates ou dans le cadre de collaborations, ils élaborent une solution et la documentent selon les directives spécifiques à l’entreprise. Ils préparent la solution conformément au groupe cible (p. ex. pour l’assistance de 2 e niveau) et la communiquent à l’auteur de la demande.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "b2.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "b2.2",
+            "descr": "XXX",
+            "bloom": "C5"
+          },
+          {
+            "id": "b2.3",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "b2.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ]
+      },
+      {
+        "id": "b3",
+        "title": "Compétence opérationnelle b3",
+        "subject": "Conseiller les clients en matière de protection et de sécurité des données",
+        "description": "_Les informaticiens et informaticiennes conseillent les clients sur la manière de traiter les données sensibles et proposent des solutions pour la mise en place de mesures de protection:_\n\nPour ce faire, ils clarifient la situation en matière de sécurité auprès du mandant en posant des questions ciblées sur les systèmes, réseaux, logiciels et données. Sur la base des informations obtenues, ils proposent les mesures de protection nécessaires et recommandées pour les domaines examinés. Ils créent une prise de conscience chez le mandant en ce qui concerne les dangers liés au réseau et au traitement des données sensibles.\n\nPour remplir ces tâches, ils s’informent en continu sur les modifications apportées au cadre juridique/aux prescriptions légales applicables en l’espèce.\n\nSi nécessaire, ils forment les collaborateurs dans l’application des directives informatiques propres à l’entreprise.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "b3.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "b3.2",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "b3.3",
+            "descr": "XXX",
+            "bloom": "C5"
+          },
+          {
+            "id": "b3.4",
+            "descr": "XXX",
+            "bloom": "C5"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "231",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "216",
+            "descr": ""
+          },
+          {
+            "id": "217",
+            "descr": ""
+          },
+          {
+            "id": "185",
+            "descr": ""
+          },
+          {
+            "id": "107",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "b4",
+        "title": "Compétence opérationnelle b4",
+        "subject": "Analyser, visualiser et documenter les processus métier des clients",
+        "description": "_Les informaticiens et informaticiennes analysent les processus métier, les représentent sous forme graphique et les documentent:_\n\nLors de la première étape, ils identifient les informations déterminantes sur les processus (intitulé du processus, événement déclencheur, résultat, déclencheur, destinataire). Ils découpent, dans le cadre d’une analyse des tâches, les processus métier en étapes individuelles. Ils documentent le déroulement du processus et le représentent graphiquement selon les standards de description reconnus et usuels.\n\nDans une deuxième étape, ils précisent le déroulement du processus avec des informations complémentaires telles que les outils requis, les exécutants et la description du résultat (output).\n\nEnfin, ils transmettent la documentation au client.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "b4.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "b4.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "b4.3",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "b4.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "254",
             "descr": ""
           }
         ]
@@ -89,25 +499,253 @@
     "subject": "Création et maintenance de données numériques",
     "competences": [
       {
-        "id": "a1",
-        "title": "Compétence opérationnelle XX",
-        "subject": "XXX",
-        "description": "XXX",
+        "id": "c1",
+        "title": "Compétence opérationnelle c1",
+        "subject": "Identifier et analyser les données et développer des modèles de données",
+        "description": "_Les informaticiens et informaticiennes analysent des données issues de diverses sources de données et les regroupent dans un modèle de données adéquat:_\n\nSelon le mandat, ils reçoivent des données issues de diverses sources de données structurées ou non structurées. Ils examinent tout d’abord les données avant de les classer selon le modèle 4V (volume, variété, vitesse, véracité). Ensuite, ils analysent les données quant à leur précision, à leur concision et à leur incohérence et les nettoient si nécessaire.\n\nDans une autre étape, ils recueillent, à partir des formes d’analyse existantes (rapports), des indicateurs/points de repère pour la création du modèle.\n\nIls définissent, selon le type de données, des cas de test appropriés pour l’exactitude des données ainsi qu’une structure adéquate pour les données nettoyées.\n\nEnfin, ils normalisent le modèle de données et le représentent sous une forme appropriée.",
         "Objectifs évaluateurs entreprise": [
           {
-            "id": "a1.1",
-            "descr": "XXX)"
+            "id": "c1.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "c1.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "c1.3",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "c1.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c1.5",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "c1.6",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c1.7",
+            "descr": "XXX",
+            "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
-            "id": "",
+            "id": "162",
+            "descr": ""
+          },
+          {
+            "id": "164",
             "descr": ""
           }
         ],
         "Modules cours interentreprises": [
           {
-            "id": "",
+            "id": "110",
+            "descr": ""
+          },
+          {
+            "id": "259",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "title": "Compétence opérationnelle c2",
+        "subject": "Mettre en œuvre des modèles de données dans un dispositif de stockage de données numériques",
+        "description": "_Les informaticiens et informaticiennes réalisent un modèle de données dans un dispositif de stockage de données numériques approprié:_\n\nIls choisissent tout d’abord le dispositif de stockage adéquat (p. ex. objet-relationnel, relationnel, distribué/centralisé). Ils implémentent ensuite le modèle de données normalisé pour le stockage en tenant compte de l’intégrité référentielle.\n\nPuis, ils planifient les tests de fonction et de performance et préparent à cet effet les données de test requises. Ils exécutent les tests de fonction et de performance et les évaluent.\n\nEnfin, ils planifient, à partir de divers systèmes source, les migrations de données vers un système cible et les exécutent. Ils vérifient l’exhaustivité, l’intégrité et l’exactitude des données migrées vers le système cible.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "c2.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c2.2",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c2.3",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c2.4",
+            "descr": "XXX",
+            "bloom": "C5"
+          },
+          {
+            "id": "c2.5",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "c2.6",
+            "descr": "XXX",
+            "bloom": "C5"
+          },
+          {
+            "id": "c2.7",
+            "descr": "XXX",
+            "bloom": "C4"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "164",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "106",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "title": "Compétence opérationnelle c3",
+        "subject": "Planifier, implémenter et documenter la sécurité et la protection des données pour des solutions ICT",
+        "description": "_Les informaticiens et informaticiennes planifient des mesures relatives à la sécurité et à la protection des données, les implémentent et les documentent:_\n\nIls identifient tout d’abord les données sensibles et les catégorisent. Ils modélisent ensuite les données sensibles selon le principe de Privacy by design. Ils clarifient les mécanismes de protection nécessaires selon la sensibilité des données et les qualifient. Dans ce contexte, ils tiennent compte du cadre légal (RGBD entre autres) et l’appliquent en fonction de la situation.\n\nSur cette base, ils élaborent un concept de sécurité des données et des rôles conformément au mandat, le documentent et le mettent en œuvre (p. ex. créer une sauvegarde, implémenter les autorisations d’accès, chiffrer les données).\n\nEnfin, ils vérifient l’efficacité des mécanismes de sécurité et de protection installés.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "c3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "231",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "106",
+            "descr": ""
+          },
+          {
+            "id": "285",
+            "descr": ""
+          },
+          {
+            "id": "210",
+            "descr": ""
+          },
+          {
+            "id": "109",
+            "descr": ""
+          },
+          {
+            "id": "259",
+            "descr": ""
+          },
+          {
+            "id": "107",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "title": "Compétence opérationnelle c4",
+        "subject": "Traiter des données à partir de dispositifs de stockage de données numériques",
+        "description": "_Les informaticiens et informaticiennes analysent les données à partir de dispositifs de stockage de données numériques et les traitent:_\n\nIls importent tout d’abord les données dans un logiciel d’analyse approprié. Ils procèdent ensuite à une analyse exploratoire des données et identifient les éventuelles erreurs de données. Ils vérifient la validité des données traitées par échantillonnage.\n\nIls comparent ensuite les méthodes de traitement et les formes de représentation établies et les évaluent. Sur cette base, ils choisissent des formes de représentation adaptées et les appliquent (p. ex. «logarithmer» et ne pas représenter de façon linéaire des dépendances non linéaires).\n\nEnfin, ils mettent les données à disposition sous forme anonymisée (p. ex. pour des cas de test).",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "c4.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c4.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "c4.3",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "c4.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c4.5",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "c4.6",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "162",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "259",
+            "descr": ""
+          },
+          {
+            "id": "110",
             "descr": ""
           }
         ]
@@ -120,25 +758,244 @@
     "subject": "Fourniture et exploitation de solutions ICT",
     "competences": [
       {
-        "id": "a1",
-        "title": "Compétence opérationnelle XX",
-        "subject": "XXX",
-        "description": "XXX",
+        "id": "d1",
+        "title": "Compétence opérationnelle d1",
+        "subject": "Fourniture et exploitation de solutions ICT",
+        "description": "_Les informaticiennes et informaticiens recueillent les processus ICT (p. ex. gestion des utilisateurs, provisionnement de services, analyses des journaux), les standardisent et les automatisent. Ils améliorent ainsi l’efficience et la qualité des processus ICT implémentés:_\n\nIls recueillent tout d’abord les besoins des parties prenantes en termes de processus métier et/ou processus spécifiques à l’entreprise. Cette étape peut s’effectuer dans le cadre d’un entretien de conseil (a1). Des besoins identifiés, ils déduisent une proposition de solution technique et la consignent en tenant plus particulièrement compte des spécificités de l’entreprise concernée ainsi que des normes et standards (p. ex. BPMN, outils d’orchestration, outils de planification, OS builds).\n\nIls mettent ensuite la solution en œuvre. Ils exécutent progressivement l’automatisation des processus définis. A cet effet, ils utilisent des langages de script, l’infrastructure en tant que code (IaC) et/ou des cadres d’automatisation (framework automation). Ils se conforment aux procédures recommandées en appliquant les meilleures pratiques.",
         "Objectifs évaluateurs entreprise": [
           {
-            "id": "a1.1",
-            "descr": "XXX)"
+            "id": "d1.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "d1.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "d1.3",
+            "descr": "XXX",
+            "bloom": "C4"
           }
         ],
         "Modules école professionnelle": [
           {
-            "id": "",
+            "id": "122",
+            "descr": ""
+          },
+          {
+            "id": "158",
+            "descr": ""
+          },
+          {
+            "id": "169",
+            "descr": ""
+          },
+          {
+            "id": "319",
             "descr": ""
           }
         ],
         "Modules cours interentreprises": [
           {
-            "id": "",
+            "id": "188",
+            "descr": ""
+          },
+          {
+            "id": "223",
+            "descr": ""
+          },
+          {
+            "id": "335",
+            "descr": ""
+          },
+          {
+            "id": "216",
+            "descr": ""
+          },
+          {
+            "id": "217",
+            "descr": ""
+          },
+          {
+            "id": "210",
+            "descr": ""
+          },
+          {
+            "id": "109",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "d2",
+        "title": "Compétence opérationnelle d2",
+        "subject": "Définir le processus de livraison des solutions ICT",
+        "description": "_Les informaticiennes et informaticiens définissent le processus de livraison avec lequel les solutions ICT développées seront remises au client. Ils garantissent ainsi une livraison de la solution ICT professionnelle et conforme aux exigences._\n\nIls identifient tout d’abord les processus de livraison existants (p. ex. déploiement logiciel et matériel) en tenant compte des interfaces et des parties prenantes concernées. Ils déterminent la plateforme appropriée et/ou les extensions et adaptations nécessaires.\n\nIls documentent le processus de livraison définitif et le communiquent à toutes les parties prenantes impliquées. Ils élaborent en outre un concept de tests pour la livraison (p. ex. tests des fonctions et d’intégration) en considérant les éventuels risques de sécurité (p. ex. cycle de vie du matériel, sécurisation du transfert de données, concept de sécurité pour les éléments individuels).",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "d2.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "d2.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "d2.3",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "d2.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "d2.5",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "122",
+            "descr": ""
+          },
+          {
+            "id": "158",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "217",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "d3",
+        "title": "Compétence opérationnelle d3",
+        "subject": "Préparer la plateforme d’exécution des solutions ICT",
+        "description": "_Les informaticiennes et informaticiens préparent la plateforme d’exécution des solutions ICT:_\n\nIls mettent à disposition la plateforme d’exécution définitive (d2), (p. ex. chaîne continue d’outils de livraison [Continuous Delivery Toolchain], plateforme de virtualisation). Ce faisant, ils entretiennent des échanges étroits et proactifs avec les participants au projet concernés. Ils configurent en outre la plateforme conformément aux exigences planifiées. Ils documentent de façon compréhensible les étapes et configurations réalisées. Enfin, ils vérifient si la plateforme mise au point peut être acceptée.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "d3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "d3.2",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "d3.3",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "d3.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "158",
+            "descr": ""
+          },
+          {
+            "id": "169",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "216",
+            "descr": ""
+          },
+          {
+            "id": "217",
+            "descr": ""
+          },
+          {
+            "id": "210",
+            "descr": ""
+          },
+          {
+            "id": "109",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "d4",
+        "title": "Compétence opérationnelle d4",
+        "subject": "Mettre en service les solutions ICT",
+        "description": "_Les informaticiennes et informaticiens mettent en service les solutions ICT conformément aux exigences définies. Ils s’assurent ainsi que la solution délivrée au mandant est optimale:_\n\nSelon le projet, ils demandent les autorisations et les droits d’accès requis pour la mise en service. Si nécessaire, ils coordonnent les adaptations à entreprendre sur les systèmes périphériques. Ils réalisent ensuite la mise en service (p. ex. exécution de scripts de déploiement, déploiement). Ils entretiennent des contacts réguliers avec les parties prenantes et les informent sur l’état d’avancement de la mise en service. Ils testent la solution selon le concept de tests (d2). Enfin, ils vérifient la solution quant aux risques de sécurité.\n\nIls remettent la solution ICT au mandant. Si nécessaire, ils dispensent une formation ou établissent une documentation (cf. a7).",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "d4.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "d4.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "d4.3",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "d4.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "d4.5",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "d4.6",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "d4.7",
+            "descr": "XXX",
+            "bloom": "C4"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "122",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "216",
+            "descr": ""
+          },
+          {
+            "id": "217",
+            "descr": ""
+          },
+          {
+            "id": "210",
+            "descr": ""
+          },
+          {
+            "id": "109",
             "descr": ""
           }
         ]
@@ -151,25 +1008,405 @@
     "subject": "Exploitation des réseaux",
     "competences": [
       {
-        "id": "a1",
-        "title": "Compétence opérationnelle XX",
-        "subject": "XXX",
-        "description": "XXX",
+        "id": "e1",
+        "title": "Compétence opérationnelle e1",
+        "subject": "Planifier et documenter les réseaux",
+        "description": "_Les informaticiennes et informaticiens planifient de nouveaux réseaux IP pour les mandants les plus divers (de la micro-entreprise aux grandes sociétés), établissent les documentations nécessaires et en assurent le suivi. Ils fournissent ainsi des bases compréhensibles pour la mise en place et l’exploitation des réseaux:_\n\nIls recueillent tout d’abord les besoins (p. ex. disponibilité, sécurité) (a1) auprès des parties prenantes concernées (p. ex. mandant, division interne, fabricant). A partir des besoins recensés, ils élaborent une première proposition ou des variantes de solution. Selon la situation, ils tiennent compte des spécificités de l’entreprise, des standards/normes techniques et/ou des prescriptions légales. Ils consignent leur proposition.\n\nIls procèdent ensuite au design détaillé: ils conçoivent l’infrastructure réseau appropriée (LAN) en tenant compte des conditions spatiales et d’autres consignes (p. ex. bande passante, médias de transmission, sécurité et disponibilité de service requises). Ils documentent systématiquement la structure du réseau physique et logique et veillent à consigner toutes les indications pertinentes.\n\nIls évaluent par ailleurs les fournisseurs de services Internet (ISP) en fonction des besoins prédéfinis, ils en sélectionnent un et consignent dans le concept les données y relatives, variantes de coûts incluses.\n\nIls élaborent enfin un concept de tests en vue de vérifier le fonctionnement, la performance et la sécurité du réseau.",
         "Objectifs évaluateurs entreprise": [
           {
-            "id": "a1.1",
-            "descr": "XXX)"
+            "id": "e1.1",
+            "descr": "XXX",
+            "bloom": "C5"
+          },
+          {
+            "id": "e1.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e1.3",
+            "descr": "XXX",
+            "bloom": "C5"
+          },
+          {
+            "id": "e1.4",
+            "descr": "XXX",
+            "bloom": "C5"
+          },
+          {
+            "id": "e1.5",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e1.6",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e1.7",
+            "descr": "XXX",
+            "bloom": "C5"
           }
         ],
         "Modules école professionnelle": [
           {
-            "id": "",
+            "id": "117",
+            "descr": ""
+          },
+          {
+            "id": "129",
+            "descr": ""
+          },
+          {
+            "id": "346",
             "descr": ""
           }
         ],
         "Modules cours interentreprises": [
           {
-            "id": "",
+            "id": "185",
+            "descr": ""
+          },
+          {
+            "id": "216",
+            "descr": ""
+          },
+          {
+            "id": "109",
+            "descr": ""
+          },
+          {
+            "id": "184",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "title": "Compétence opérationnelle e2",
+        "subject": "Sélectionner et mettre en service les composants du réseau",
+        "description": "_Sur la base de la planification du réseau réalisée sous (e1), les informaticiennes et informaticiens sélectionnent les composants du réseau appropriés et les mettent en service:_\n\nIls effectuent tout d’abord une recherche en vue de définir les composants du réseau appropriés. Ils établissent une liste de matériel complète selon le processus de commande interne et le budget alloué. A la réception de la commande, ils vérifient que l’intégralité des composants du réseau a bien été livrée.\n\nEn règle générale, ils établissent un concept de configuration. Puis, ils mettent les composants du réseau en service. Le plus souvent, ils installent tout d’abord en interne les composants du réseau et procèdent à des préconfigurations et à des mises à jour avant d’exécuter un premier contrôle du fonctionnement. Ils installent ensuite les composants du réseau chez le client. Ils effectuent une configuration finale et testent la capacité de fonctionnement du réseau selon le concept établi.\n\nSelon la situation, ils remettent le réseau installé au client, lui en expliquent le fonctionnement et, si nécessaire, lui dispensent une formation de base.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "e3.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e3.2",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e3.3",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e3.4",
+            "descr": "XXX",
+            "bloom": "C5"
+          },
+          {
+            "id": "e3.5",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e3.6",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e3.7",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e3.8",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "117",
+            "descr": ""
+          },
+          {
+            "id": "129",
+            "descr": ""
+          },
+          {
+            "id": "145",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "190",
+            "descr": ""
+          },
+          {
+            "id": "216",
+            "descr": ""
+          },
+          {
+            "id": "109",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "e3",
+        "title": "Compétence opérationnelle e3",
+        "subject": "Maintenir et développer les réseaux",
+        "description": "_Les informaticiennes et informaticiens maintiennent les réseaux dans le cadre de contrats de maintenance et, si nécessaire, poursuivent leur développement (amélioration continue des services):_\n\nDans les intervalles de maintenance définis, ils effectuent sur place des contrôles visuels des composants du réseau et décident si des mesures doivent être prises (p. ex. dépoussiérage). Ils contrôlent la journalisation des composants du réseau (p. ex. variations de température, taux de débit, taux de performance, charge du réseau, messages d’erreur). Si nécessaire, ils prennent des mesures pour développer le réseau à court ou à long terme (p. ex. composants supplémentaires, remaniement du réseau, adaptation de la configuration, correctifs et mises à jour).\n\nIls effectuent les mises à jour et les mises à niveau nécessaires ainsi que d’autres travaux de maintenance (p. ex. mise à jour du firmware). Ils documentent avec rigueur les travaux de maintenance effectués et leurs recommandations. Ils clarifient éventuellement avec leurs supérieurs hiérarchiques et leur mandant si des mesures plus importantes doivent être prises. Dans ce contexte, ils sont conscients du cycle de vie des différents composants du réseau et peuvent prévoir quand ceux-ci devront être remplacés. Ils tiennent également compte de critères écologiques, p. ex. labels énergétiques ou durabilité. Lors de tous les travaux de maintenance effectués, ils veillent à manipuler avec soin les appareils et prennent des mesures pour protéger ces derniers des décharges électrostatiques.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "e3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e3.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e3.3",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e3.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e3.5",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e3.6",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e3.7",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "129",
+            "descr": ""
+          },
+          {
+            "id": "145",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "184",
+            "descr": ""
+          },
+          {
+            "id": "216",
+            "descr": ""
+          },
+          {
+            "id": "217",
+            "descr": ""
+          },
+          {
+            "id": "109",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "e4",
+        "title": "Compétence opérationnelle e4",
+        "subject": "Implémenter, documenter et vérifier la sécurité des réseaux",
+        "description": "_Les informaticiennes et informaticiens implémentent, documentent et vérifient la sécurité des réseaux. Ils garantissent ainsi que les systèmes critiques sont protégés de façon appropriée contre les attaques ou infections:\n\nIls analysent tout d’abord les risques potentiels en matière de sécurité du réseau et les évaluent. Pour ce faire, ils utilisent des outils actuels et spécifiques à l’exploitation (p. ex. scanneur de ports). Sur cette base, ils conçoivent les mesures de sécurité physiques et systémiques dans le réseau local (e1).\n\nIls mettent en œuvre les mesures de sécurité planifiées en implémentant des services et des composants sécuritaires (p. ex. pare-feu, VPN, NAT, VLAN, DMZ). Enfin, ils testent les mesures de sécurité de façon systématique et documentent leur fonctionnement.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "e4.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e4.2",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e4.3",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e4.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "117",
+            "descr": ""
+          },
+          {
+            "id": "129",
+            "descr": ""
+          },
+          {
+            "id": "145",
+            "descr": ""
+          },
+          {
+            "id": "231",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "184",
+            "descr": ""
+          },
+          {
+            "id": "185",
+            "descr": ""
+          },
+          {
+            "id": "216",
+            "descr": ""
+          },
+          {
+            "id": "217",
+            "descr": ""
+          },
+          {
+            "id": "109",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "e5",
+        "title": "Compétence opérationnelle e5",
+        "subject": "Analyser, optimiser et documenter la performance d’un réseau",
+        "description": "_Les informaticiennes et informaticiens analysent, optimisent et documentent la performance d’un réseau. Ces étapes se déroulent typiquement en cours de fonctionnement, par cycles réguliers, ou en cas de signalement de problèmes (p. ex. monitorage, messages des utilisateurs):_\n\nAprès la prise de contact et la description du problème (p. ex. le démarrage d’une application est lent) par une partie prenante, ils clarifient tout d’abord les causes possibles. Ils analysent la charge du réseau (LAN) et définissent ensuite des variantes de solution (p. ex. répartition de charge, qualité du service [QoS], PoE). Ce faisant, ils tiennent compte de divers facteurs, p. ex. les répercussions du câblage sur la performance. Ils documentent la solution choisie et adaptent la configuration des composants correspondants (p. ex. commutateur, routeur, point d’accès).\n\nIls testent le fonctionnement du réseau. Si nécessaire, ils proposent à la partie prenante un changement des composants ou une extension (→e1).",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "e5.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e5.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e5.3",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e5.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "e5.5",
+            "descr": "XXX",
+            "bloom": "C4"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "129",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "216",
+            "descr": ""
+          },
+          {
+            "id": "217",
+            "descr": ""
+          },
+          {
+            "id": "109",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "e6",
+        "title": "Compétence opérationnelle e6",
+        "subject": "Surveiller les réseaux",
+        "description": "_Les informaticiennes et informaticiens surveillent les réseaux en continu. Ils garantissent ainsi un fonctionnement ininterrompu du réseau et identifient à temps les problèmes, les dysfonctionnements et les possibilités d’amélioration:_\n\nA l’aide de divers outils de monitorage, ils surveillent les réseaux en continu, que ce soit pour leur entreprise ou des clients dans le cadre d’accords de niveau de service (SLA). Ils vérifient notamment la disponibilité et la capacité de fonctionnement des composants du réseau. Ils surveillent par ailleurs la charge du réseau (p. ex. performance des composants et des lignes de transmission). Ils évaluent le niveau d’urgence des messages/alertes entrants et prennent en temps voulu les mesures appropriées (trouble shooting). Ils circonscrivent l’erreur au niveau des composants. Ils procèdent de façon structurée et avec ténacité jusqu’à ce qu’ils identifient l’erreur. Enfin, ils organisent la procédure de suppression de l’erreur en équipe ou avec des partenaires externes.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "e6.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e6.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e6.3",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e6.4",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "e6.5",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "129",
+            "descr": ""
+          },
+          {
+            "id": "145",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "184",
+            "descr": ""
+          },
+          {
+            "id": "216",
+            "descr": ""
+          },
+          {
+            "id": "217",
+            "descr": ""
+          },
+          {
+            "id": "109",
             "descr": ""
           }
         ]
@@ -182,14 +1419,15 @@
     "subject": "Exploitation des systèmes de serveurs et de leurs services",
     "competences": [
       {
-        "id": "a1",
-        "title": "Compétence opérationnelle XX",
+        "id": "f1",
+        "title": "Compétence opérationnelle f1",
         "subject": "XXX",
         "description": "XXX",
         "Objectifs évaluateurs entreprise": [
           {
-            "id": "a1.1",
-            "descr": "XXX)"
+            "id": "f1.1",
+            "descr": "XXX",
+            "bloom": "C0"
           }
         ],
         "Modules école professionnelle": [
@@ -213,14 +1451,15 @@
     "subject": "Développement d’applications",
     "competences": [
       {
-        "id": "a1",
-        "title": "Compétence opérationnelle XX",
+        "id": "g1",
+        "title": "Compétence opérationnelle g1",
         "subject": "XXX",
         "description": "XXX",
         "Objectifs évaluateurs entreprise": [
           {
-            "id": "a1.1",
-            "descr": "XXX)"
+            "id": "g1.1",
+            "descr": "XXX",
+            "bloom": "C0"
           }
         ],
         "Modules école professionnelle": [
@@ -244,25 +1483,248 @@
     "subject": "Délivrance et fonctionnement des applications",
     "competences": [
       {
-        "id": "a1",
-        "title": "Compétence opérationnelle XX",
-        "subject": "XXX",
-        "description": "XXX",
+        "id": "h1",
+        "title": "Compétence opérationnelle h1",
+        "subject": "Définir la plateforme appropriée pour la livraison des applications",
+        "description": "_Les informaticiennes et informaticiens analysent les diverses exigences relatives au fonctionnement des applications et définissent la plateforme appropriée:_\n\nIls analysent tout d’abord les exigences prédéfinies et identifient les dépendances entre les composants (microservices, logiciels existants, applications/interfaces). Sur cette base, ils déterminent la plateforme appropriée au fonctionnement de l’application (cloud, sur site, client, hybride, multicloud).\n\nIls définissent ensuite le modèle de couches (SaaS, PaaS, IaaS) en fonction des conditions cadres de la partie prenante (p. ex. coûts, responsabilités, mise en œuvre). Ils identifient les exigences de sécurité (protection des données incluse) devant être remplies par la plateforme et choisissent les services appropriés.\n\nIls évaluent les ressources requises et les sélectionnent en fonction des recommandations de l’opérateur de la plateforme (performance, besoins en espace de stockage, disponibilité, coûts, accès). Ils veillent à trouver des solutions économiques et écologiques.\n\nIls vérifient ensuite la cohérence de leur choix en collaboration avec leur équipe et/ou la partie prenante, procèdent à d’éventuelles adaptations et consignent les résultats.",
         "Objectifs évaluateurs entreprise": [
           {
-            "id": "a1.1",
-            "descr": "XXX)"
+            "id": "h1.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "h1.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "h1.3",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "h1.4",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "h1.5",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "h1.6",
+            "descr": "XXX",
+            "bloom": "C4"
           }
         ],
         "Modules école professionnelle": [
           {
-            "id": "",
+            "id": "346",
+            "descr": ""
+          },
+          {
+            "id": "347",
             "descr": ""
           }
         ],
         "Modules cours interentreprises": [
           {
-            "id": "",
+            "id": "210",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "h2",
+        "title": "Compétence opérationnelle h2",
+        "subject": "Définir le processus de livraison des applications",
+        "description": "_Les informaticiennes et informaticiens définissent le processus de livraison des applications ainsi que les techniques et outils à utiliser:_\n\nPour la définition du processus de livraison, ils se basent sur le modèle de procédure défini (p. ex. scrum).\n\nIls analysent tout d’abord les dépendances entre les différents composants en regard du processus de livraison. Ils intègrent également les migrations planifiables (Code First, schéma de base de données, de données) en tenant compte de l’architecture.\n\nIls déterminent les pratiques d’intégration appropriées (p. ex. Git flow, tronc, intégration continue) en fonction du type d’application et du modèle de procédure choisi et les consignent.\n\nIls définissent aussi les pratiques de déploiement adéquates (p. ex. déploiement continu, livraison continue) et les consignent.\n\nEnfin, ils déterminent la gestion des artefacts appropriée (p. ex. registre de conteneur) et la consignent.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "h2.1",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "h2.2",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "h2.3",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "h2.4",
+            "descr": "XXX",
+            "bloom": "C4"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "426",
+            "descr": ""
+          },
+          {
+            "id": "346",
+            "descr": ""
+          },
+          {
+            "id": "324",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "210",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "h3",
+        "title": "Compétence opérationnelle h3",
+        "subject": "Implémenter le processus de livraison des applications",
+        "description": "_Les informaticiennes et informaticiens implémentent le processus de livraison des applications selon la procédure définie:_\n\nSi cela n’a pas encore été fait, ils établissent une preuve de concept (proof of concept [PoC] pour la solution choisie (→ a3.5).\n\nIls implémentent ensuite le processus de livraison défini. Ils installent les services, écrivent les scripts d’automatisation et définissent les variables d’environnement en utilisant les méthodes et outils appropriés (p. ex. pipeline CI/CD, CLI, YAML).\n\nIls mettent à disposition les composants (environnement d’exécution/services) et empaquètent l’application (p. ex. docker, conteneur). Ils administrent et versionnent les artefacts.\n\nPour ce faire, ils adoptent une démarche structurée, contrôlent régulièrement leur travail en vue d’identifier des erreurs et, le cas échéant, les suppriment.\n\nEnfin, ils vérifient l’entier du processus de livraison de l’application selon la procédure applicable (p. ex. check-list) et testent la capacité de fonctionnement / l’interaction des applications au moyen d’un concept de tests (p. ex. test d’intégration).\n\nTout au long des différentes étapes, ils font preuve de ténacité et appliquent une procédure rigoureuse en vue d’améliorer et d’optimiser le processus de livraison.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "h3.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "h3.2",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "h3.3",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "h3.4",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "h3.5",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "h3.6",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "h3.7",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "122",
+            "descr": ""
+          },
+          {
+            "id": "324",
+            "descr": ""
+          },
+          {
+            "id": "347",
+            "descr": ""
+          },
+          {
+            "id": "346",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "355",
+            "descr": ""
+          },
+          {
+            "id": "190",
+            "descr": ""
+          },
+          {
+            "id": "210",
+            "descr": ""
+          }
+        ]
+      },
+      {
+        "id": "h4",
+        "title": "Compétence opérationnelle h4",
+        "subject": "Surveiller les applications et les interfaces et résoudre les problèmes en cours de fonctionnement",
+        "description": "_Les informaticiennes et informaticiens surveillent les applications et les interfaces, prennent des mesures en vue de maintenir la stabilité et résolvent, si nécessaire, les problèmes survenant en cours de fonctionnement:_\n\nPour la surveillance ou le monitorage d’une application, ils définissent tout d’abord tout ce qui doit être enregistré (métriques) et configurent les systèmes en conséquence (profondeur de journal [log depth], points de mesure). Ils intègrent dans l’application des mesures vue de détecter rapidement les utilisations abusives et les menaces.\n\nIls effectuent le monitorage à intervalles réguliers et vérifient l’état de l’application sur la base des informations enregistrées. Si nécessaire, ils procèdent à une analyse, p. ex. en cas de message d’erreur transmis par le client ou le système. Pour circonscrire le problème, ils reproduisent l’erreur. Ce faisant, ils adoptent une démarche analytique et font preuve de ténacité jusqu’à l’identification de l’erreur. Ils vérifient par ailleurs l’actualité et les paramètres de sécurité des applications et des interfaces. A cet effet, ils lisent régulièrement les communications des fabricants des frameworks et services utilisés.\n\nSur la base de l’analyse des erreurs, ils déterminent une procédure pour résoudre les problèmes et, selon les conséquences induites par celle-ci, ils en discutent en équipe ou avec la partie prenante concernée. Ce faisant, ils adoptent une démarche prospective et mettent en œuvre à temps les mesures définies (p. ex. cycle de vie du logiciel: planifier et installer les mises à jour/correctifs, renouvellement des certificats de sécurité, adaptations de la configuration). Ils consignent de façon claire et compréhensible les problèmes et mesures et complètent, si nécessaire, les cas de test.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "h4.1",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "h4.2",
+            "descr": "XXX",
+            "bloom": "C3"
+          },
+          {
+            "id": "h4.3",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "h4.4",
+            "descr": "XXX",
+            "bloom": "C4"
+          },
+          {
+            "id": "h4.5",
+            "descr": "XXX",
+            "bloom": "C5"
+          },
+          {
+            "id": "h4.6",
+            "descr": "XXX",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "183",
+            "descr": ""
+          },
+          {
+            "id": "431",
+            "descr": ""
+          },
+          {
+            "id": "321",
+            "descr": ""
+          },
+          {
+            "id": "346",
+            "descr": ""
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "187",
+            "descr": ""
+          },
+          {
+            "id": "110",
+            "descr": ""
+          },
+          {
+            "id": "109",
             "descr": ""
           }
         ]
