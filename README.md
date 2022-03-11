@@ -27,6 +27,22 @@ Il a pour objectif de proposer :
 * une version PDF, qui pourra être remplie après impression, soit en clonant ce
   dépôt.
 
+
+### Besoins pour l'applucation web interactive
+
+* L'apprenti·e doit pouvoir
+  * contrôler ses objectifs évaluateurs entreprise, avec des cases "Expliqué", "Exercé" et "Autonomie" ;
+  * commenter ses objectifs évaluateurs entreprise avec un champ libre permettant de donner un exemple d'activité / projet qui complète et/ou explique en quoi il est acquis ;
+  * indiquer une date, une note et un commentaire (champ libre) pour les modules cours interentreprises ;
+  * indiquer une date, une note et un commentaire (champ libre) pour les modules école professionnelle.
+
+En addition, l'interface doit proposer un export des données (permettant de
+stocker l'état à un temps T) et un import des données (permettant de continuer
+l'édition de données qui avaient été exportées). L'interface propose une
+possibilité d'imprimer le dossier de formation, dans un format lisible et
+compact, permettant d'avoir une vue d'ensemble.
+
+
 ## Liens utiles
 
 * Page décrivant l'apprentissage d'informaticien·ne CFC :
