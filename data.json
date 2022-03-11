@@ -331,49 +331,49 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "b1.1",
-            "descr": "XXX",
+            "descr": "Ils équipent leur ordinateur d’un système d’exploitation.",
             "bloom": "C3"
           },
           {
             "id": "b1.2",
-            "descr": "XXX",
+            "descr": "Ils relient leur ordinateur au réseau et testent la connexion.",
             "bloom": "C3"
           },
           {
             "id": "b1.3",
-            "descr": "XXX",
+            "descr": "Ils configurent les mesures de sécurité requises (pare-feu, systèmes antivirus, etc.) selon les directives de l’entreprise. ",
             "bloom": "C3"
           },
           {
             "id": "b1.4",
-            "descr": "XXX",
+            "descr": "Ils installent les logiciels, les testent et effectuent, si nécessaire, les mises à jour.",
             "bloom": "C3"
           },
           {
             "id": "b1.5",
-            "descr": "XXX",
+            "descr": "Ils relient leur ordinateur aux autres périphériques et testent leur fonctionnement.",
             "bloom": "C3"
           },
           {
             "id": "b1.6",
-            "descr": "XXX",
+            "descr": "Ils installent et règlent leurs bureau et chaise conformément aux principes ergonomiques.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "114",
-            "descr": ""
+            "descr": "Mettre en œuvre des systèmes de codification, de compression et d’encryptage"
           },
           {
             "id": "117",
-            "descr": ""
+            "descr": "Mettre en place l’infrastructure informatique et réseau d’une petite entreprise"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "187",
-            "descr": ""
+            "descr": "Mettre en service un poste de travail ICT avec le système d’exploitation"
           }
         ]
       },
@@ -385,22 +385,22 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "b2.1",
-            "descr": "XXX",
+            "descr": "Ils analysent des demandes d’assistance complexes de façon systématique (p. ex. à l’aide d’un catalogue de questions ou d’une check-list).",
             "bloom": "C4"
           },
           {
             "id": "b2.2",
-            "descr": "XXX",
+            "descr": "Au moyen de méthodes adéquates ou dans le cadre de collaborations, ils élaborent des solutions.",
             "bloom": "C5"
           },
           {
             "id": "b2.3",
-            "descr": "XXX",
+            "descr": "Ils documentent les solutions selon les directives spécifiques à l’entreprise.",
             "bloom": "C3"
           },
           {
             "id": "b2.4",
-            "descr": "XXX",
+            "descr": "Ils préparent les solutions conformément au groupe cible (p. ex. pour l’assistance de 2e niveau) et les communiquent.",
             "bloom": "C3"
           }
         ]
@@ -413,47 +413,47 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "b3.1",
-            "descr": "XXX",
+            "descr": "Ils clarifient la situation en matière de sécurité auprès du mandant en posant des questions ciblées sur les systèmes, réseaux, logiciels et données.",
             "bloom": "C4"
           },
           {
             "id": "b3.2",
-            "descr": "XXX",
+            "descr": "Ils informent le mandant sur les dangers liés au réseau et au traitement des données sensibles.",
             "bloom": "C3"
           },
           {
             "id": "b3.3",
-            "descr": "XXX",
+            "descr": "Ils proposent les mesures de protection nécessaires et recommandées pour les domaines examinés.",
             "bloom": "C5"
           },
           {
             "id": "b3.4",
-            "descr": "XXX",
+            "descr": "Ils forment les collaborateurs dans l’application des directives informatiques propres à l’entreprise.",
             "bloom": "C5"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "231",
-            "descr": ""
+            "descr": "Appliquer la protection et la sécurité des données"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "216",
-            "descr": ""
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
           },
           {
             "id": "217",
-            "descr": ""
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
           },
           {
             "id": "185",
-            "descr": ""
+            "descr": "Analyser et implémenter des mesures visant à assurer la sécurité informatique des PME (module optionnel)"
           },
           {
             "id": "107",
-            "descr": ""
+            "descr": "Mettre en œuvre des solutions ICT avec la technologie blockchain (module optionnel)"
           }
         ]
       },
@@ -465,29 +465,29 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "b4.1",
-            "descr": "XXX",
+            "descr": "Ils identifient les informations déterminantes sur les processus (intitulé, événement déclencheur, résultat, déclencheur, destinataire).",
             "bloom": "C4"
           },
           {
             "id": "b4.2",
-            "descr": "XXX",
+            "descr": "Ils découpent, dans le cadre d’une analyse des tâches, les processus métier en étapes individuelles.",
             "bloom": "C4"
           },
           {
             "id": "b4.3",
-            "descr": "XXX",
+            "descr": "Ils documentent le déroulement du processus et le représentent graphiquement selon les standards de description reconnus et usuels.",
             "bloom": "C3"
           },
           {
             "id": "b4.4",
-            "descr": "XXX",
+            "descr": "Ils précisent le déroulement du processus avec des informations complémentaires telles que les outils requis, les exécutants et la description du résultat (output).",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "254",
-            "descr": ""
+            "descr": "Décrire des processus métier dans son propre environnement professionnel"
           }
         ]
       }
@@ -506,58 +506,58 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "c1.1",
-            "descr": "XXX",
+            "descr": "Ils examinent les données issues de sources de données structurées ou non structurées avant de les classer selon le modèle 4V.",
             "bloom": "C4"
           },
           {
             "id": "c1.2",
-            "descr": "XXX",
+            "descr": "Ils analysent les données quant à leur précision, à leur concision et à leur incohérence et les nettoient si nécessaire.",
             "bloom": "C4"
           },
           {
             "id": "c1.3",
-            "descr": "XXX",
+            "descr": "ls recueillent, à partir des formes d’analyse existantes (rapports), des indicateurs/points de repère pour la création du modèle.",
             "bloom": "C4"
           },
           {
             "id": "c1.4",
-            "descr": "XXX",
+            "descr": "Ils définissent, selon le type de donnée, des cas de test appropriés pour l’exactitude des données.",
             "bloom": "C3"
           },
           {
             "id": "c1.5",
-            "descr": "XXX",
+            "descr": "Ils définissent une structure adéquate pour les données nettoyées.",
             "bloom": "C4"
           },
           {
             "id": "c1.6",
-            "descr": "XXX",
+            "descr": "Ils normalisent le modèle de données.",
             "bloom": "C3"
           },
           {
             "id": "c1.7",
-            "descr": "XXX",
+            "descr": "Ils représentent le modèle sous une forme appropriée.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "162",
-            "descr": ""
+            "descr": "Analyser et modéliser des données"
           },
           {
             "id": "164",
-            "descr": ""
+            "descr": "Créer des bases de données et y insérer des données"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "110",
-            "descr": ""
+            "descr": "Analyser et représenter des données avec des outils (module optionnel)"
           },
           {
             "id": "259",
-            "descr": ""
+            "descr": "Développer des solutions ICT avec le Machine Learning (module optionnel)"
           }
         ]
       },
@@ -569,50 +569,50 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "c2.1",
-            "descr": "XXX",
+            "descr": "Ils choisissent un dispositif de stockage de données numériques approprié (p. ex. objet-relationnel, relationnel, distribué/centralisé).",
             "bloom": "C3"
           },
           {
             "id": "c2.2",
-            "descr": "XXX",
+            "descr": "Ils implémentent le modèle de données normalisé pour le stockage en tenant compte de l’intégrité référentielle.",
             "bloom": "C3"
           },
           {
             "id": "c2.3",
-            "descr": "XXX",
+            "descr": "Ils planifient les tests de fonction et de performance et préparent les données de test requises.",
             "bloom": "C3"
           },
           {
             "id": "c2.4",
-            "descr": "XXX",
+            "descr": "Ils exécutent les tests de fonction et de performance.",
             "bloom": "C5"
           },
           {
             "id": "c2.5",
-            "descr": "XXX",
+            "descr": "Ils évaluent les tests de fonction et de performance.",
             "bloom": "C4"
           },
           {
             "id": "c2.6",
-            "descr": "XXX",
+            "descr": "Ils planifient, à partir de divers systèmes source, les migrations de données vers un système cible et les exécutent.",
             "bloom": "C5"
           },
           {
             "id": "c2.7",
-            "descr": "XXX",
+            "descr": "Ils vérifient l’exhaustivité, l’intégrité et l’exactitude des données migrées vers le système cible.",
             "bloom": "C4"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "164",
-            "descr": ""
+            "descr": "Créer des bases de données et y insérer des données"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "106",
-            "descr": ""
+            "descr": "Interroger, traiter et assurer la maintenance des bases de données"
           }
         ]
       },
@@ -624,75 +624,75 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "c3.1",
-            "descr": "XXX",
+            "descr": "Ils identifient les données sensibles et les catégorisent.",
+            "bloom": "C4"
+          },
+          {
+            "id": "c3.2",
+            "descr": "Ils modélisent les données sensibles selon le principe de _Privacy by design_.",
             "bloom": "C3"
           },
           {
-            "id": "c3.1",
-            "descr": "XXX",
+            "id": "c3.3",
+            "descr": "Ils clarifient les mécanismes de protection nécessaires selon la sensibilité des données et les qualifient.",
+            "bloom": "C4"
+          },
+          {
+            "id": "c3.4",
+            "descr": "Ils élaborent un concept de sécurité des données et des rôles conformément au mandat.",
             "bloom": "C3"
           },
           {
-            "id": "c3.1",
-            "descr": "XXX",
+            "id": "c3.5",
+            "descr": "Ils créent une sauvegarde et vérifient si la restauration est réussie.",
             "bloom": "C3"
           },
           {
-            "id": "c3.1",
-            "descr": "XXX",
+            "id": "c3.6",
+            "descr": "Ils implémentent les autorisations d’accès selon le concept.",
             "bloom": "C3"
           },
           {
-            "id": "c3.1",
-            "descr": "XXX",
+            "id": "c3.7",
+            "descr": "Ils chiffrent les données selon le concept.",
             "bloom": "C3"
           },
           {
-            "id": "c3.1",
-            "descr": "XXX",
-            "bloom": "C3"
-          },
-          {
-            "id": "c3.1",
-            "descr": "XXX",
-            "bloom": "C3"
-          },
-          {
-            "id": "c3.1",
-            "descr": "XXX",
-            "bloom": "C3"
+            "id": "c3.8",
+            "descr": "Ils vérifient l’efficacité des mécanismes de sécurité et de protection installés.",
+            "bloom": "C4"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "231",
-            "descr": ""
+            "descr": "Appliquer la protection et la sécurité des données"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "106",
-            "descr": ""
+            "descr": "Interroger, traiter et assurer la maintenance des bases de données"
           },
           {
             "id": "285",
-            "descr": ""
+            "descr": "Analyser et implémenter des mesures visant à assurer la sécurité informatique des PME (module optionnel)"
           },
           {
             "id": "210",
-            "descr": ""
+            "descr": "Utiliser un cloud public pour des applications (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           },
           {
             "id": "259",
-            "descr": ""
+            "descr": "Développer des solutions ICT avec le Machine Learning (module optionnel)"
           },
           {
             "id": "107",
-            "descr": ""
+            "descr": "Mettre en œuvre des solutions ICT avec la technologie blockchain (module optionnel)"
           }
         ]
       },
@@ -704,49 +704,49 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "c4.1",
-            "descr": "XXX",
+            "descr": "Ils importent les données dans un logiciel d’analyse approprié.",
             "bloom": "C3"
           },
           {
             "id": "c4.2",
-            "descr": "XXX",
+            "descr": "Ils procèdent à une analyse exploratoire des données et identifient les éventuelles erreurs de données.",
             "bloom": "C4"
           },
           {
             "id": "c4.3",
-            "descr": "XXX",
+            "descr": "Ils comparent les méthodes de traitement et les formes de représentation établies et les évaluent.",
             "bloom": "C4"
           },
           {
             "id": "c4.4",
-            "descr": "XXX",
+            "descr": "Ils choisissent des formes de représentation adaptées et les appliquent.",
             "bloom": "C3"
           },
           {
             "id": "c4.5",
-            "descr": "XXX",
+            "descr": "Ils vérifient la validité des données traitées par échantillonnage.",
             "bloom": "C3"
           },
           {
             "id": "c4.6",
-            "descr": "XXX",
+            "descr": "Ils mettent les données à disposition sous forme anonymisée.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "162",
-            "descr": ""
+            "descr": "Analyser et modéliser des données"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "259",
-            "descr": ""
+            "descr": "Développer des solutions ICT avec le Machine Learning (module optionnel)"
           },
           {
             "id": "110",
-            "descr": ""
+            "descr": "Analyser et représenter des données avec des outils (module optionnel)"
           }
         ]
       }
@@ -765,66 +765,66 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "d1.1",
-            "descr": "XXX",
+            "descr": "Ils recueillent les besoins des clients en matière de processus ICT sous forme d’exigences techniques en les formulant de façon compréhensible et sans tenir compte de la solution. ",
             "bloom": "C4"
           },
           {
             "id": "d1.2",
-            "descr": "XXX",
+            "descr": "Des besoins identifiés, ils déduisent une proposition de solution technique et la consignent de façon claire.",
             "bloom": "C4"
           },
           {
             "id": "d1.3",
-            "descr": "XXX",
+            "descr": "Ils automatisent les processus ICT définis au moyen de langages de script, de l’infrastructure en tant que code (IaC) et/ou de frameworks d’automatisation.",
             "bloom": "C4"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "122",
-            "descr": ""
+            "descr": "Automatiser des procédures à l’aide de scripts"
           },
           {
             "id": "158",
-            "descr": ""
+            "descr": "Planifier et exécuter la migration de logiciels"
           },
           {
             "id": "169",
-            "descr": ""
+            "descr": "Mettre à disposition des services avec des conteneurs"
           },
           {
             "id": "319",
-            "descr": ""
+            "descr": "Concevoir et implémenter des applications"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "188",
-            "descr": ""
+            "descr": "Exploiter, surveiller et assurer la maintenance des services"
           },
           {
             "id": "223",
-            "descr": ""
+            "descr": "Réaliser des applications multi-utilisateurs orientées objets (module optionnel)"
           },
           {
             "id": "335",
-            "descr": ""
+            "descr": "Réaliser une application pour mobile (module optionnel)"
           },
           {
             "id": "216",
-            "descr": ""
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
           },
           {
             "id": "217",
-            "descr": ""
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
           },
           {
             "id": "210",
-            "descr": ""
+            "descr": "Utiliser un cloud public pour des applications (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           }
         ]
       },
@@ -836,44 +836,44 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "d2.1",
-            "descr": "XXX",
+            "descr": "Ils identifient les processus de livraison existants, les interfaces et les parties prenantes concernées.",
             "bloom": "C4"
           },
           {
             "id": "d2.2",
-            "descr": "XXX",
+            "descr": "Ils déterminent la plateforme appropriée, les extensions et adaptations nécessaires en fonction des exigences définies pour la solution. ",
             "bloom": "C4"
           },
           {
             "id": "d2.3",
-            "descr": "XXX",
+            "descr": "Ils documentent l’entier du processus de livraison de façon claire et transparente.",
             "bloom": "C3"
           },
           {
             "id": "d2.4",
-            "descr": "XXX",
+            "descr": "Ils présentent de façon claire et compréhensible le processus de livraison aux parties prenantes impliquées.",
             "bloom": "C3"
           },
           {
             "id": "d2.5",
-            "descr": "XXX",
+            "descr": "Ils élaborent un concept de tests complet pour tester les fonctions et l’intégration de la livraison.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "122",
-            "descr": ""
+            "descr": "Automatiser des procédures à l’aide de scripts"
           },
           {
             "id": "158",
-            "descr": ""
+            "descr": "Planifier et exécuter la migration de logiciels"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "217",
-            "descr": ""
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
           }
         ]
       },
@@ -885,51 +885,51 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "d3.1",
-            "descr": "XXX",
+            "descr": "Ils mettent à disposition la plateforme d’exécution définitive.",
             "bloom": "C3"
           },
           {
             "id": "d3.2",
-            "descr": "XXX",
+            "descr": "Ils configurent la plateforme d’exécution conformément aux exigences planifiées.",
             "bloom": "C3"
           },
           {
             "id": "d3.3",
-            "descr": "XXX",
+            "descr": "Ils documentent de façon compréhensible la configuration de la plateforme d’exécution.",
             "bloom": "C3"
           },
           {
             "id": "d3.4",
-            "descr": "XXX",
+            "descr": "Ils vérifient si la plateforme mise au point peut être acceptée conformément aux exigences définies.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "158",
-            "descr": ""
+            "descr": "Planifier et exécuter la migration de logiciels"
           },
           {
             "id": "169",
-            "descr": ""
+            "descr": "Mettre à disposition des services avec des conteneurs"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "216",
-            "descr": ""
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
           },
           {
             "id": "217",
-            "descr": ""
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
           },
           {
             "id": "210",
-            "descr": ""
+            "descr": "Utiliser un cloud public pour des applications (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           }
         ]
       },
@@ -941,62 +941,62 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "d4.1",
-            "descr": "XXX",
+            "descr": "Ils demandent les autorisations et les droits d’accès requis pour la mise en service.",
             "bloom": "C3"
           },
           {
             "id": "d4.2",
-            "descr": "XXX",
+            "descr": "Ils coordonnent les adaptations à entreprendre sur les systèmes périphériques.",
             "bloom": "C4"
           },
           {
             "id": "d4.3",
-            "descr": "XXX",
+            "descr": "Ils exécutent les scripts de déploiement pour la mise en service.",
             "bloom": "C3"
           },
           {
             "id": "d4.4",
-            "descr": "XXX",
+            "descr": "Ils effectuent le déploiement logiciel.",
             "bloom": "C3"
           },
           {
             "id": "d4.5",
-            "descr": "XXX",
+            "descr": "Ils coordonnent le déploiement matériel avec les parties prenantes concernées.",
             "bloom": "C4"
           },
           {
             "id": "d4.6",
-            "descr": "XXX",
+            "descr": "Ils informent régulièrement le mandant sur l’état d’avancement de la mise en service.",
             "bloom": "C3"
           },
           {
             "id": "d4.7",
-            "descr": "XXX",
+            "descr": "Ils testent les fonctions et la sécurité de la solution ICT mise en service.",
             "bloom": "C4"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "122",
-            "descr": ""
+            "descr": "Automatiser des procédures à l’aide de scripts"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "216",
-            "descr": ""
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
           },
           {
             "id": "217",
-            "descr": ""
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
           },
           {
             "id": "210",
-            "descr": ""
+            "descr": "Utiliser un cloud public pour des applications (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           }
         ]
       }
@@ -1015,70 +1015,70 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "e1.1",
-            "descr": "XXX",
+            "descr": "Ils élaborent une proposition de solution pour un réseau à l’attention des parties prenantes en tenant compte des spécificités de l’entreprise, des standards techniques et des prescriptions légales.",
             "bloom": "C5"
           },
           {
             "id": "e1.2",
-            "descr": "XXX",
+            "descr": "Ils évaluent la probabilité de panne du nouveau réseau et planifient, si nécessaire, des redondances.",
             "bloom": "C4"
           },
           {
             "id": "e1.3",
-            "descr": "XXX",
+            "descr": "Ils conçoivent l’infrastructure réseau (LAN) en tenant compte des conditions spatiales et d’autres consignes.",
             "bloom": "C5"
           },
           {
             "id": "e1.4",
-            "descr": "XXX",
+            "descr": "Ils conçoivent des mesures de sécurité physiques et systémiques dans le réseau local.",
             "bloom": "C5"
           },
           {
             "id": "e1.5",
-            "descr": "XXX",
+            "descr": "Ils documentent de façon systématique et exhaustive la structure du réseau physique et logique.",
             "bloom": "C3"
           },
           {
             "id": "e1.6",
-            "descr": "XXX",
+            "descr": "Ils sélectionnent un fournisseur de services Internet approprié (ISP) en fonction des besoins prédéfinis.",
             "bloom": "C4"
           },
           {
             "id": "e1.7",
-            "descr": "XXX",
+            "descr": "Ils élaborent un concept de tests en vue de vérifier le fonctionnement, la performance et la sécurité du réseau.",
             "bloom": "C5"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "117",
-            "descr": ""
+            "descr": "Mettre en place l’infrastructure informatique et réseau d’une petite entreprise"
           },
           {
             "id": "129",
-            "descr": ""
+            "descr": "Mettre en service des composants réseaux"
           },
           {
             "id": "346",
-            "descr": ""
+            "descr": "Concevoir et réaliser des solutions cloud"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "185",
-            "descr": ""
+            "descr": "Analyser et implémenter des mesures visant à assurer la sécurité informatique des PME (module optionnel)"
           },
           {
             "id": "216",
-            "descr": ""
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           },
           {
             "id": "184",
-            "descr": ""
+            "descr": "Implémenter la sécurité réseau (module optionnel)"
           }
         ]
       },
@@ -1089,72 +1089,72 @@
         "description": "_Sur la base de la planification du réseau réalisée sous (e1), les informaticiennes et informaticiens sélectionnent les composants du réseau appropriés et les mettent en service:_\n\nIls effectuent tout d’abord une recherche en vue de définir les composants du réseau appropriés. Ils établissent une liste de matériel complète selon le processus de commande interne et le budget alloué. A la réception de la commande, ils vérifient que l’intégralité des composants du réseau a bien été livrée.\n\nEn règle générale, ils établissent un concept de configuration. Puis, ils mettent les composants du réseau en service. Le plus souvent, ils installent tout d’abord en interne les composants du réseau et procèdent à des préconfigurations et à des mises à jour avant d’exécuter un premier contrôle du fonctionnement. Ils installent ensuite les composants du réseau chez le client. Ils effectuent une configuration finale et testent la capacité de fonctionnement du réseau selon le concept établi.\n\nSelon la situation, ils remettent le réseau installé au client, lui en expliquent le fonctionnement et, si nécessaire, lui dispensent une formation de base.",
         "Objectifs évaluateurs entreprise": [
           {
-            "id": "e3.1",
-            "descr": "XXX",
+            "id": "e2.1",
+            "descr": "Ils définissent les composants du réseau appropriés en tenant compte des besoins et du budget alloué.",
             "bloom": "C4"
           },
           {
-            "id": "e3.2",
-            "descr": "XXX",
+            "id": "e2.2",
+            "descr": "Ils établissent une liste de matériel complète selon le processus de commande interne.",
             "bloom": "C3"
           },
           {
-            "id": "e3.3",
-            "descr": "XXX",
+            "id": "e2.3",
+            "descr": "A la réception de la commande, ils vérifient que l’intégralité des composants du réseau a bien été livrée.",
             "bloom": "C4"
           },
           {
-            "id": "e3.4",
-            "descr": "XXX",
+            "id": "e2.4",
+            "descr": "Ils établissent un concept de configuration clair et compréhensible.",
             "bloom": "C5"
           },
           {
-            "id": "e3.5",
-            "descr": "XXX",
+            "id": "e2.5",
+            "descr": "Ils procèdent à des préconfigurations et à des mises à jour des composants du réseau.",
             "bloom": "C3"
           },
           {
-            "id": "e3.6",
-            "descr": "XXX",
+            "id": "e2.6",
+            "descr": "Ils installent les composants du réseau chez le client et effectuent la configuration finale.",
             "bloom": "C3"
           },
           {
-            "id": "e3.7",
-            "descr": "XXX",
+            "id": "e2.7",
+            "descr": "Ils testent la capacité de fonctionnement des composants du réseau installés.",
             "bloom": "C3"
           },
           {
-            "id": "e3.8",
-            "descr": "XXX",
+            "id": "e2.8",
+            "descr": "Ils expliquent en mots simples le fonctionnement du réseau au client.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "117",
-            "descr": ""
+            "descr": "Mettre en place l’infrastructure informatique et réseau d’une petite entreprise"
           },
           {
             "id": "129",
-            "descr": ""
+            "descr": "Mettre en service des composants réseaux"
           },
           {
             "id": "145",
-            "descr": ""
+            "descr": "Exploiter et étendre un réseau"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "190",
-            "descr": ""
+            "descr": "Mettre en place et exploiter une plateforme de virtualisation (module optionnel)"
           },
           {
             "id": "216",
-            "descr": ""
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des ser-vices dans le cloud public (module optionnel)"
           }
         ]
       },
@@ -1166,66 +1166,66 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "e3.1",
-            "descr": "XXX",
+            "descr": "Ils vérifient les composants du réseau par des contrôles visuels et définissent, si nécessaire, des mesures de maintenance.",
             "bloom": "C3"
           },
           {
             "id": "e3.2",
-            "descr": "XXX",
+            "descr": "Ils contrôlent la journalisation (log) des différents composants du réseau.",
             "bloom": "C4"
           },
           {
             "id": "e3.3",
-            "descr": "XXX",
+            "descr": "Ils prennent des mesures à court ou à long terme pour développer les composants du réseau.",
             "bloom": "C4"
           },
           {
             "id": "e3.4",
-            "descr": "XXX",
+            "descr": "Ils effectuent les mises à jour et les mises à niveau des composants selon le concept d’exploitation établi et les instructions des fabricants.",
             "bloom": "C3"
           },
           {
             "id": "e3.5",
-            "descr": "XXX",
+            "descr": "Ils documentent avec rigueur les travaux de maintenance effectués.",
             "bloom": "C3"
           },
           {
             "id": "e3.6",
-            "descr": "XXX",
+            "descr": "Ils informent la partie prenante concernée du cycle de vie des appareils et des normes énergétiques et écologiques actuelles.",
             "bloom": "C3"
           },
           {
             "id": "e3.7",
-            "descr": "XXX",
+            "descr": "Ils évaluent le moment où les appareils devront être remplacés.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "129",
-            "descr": ""
+            "descr": "Mettre en service des composants réseaux"
           },
           {
             "id": "145",
-            "descr": ""
+            "descr": "Exploiter et étendre un réseau"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "184",
-            "descr": ""
+            "descr": "Implémenter la sécurité réseau"
           },
           {
             "id": "216",
-            "descr": ""
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
           },
           {
             "id": "217",
-            "descr": ""
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           }
         ]
       },
@@ -1237,63 +1237,63 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "e4.1",
-            "descr": "XXX",
+            "descr": "Ils analysent et évaluent les risques potentiels en matière de sécurité du réseau au moyen d’outils actuels et spécifiques à l’exploitation.",
             "bloom": "C4"
           },
           {
             "id": "e4.2",
-            "descr": "XXX",
+            "descr": "Ils implémentent des outils et des composants sécuritaires.",
             "bloom": "C3"
           },
           {
             "id": "e4.3",
-            "descr": "XXX",
+            "descr": "Ils testent les mesures de sécurité implémentées de façon systématique, selon le concept de tests.",
             "bloom": "C3"
           },
           {
             "id": "e4.4",
-            "descr": "XXX",
+            "descr": "Ils documentent le fonctionnement des mesures de sécurité implémentées.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "117",
-            "descr": ""
+            "descr": "Mettre en place l’infrastructure informatique et réseau d’une petite entreprise"
           },
           {
             "id": "129",
-            "descr": ""
+            "descr": "Mettre en service des composants réseaux"
           },
           {
             "id": "145",
-            "descr": ""
+            "descr": "Exploiter et étendre un réseau"
           },
           {
             "id": "231",
-            "descr": ""
+            "descr": "Appliquer la protection et la sécurité des données"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "184",
-            "descr": ""
+            "descr": "Implémenter la sécurité réseau"
           },
           {
             "id": "185",
-            "descr": ""
+            "descr": "Analyser et implémenter des mesures visant à assurer la sécurité informatique des PME (module optionnel)"
           },
           {
             "id": "216",
-            "descr": ""
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
           },
           {
             "id": "217",
-            "descr": ""
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           }
         ]
       },
@@ -1305,48 +1305,48 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "e5.1",
-            "descr": "XXX",
+            "descr": "Ils analysent les causes possibles de la capacité de performance limitée du réseau.",
             "bloom": "C4"
           },
           {
             "id": "e5.2",
-            "descr": "XXX",
+            "descr": "Ils analysent la charge du réseau et définissent, en tenant compte des conséquences envisageables, des mesures d’optimisation appropriées.",
             "bloom": "C4"
           },
           {
             "id": "e5.3",
-            "descr": "XXX",
+            "descr": "Ils documentent les mesures d’optimisation de façon claire et compréhensible.",
             "bloom": "C3"
           },
           {
             "id": "e5.4",
-            "descr": "XXX",
+            "descr": "Ils adaptent la configuration des composants du réseau en fonction des mesures d’optimisation définies.",
             "bloom": "C3"
           },
           {
             "id": "e5.5",
-            "descr": "XXX",
+            "descr": "Ils testent le fonctionnement du réseau.",
             "bloom": "C4"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "129",
-            "descr": ""
+            "descr": "Mettre en service des composants réseaux"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "216",
-            "descr": ""
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
           },
           {
             "id": "217",
-            "descr": ""
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           }
         ]
       },
@@ -1358,56 +1358,56 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "e6.1",
-            "descr": "XXX",
+            "descr": "A l’aide des outils de monitorage donnés, ils surveillent les réseaux de façon continue et fiable.",
             "bloom": "C4"
           },
           {
             "id": "e6.2",
-            "descr": "XXX",
+            "descr": "Ils vérifient la disponibilité et la capacité de fonctionnement des composants du réseau et la charge du réseau.",
             "bloom": "C4"
           },
           {
             "id": "e6.3",
-            "descr": "XXX",
+            "descr": "Ils priorisent les messages et les alertes selon leur niveau d’urgence et définissent les mesures appropriées.",
             "bloom": "C4"
           },
           {
             "id": "e6.4",
-            "descr": "XXX",
+            "descr": "Ils localisent et identifient les erreurs au niveau des composants du réseau en appliquant une procédure structurée.",
             "bloom": "C4"
           },
           {
             "id": "e6.5",
-            "descr": "XXX",
+            "descr": "Ils organisent la procédure de suppression des erreurs en équipe ou avec des partenaires externes.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "129",
-            "descr": ""
+            "descr": "Mettre en service des composants réseaux"
           },
           {
             "id": "145",
-            "descr": ""
+            "descr": "Exploiter et étendre un réseau"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "184",
-            "descr": ""
+            "descr": "Implémenter la sécurité réseau"
           },
           {
             "id": "216",
-            "descr": ""
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
           },
           {
             "id": "217",
-            "descr": ""
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           }
         ]
       }
@@ -1421,25 +1421,536 @@
       {
         "id": "f1",
         "title": "Compétence opérationnelle f1",
-        "subject": "XXX",
-        "description": "XXX",
+        "subject": "Planifier et documenter les systèmes de serveurs et leurs services",
+        "description": "_Les informaticiennes et informaticiens planifient et documentent les systèmes de serveurs et leurs services pour les mandants les plus divers (de la micro-entreprise aux grandes sociétés), établissent les documentations nécessaires et en assurent le suivi. Ils fournissent ainsi des bases compréhensibles pour la mise en place et l’exploitation des services:_\n\nIls recueillent tout d’abord auprès des parties prenantes concernées (p. ex. mandant, division interne, fabricant) les besoins en termes de fonctions requises et clarifient le budget prévu (→a1). A partir des besoins recensés, ils élaborent une première proposition ou des variantes de solution pour les systèmes de serveurs et/ou les services possibles (p. ex. services Web, bases de données, services de stockage des données, analytique des données). Selon la situation, ils tiennent compte des spécificités de l’entreprise, des normes/standards techniques et/ou des prescriptions légales ainsi que de la protection informatique de base. Ils conseillent les parties prenantes, clarifient leurs questions et soumettent leurs besoins à un examen critique. Ils consignent la variante de solution avec les besoins définis.\n\nDans une autre étape, ils déterminent la plateforme appropriée (p. ex. inhouse VM, cloud, système hybride, conteneur) et les paramètres de performance y relatifs (p. ex. OS, CPU, mémoire, stockage, réseau). A cet effet, ils utilisent des critères d’évaluation mesurables. Si nécessaire, ils sélectionnent le matériel et les logiciels appropriés. Dans ce contexte, ils adoptent une démarche prospective et tiennent compte des conditions cadres, p. ex. spécifications du fabricant, champ d’application, possibilités d’installation ou alimentation en électricité.\n\nIls définissent en outre les services et les ressources nécessaires (p. ex. ressources serveurs, services cloud, licences, autorisations, authentification unique [SSO]). Ce faisant, ils tiennent compte des dépendances déterminantes, p. ex. compatibilités du côté client (navigateur, chiffrement). Ils adoptent une perspective globale et envisagent les conséquences possibles.\n\nEnfin, ils établissent un concept de tests afin de vérifier, lors de la mise en service, le fonctionnement, la performance et la sécurité des systèmes et services.",
         "Objectifs évaluateurs entreprise": [
           {
             "id": "f1.1",
-            "descr": "XXX",
-            "bloom": "C0"
+            "descr": "Ils élaborent à l’attention des parties prenantes des propositions de solution pour les systèmes de serveurs et leurs services en tenant compte des spécificités de l’entreprise, des normes/standards techniques, des prescriptions légales ainsi que de la protection informatique de base.",
+            "bloom": "C5"
+          },
+          {
+            "id": "f1.2",
+            "descr": "Ils clarifient de façon compréhensible les questions des parties prenantes au sujet des propositions de solutions et soumettent les besoins de celles-ci à un examen critique.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f1.3",
+            "descr": "Ils consignent les variantes de solution avec toutes les exigences.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f1.4",
+            "descr": " Ils déterminent les plateformes appropriées et les paramètres de performance en se fondant sur des critères d’évaluation mesurables",
+            "bloom": "C4"
+          },
+          {
+            "id": "f1.5",
+            "descr": "Ils sélectionnent le matériel et les logiciels appropriés en adoptant une démarche prospective et en tenant compte des conditions cadres.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f1.6",
+            "descr": "Ils définissent les services appropriés avec les ressources nécessaires en tenant compte des dépendances déterminantes et des conséquences envisageables.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f1.7",
+            "descr": "Ils établissent un concept de tests afin de vérifier le fonctionnement, la performance ainsi que la sécurité des systèmes et services.",
+            "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
-            "id": "",
-            "descr": ""
+            "id": "123",
+            "descr": "Mettre en œuvre les services d’un serveur"
+          },
+          {
+            "id": "141",
+            "descr": " Installer des systèmes de bases de données"
+          },
+          {
+            "id": "143",
+            "descr": "Implanter un système de sauvegarde et de restauration"
+          },
+          {
+            "id": "157",
+            "descr": "Planifier et exécuter l’introduction d’un système informatique"
+          },
+          {
+            "id": "159",
+            "descr": " Configurer et mettre en place les services d’annuaire"
+          },
+          {
+            "id": "300",
+            "descr": "Intégrer des services réseau multiplateformes"
           }
         ],
         "Modules cours interentreprises": [
           {
-            "id": "",
-            "descr": ""
+            "id": "187",
+            "descr": "Mettre en service un Poste detravail ICT avec le système d’exploitation"
+          },
+          {
+            "id": "190",
+            "descr": "Mettre en place et exploiter une plateforme de virtualisation (module optionnel)"
+          },
+          {
+            "id": "210",
+            "descr": "Utiliser un cloud public pour des applications (module optionnel)"
+          },
+          {
+            "id": "109",
+            "descr": " Exploiter et surveiller des services dans le cloud public (module optionnel)"
+          },
+          {
+            "id": "217",
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "f2",
+        "title": "Compétence opérationnelle f2",
+        "subject": "Mettre en service les systèmes de serveurs",
+        "description": "_Les informaticiennes et informaticiens mettent en service les systèmes de serveurs planifiés (par systèmes de serveurs, on entend le matériel, les machines virtuelles ou les conteneurs internes ou basés cloud):_\n\nUne fois que la décision de mise en œuvre du système de serveur est définitivement prise, ils se procurent les composants et/ou les ressources nécessaires (p. ex. personnel, matériel, infrastructure, licences, services cloud).\n\nIls mettent ensuite en service les composants et/ou les services en les installant et en les configurant conformément aux besoins. Pour ce faire, ils procèdent conformément à la planification établie et tiennent compte des exigences internes, des directives et meilleures pratiques. Ils vérifient le système de serveur en effectuant les tests planifiés (→f1) et transposent celui-ci dans l’environnement productif.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "f2.1",
+            "descr": "Ils se procurent les composants et les ressources choisis pour le système de serveur selon les processus de l’entreprise.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f2.2",
+            "descr": " Ils installent les composants et les services selon la planification établie, les exigences internes ainsi que les meilleures pratiques et les configurent.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f2.3",
+            "descr": "Ils vérifient le fonctionnement du système de serveur au moyen de tests appropriés.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f2.4",
+            "descr": "Ils transposent le système de serveur dans l’environnement productif.",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "157",
+            "descr": "Planifier et exécuter l’introduction d’un système informatique"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "187",
+            "descr": "Mettre en service un Poste de travail ICT avec le système d’exploitation"
+          },
+          {
+            "id": "190",
+            "descr": "Mettre en place et exploiter une plateforme de virtualisation (module optionnel)"
+          },
+          {
+            "id": "109",
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
+          },
+          {
+            "id": "217",
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "f3",
+        "title": "Compétence opérationnelle f3",
+        "subject": "Mettre en service les services du serveur",
+        "description": "_Les informaticiennes et informaticiens mettent en service les services du serveur planifiés (qui peuvent p. ex. être un DNS, un serveur Web, une base de données, un JRE, une plateforme collaborative, une passerelle IoT, un bus de messagerie, l’analytique Big Data):_\n\n Une fois que la décision de mise en œuvre des services du serveur est définitivement prise, ils se procurent les ressources nécessaires (p. ex. personnel, licences, services cloud).\n\nDans une autre étape, ils mettent en service les services du serveur en les installant et en les configurant en fonction des besoins. Pour ce faire, ils procèdent conformément à la planification établie et tiennent compte des exigences internes, des directives et meilleures pratiques. Ils vérifient le service en effectuant les tests planifiés (→f1) et transposent celui-ci dans l’environnement productif. Enfin, ils mettent à jour le manuel d’utilisation et le transmettent au mandant.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "f3.1",
+            "descr": "Ils se procurent les ressources choisies pour le service du serveur selon les processus de l’entreprise.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f3.2",
+            "descr": "Ils installent et configurent le service du serveur conformément aux exigences, aux directives, aux prescriptions légales et aux meilleures pratiques.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f3.3",
+            "descr": "Ils vérifient le fonctionnement du service du serveur au moyen de tests appropriés.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f3.4",
+            "descr": "Ils transposent le service du serveur dans l’environnement productif.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f3.5",
+            "descr": "Ils mettent à jour le manuel d’utilisation et le transmettent au mandant.",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "123",
+            "descr": "Mettre en œuvre les services d’un serveur"
+          },
+          {
+            "id": "141",
+            "descr": "Installer des systèmes de bases de données"
+          },
+          {
+            "id": "159",
+            "descr": "Configurer et mettre en place les services d’annuaire"
+          },
+          {
+            "id": "169",
+            "descr": "Mettre à disposition des services avec des conteneurs"
+          },
+          {
+            "id": "300",
+            "descr": "Intégrer des services réseau multiplateformes"
+          },
+          {
+            "id": "346",
+            "descr": "Concevoir et réaliser des solutions cloud"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "109",
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
+          },
+          {
+            "id": "217",
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "f4",
+        "title": "Compétence opérationnelle f4",
+        "subject": "Maintenir et administrer les systèmes de serveurs et leurs services",
+        "description": "_Les informaticiennes et informaticiens maintiennent et administrent les systèmes de serveurs et leurs services. Ils garantissent ainsi l’exploitation productive continue de ceux-ci:_\n\nSelon les besoins du système ou du service, ils définissent tout d’abord les tâches de maintenance et leur cycle (journalier, hebdomadaire, mensuel, en cas d’événements particuliers, selon les accords de niveau de service). Ils exécutent de manière fiable les tâches de maintenance aux intervalles définis et les documentent. Si des mises à jour sont requises (p. ex. mises à niveau, correctifs, firmware), ils les testent et les installent dans l’environnement productif.\n\nIls testent également le fonctionnement, la performance et la sécurité des systèmes et des services à intervalles réguliers. Si des modifications sont apportées aux systèmes, ils les documentent de façon claire. Ils adoptent une démarche rigoureuse et font en sorte que toute intervention sur les systèmes ou services soit en tout temps traçable et compréhensible. Ils respectent le secret professionnel et traitent les données avec précaution et en toute confidentialité.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "f4.1",
+            "descr": "Ils définissent les tâches de maintenance et leur cycle pour les systèmes de serveurs et leurs services.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f4.2",
+            "descr": "Ils exécutent les tâches de maintenance avec fiabilité et selon les consignes.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f4.3",
+            "descr": "Ils documentent de façon claire les tâches de maintenance exécutées.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f4.4",
+            "descr": "Ils testent les mises à jour et les installent dans l’environnement productif.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f4.5",
+            "descr": "Ils testent de façon systématique le fonctionnement, la performance et la sécurité des systèmes et des services.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f4.6",
+            "descr": "Ils documentent les interventions et les adaptations effectuées sur les systèmes et les services de façon compréhensible et respectent leur devoir de confidentialité.",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "182",
+            "descr": "Mettre en œuvre la sécurité système"
+          },
+          {
+            "id": "159",
+            "descr": "Configurer et mettre en place les services d’annuaire"
+          },
+          {
+            "id": "169",
+            "descr": "Mettre à disposition des services avec des conteneurs"
+          },
+          {
+            "id": "300",
+            "descr": "Intégrer des services réseau multiplateformes"
+          },
+          {
+            "id": "346",
+            "descr": "Concevoir et réaliser des solutions cloud"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "187",
+            "descr": "Mettre en service un Poste de travail ICT avec le système d’exploitation"
+          },
+          {
+            "id": "190",
+            "descr": "Mettre en place et exploiter une plateforme de virtualisation (module optionnel)"
+          },
+          {
+            "id": "109",
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
+          },
+          {
+            "id": "217",
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IOE (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "f5",
+        "title": "Compétence opérationnelle f5",
+        "subject": "Surveiller les systèmes de serveurs et leurs services",
+        "description": "_Les informaticiennes et informaticiens surveillent les systèmes de serveurs et leurs services. Ils détectent ainsi les problèmes à temps et peuvent réduire les risques de panne:_\n\nIls définissent tout d’abord avec les parties prenantes concernées quels systèmes de serveurs et services doivent être surveillés. Ils déterminent ensuite les méthodes de surveillance appropriées (script, logiciel, messages, etc.). Ils fixent les valeurs limites et les actions à entreprendre en cas de non-atteinte ou de dépassement de ces valeurs. A cet égard, ils évaluent les risques respectifs en se fondant sur leurs expériences et selon les exigences du mandant ou les accords de niveau de service (SLA).\n\nUne fois que la surveillance est opérationnelle, ils vérifient à l’aide de tests périodiques si le système de surveillance fonctionne de manière fiable. Ils document les résultats de façon claire et compréhensible. En cas de messages d’erreur ou d’alertes, ils interviennent rapidement et engagent les mesures adéquates.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "f5.1",
+            "descr": "En concertation avec les parties prenantes, ils définissent les systèmes de serveurs et les services à surveiller.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f5.2",
+            "descr": "Ils déterminent les méthodes de surveillance appropriées.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f5.3",
+            "descr": "Ils définissent, en fonction de l’évaluation des risques, des valeurs limites sensées et les actions à entreprendre en cas de non-respect de ces valeurs.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f5.4",
+            "descr": "Ils vérifient à l’aide de tests périodiques le fonctionnement du système de surveillance et documentent les résultats",
+            "bloom": "C4"
+          },
+          {
+            "id": "f5.5",
+            "descr": "En cas de messages d’erreur ou d’alertes, ils engagent rapidement les mesures adéquates.",
+            "bloom": "C4"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "182",
+            "descr": "Mettre en œuvre la sécurité système"
+          },
+          {
+            "id": "123",
+            "descr": "Mettre en œuvre les services d’un serveur"
+          },
+          {
+            "id": "346",
+            "descr": "Concevoir et réaliser des solutions cloud"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "188",
+            "descr": "Exploiter, surveiller et assurer la maintenance des services"
+          },
+          {
+            "id": "190",
+            "descr": "Mettre en place et exploiter une plateforme de virtualisation (module optionnel)"
+          },
+          {
+            "id": "109",
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "f6",
+        "title": "Compétence opérationnelle f6",
+        "subject": "Implémenter, documenter et vérifier la sécurité des systèmes de serveurs et de leurs services",
+        "description": "_Les informaticiennes et informaticiens implémentent, documentent et vérifient la sécurité des systèmes de serveurs et de leurs services:_\n\nDans un premier temps, ils élaborent un concept de sécurité conforme aux besoins des parties prenantes. Ce concept décrit les risques possibles et les systèmes/méthodes de sécurité appropriés pour garantir une protection informatique de base (p. ex. pare-feu, logiciels antivirus, autorisations, authentification unique [SSO]). Pour ce faire, ils travaillent en équipe et font appel, si nécessaire, à des partenaires. Ils appliquent les meilleures pratiques aux solutions utilisées.\n\nIls configurent les éléments de sécurité définis et testent leur efficacité. A intervalles réguliers, ils effectuent des tests de sécurité en cours de fonctionnement et documentent les résultats de manière compréhensible. Ils s’informent régulièrement des développements technologiques des systèmes de sécurité (p. ex. MELANI, CVE) et adaptent leurs concepts de sécurité en conséquence.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "f6.1",
+            "descr": "Ils élaborent en équipe un concept de sécurité pour les systèmes de serveurs et leurs services en appliquant les meilleures pratiques.",
+            "bloom": "C5"
+          },
+          {
+            "id": "f6.2",
+            "descr": "Ils configurent de façon effective les éléments de sécurité.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f6.3",
+            "descr": "Ils testent à intervalles réguliers les systèmes de sécurité et documentent les résultats de façon compréhensible.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f6.4",
+            "descr": "Ils examinent les concepts de sécurité quant à leur actualité et, si nécessaire, les adaptent en fonction des développements technologiques.",
+            "bloom": "C4"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "182",
+            "descr": "Mettre en œuvre la sécurité système"
+          },
+          {
+            "id": "141",
+            "descr": "Installer des systèmes de bases de données"
+          },
+          {
+            "id": "143",
+            "descr": "Implanter un système de sauvegarde et de restauration"
+          },
+          {
+            "id": "169",
+            "descr": "Mettre à disposition des services avec des conteneurs"
+          },
+          {
+            "id": "346",
+            "descr": "Concevoir et réaliser des solutions cloud"
+          },
+          {
+            "id": "231",
+            "descr": "Appliquer la protection et la sécurité des données"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "188",
+            "descr": "Exploiter, surveiller et assurer la maintenance des services"
+          },
+          {
+            "id": "190",
+            "descr": "Mettre en place et exploiter une plateforme de virtualisation (module optionnel)"
+          },
+          {
+            "id": "109",
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "f7",
+        "title": "Compétence opérationnelle f7",
+        "subject": "Planifier et mettre en œuvre la disponibilité des systèmes de serveurs et de leurs services",
+        "description": "_Les informaticiennes et informaticiens planifient et mettent en œuvre la disponibilité des systèmes de serveurs et de leurs services. Ils appliquent les mesures adéquates pour prévenir la perte de données et respecter les temps d’interruption selon les directives:_\n\nLors d’entretiens avec les parties prenantes, ils déterminent tout d’abord la perte maximale de données admissible (Recovery Point Objective), la durée maximale d’interruption tolérable des systèmes de serveurs et de leurs services (Recovery Time Objective) ainsi que les durées de conservation des données (rétention des sauvegardes). Ils consignent les résultats dans une documentation.\n\nIls vérifient ensuite les systèmes et services actuels en regard de leur nature ou des accords de niveau de service (SLA) et relèvent les points où la disponibilité n’est pas encore assurée. Ils décident d’adaptations éventuelles et définissent les solutions/optimisations envisageables. Pour ce faire, leur capacité d’analyse et de conception est particulièrement sollicitée. Ils discutent des mesures d’optimisation avec les parties prenantes et demandent leur autorisation pour la mise en œuvre.\n\nIls concrétisent ensuite les solutions ou optimisations: ils procèdent aux adaptations planifiées sur l’environnement concerné. Ils testent à intervalles réguliers si la disponibilité des systèmes et des données respecte les exigences définies.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "f7.1",
+            "descr": "Lors d’entretiens avec les parties prenantes, ils déterminent la perte maximale de données admissible (RPO), la durée maximale d’interruption tolérable des systèmes de serveurs et de leurs services (RTO) ainsi que les durées de conservation des données et documentent leurs résultats.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f7.2",
+            "descr": "Ils vérifient si les systèmes et services actuels respectent les disponibilités définies.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f7.3",
+            "descr": "Ils conçoivent des solutions/mesures d’optimisation afin de garantir les disponibilités définies.",
+            "bloom": "C5"
+          },
+          {
+            "id": "f7.4",
+            "descr": "Ils expliquent aux parties prenantes les solutions/mesures d’optimisation élaborées de manière compréhensible et claire en termes de rentabilité.",
+            "bloom": "C3"
+          },
+          {
+            "id": "f7.5",
+            "descr": "Ils mettent en œuvre les solutions et/ou optimisations sur l’environnement concerné.",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "141",
+            "descr": "Installer des systèmes de bases de données"
+          },
+          {
+            "id": "143",
+            "descr": "Implanter un système de sauvegarde et de restauration"
+          },
+          {
+            "id": "169",
+            "descr": "Mettre à disposition des services avec des conteneurs"
+          },
+          {
+            "id": "346",
+            "descr": "Concevoir et réaliser des solutions cloud"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "190",
+            "descr": "Mettre en place et exploiter une plateforme de virtualisation (module optionnel)"
+          },
+          {
+            "id": "109",
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "f8",
+        "title": "Compétence opérationnelle f8",
+        "subject": "Etablir et mettre en œuvre des concepts de sauvegarde et d’archivage des données",
+        "description": "_Les informaticiennes et informaticiens établissent et mettent en œuvre des concepts de sauvegarde et d’archivage des données. Ils garantissent ainsi la disponibilité à long terme des données:_\n\nEn concertation avec les parties prenantes, ils définissent les données (p. ex données utilisateurs, de configuration, de système, de journalisation) à sauvegarder et à archiver. Ils établissent ensuite un concept de sauvegarde (concepts de reprise et de reprise après sinistre inclus) et/ou un concept d’archivage. Ce faisant, ils adoptent une démarche globale: ils tiennent compte du cycle de sauvegarde, des durées de conservation des données et des exigences de conformité. Ils définissent d’autres aspects déterminants tels que périodicité, taille, type de média, autorisations et accès. Ils respectent par ailleurs les prescriptions légales applicables à la protection des données (p. ex. RGPD).\n\nIls testent à intervalles réguliers si la restauration des données et des services s’effectue sans problèmes. Ils documentent les résultats des tests de façon compréhensible.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "f8.1",
+            "descr": "En concertation avec les parties prenantes, ils définissent les données à sauvegarder ou à archiver.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f8.2",
+            "descr": "Ils établissent un concept complet de sauvegarde et d’archivage avec toutes les indications déterminantes et dans le respect des prescriptions légales.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f8.3",
+            "descr": "Ils établissent un concept complet de reprise après sinistre avec toutes les indications déterminantes et dans le respect des prescriptions légales.",
+            "bloom": "C4"
+          },
+          {
+            "id": "f8.4",
+            "descr": "Ils testent à intervalles réguliers la restaurabilité des données et des services et documentent leurs résultats de façon compréhensible.",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "143",
+            "descr": "Implanter un système de sauvegarde et de restauration"
+          },
+          {
+            "id": "169",
+            "descr": "Mettre à disposition des services avec des conteneurs"
+          },
+          {
+            "id": "346",
+            "descr": "Concevoir et réaliser des solutions cloud"
+          },
+          {
+            "id": "231",
+            "descr": "Appliquer la protection et la sécurité des données"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "190",
+            "descr": "Mettre en place et exploiter une plateforme de virtualisation (module optionnel)"
+          },
+          {
+            "id": "109",
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           }
         ]
       }
@@ -1453,25 +1964,530 @@
       {
         "id": "g1",
         "title": "Compétence opérationnelle g1",
-        "subject": "XXX",
-        "description": "XXX",
+        "subject": "Analyser et documenter les besoins en matière d’applications et d’interfaces",
+        "description": "_Les informaticiennes et informaticiens analysent les besoins identifiés lors de l’entretien avec le client (a1) et les documentent (ingénierie des exigences):_\n\nDans une première étape, ils consignent les besoins du client sous forme d’exigences techniques et spécifiques à son activité professionnelle. Afin de mieux cerner la perspective des utilisateurs, ils décrivent avec leur équipe et les parties prenantes concernées les groupes cibles et leurs besoins (p. ex. au moyen de personas). Cette phase peut être effectuée dans le cadre d’un workshop. Sur cette base, ils vérifient les exigences techniques devant être remplies par une application et les interfaces (p. ex. interface utilisateur [UI], REST, sensorique, périphérie) quant à leur cohérence, exhaustivité et mesurabilité (critères d’acceptation). Ils consignent les informations relatives aux conditions cadres, au contexte et à la délimitation ainsi que la définition des termes. Si nécessaire, ils complètent les exigences.\n\nDans une deuxième étape, ils dressent le catalogue des besoins, c.-à-d. qu’ils trient et regroupent ceux-ci selon des critères spécifiques à l’activité ou au projet (p. ex. besoins fonctionnels, non fonctionnels, qualité). Ils enregistrent les résultats dans le système (p. ex. backlog, issues, use cases, user stories) ou les consignent sur papier et leur attribuent une dénomination explicite (identification).\n\nDans une troisième étape, ils évaluent en équipe l’investissement en temps nécessaire, la complexité, le périmètre et la priorisation des lots de travail. Selon la situation, ils coordonnent la procédure avec le responsable de projet ou le propriétaire du produit. En concertation avec les parties prenantes, ils vérifient la validité des exigences définitives et s’assurent qu’il n’y ait pas de malentendus. En cas de changements au cours du développement applicatif, les exigences sont mises à jour (procédure itérative).",
         "Objectifs évaluateurs entreprise": [
           {
             "id": "g1.1",
-            "descr": "XXX",
-            "bloom": "C0"
+            "descr": "Ils consignent les besoins du client sous forme d’exigences techniques et spécifiques à son activité professionnelle.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g1.2",
+            "descr": "Ils développent en équipe des modèles utilisateur sur la base de personas.",
+            "bloom": "C5"
+          },
+          {
+            "id": "g1.3",
+            "descr": "Ils vérifient les besoins techniques et spécifiques à l’activité professionnelle quant à leur cohérence, exhaustivité et mesurabilité.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g1.4",
+            "descr": "Ils dressent le catalogue des besoins selon des critères spécifiques à l’activité ou au projet et les consignent.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g1.5",
+            "descr": "Ils attribuent une dénomination explicite aux besoins.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g1.6",
+            "descr": "Ils évaluent en équipe l’investissement en temps, la complexité, le périmètre et la priorisation des lots de travail.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g1.7",
+            "descr": "Ils vérifient la validité des besoins avec les parties prenantes concernées.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g1.8",
+            "descr": "Ils documentent en continu les besoins techniques et spécifiques à l’activité professionnelle.",
+            "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
-            "id": "",
-            "descr": ""
+            "id": "322",
+            "descr": "Concevoir et implémenter des interfaces utilisateur"
+          },
+          {
+            "id": "254",
+            "descr": "Décrire des processus métier dans son propre environnement professionnel"
+          },
+          {
+            "id": "426",
+            "descr": "Développer un logiciel avec des méthodes agiles"
+          },
+          {
+            "id": "162",
+            "descr": "Analyser et modéliser des données"
+          },
+          {
+            "id": "164",
+            "descr": "Créer des bases de données et y insérer des données"
+          },
+          {
+            "id": "321",
+            "descr": "Programmer des systèmes distribués"
+          },
+          {
+            "id": "346",
+            "descr": "Concevoir et réaliser des solutions cloud"
+          },
+          {
+            "id": "324",
+            "descr": "Prendre en charge des processus DevOps avec des outils logiciels"
+          }
+        ]
+      },
+      {
+        "id": "g2",
+        "title": "Compétence opérationnelle g2",
+        "subject": "Vérifier la faisabilité technique des prototypes d’interfaces utilisateur et les développer",
+        "description": "_Les informaticiennes et informaticiens vérifient la faisabilité technique des prototypes d’interfaces utilisateur et les développent en termes de convivialité:_\n\nIls reçoivent du mandant ou d’autres partenaires des directives et consignes conceptuelles applicables aux interfaces utilisateur. Sur cette base, ils développent des maquettes ou des modèles d’interfaces fonctionnels (p. ex. mock-up, grid, wireframe) en utilisant des outils graphiques. Selon la situation, ils apportent des adaptations aux ébauches déjà élaborées.\n\nIls identifient ensuite les éléments problématiques de l’interface utilisateur, p. ex. les informations interdépendantes ou les composants non standards. Ils vérifient la faisabilité de ces éléments à l’aide de prototypes élaborés sur papier ou au moyen d’outils. Ce faisant, ils tiennent compte de différents aspects tels que l’étendue des informations, les dépendances entre les champs, les éléments d’interaction, la navigation, la réactivité, les règles d’or du design ou l’accessibilité. Ils discutent des éléments techniques non réalisables avec les parties prenantes. Ils leur proposent des solutions et adaptent le prototype en conséquence.\n\nSur la base du ou des prototypes, ils développent finalement les interfaces utilisateur fonctionnelles en utilisant des méthodes et des outils actuels.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "g2.1",
+            "descr": "Ils développent des maquettes ou des modèles d’interfaces en utilisant des outils graphiques appropriés et en tenant compte des directives et des consignes conceptuelles.",
+            "bloom": "C5"
+          },
+          {
+            "id": "g2.2",
+            "descr": "Ils identifient les éléments problématiques des interfaces utilisateur.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g2.3",
+            "descr": "Ils développent des prototypes des interfaces utilisateur.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g2.4",
+            "descr": "Ils vérifient la faisabilité des interfaces utilisateur en tenant compte des aspects déterminants.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g2.5",
+            "descr": "Ils discutent des modèles ou prototypes avec les parties prenantes et proposent des solutions alternatives pour les éléments non réalisables sur le plan technique.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g2.6",
+            "descr": "Ils développent des interfaces utilisateur fonctionnelles sur la base des prototypes.",
+            "bloom": "C5"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "322",
+            "descr": "Concevoir et implémenter des interfaces utilisateur"
+          },
+          {
+            "id": "319",
+            "descr": "Concevoir et implémenter des applications"
+          },
+          {
+            "id": "320",
+            "descr": "Programmer orienté objet"
+          },
+          {
+            "id": "293",
+            "descr": "Créer et publier un site Web"
           }
         ],
         "Modules cours interentreprises": [
           {
-            "id": "",
-            "descr": ""
+            "id": "294",
+            "descr": "Réaliser le front-end d’une application Web interactive"
+          },
+          {
+            "id": "223",
+            "descr": "Réaliser des applications multiutilisateurs orientées objets (module optionnel)"
+          },
+          {
+            "id": "335",
+            "descr": "Réaliser une application pour mobile (module optionnel)"
+          },
+          {
+            "id": "217",
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "g3",
+        "title": "Compétence opérationnelle g3",
+        "subject": "Evaluer et documenter la sécurité des applications et des interfaces",
+        "description": "_Les informaticiennes et informaticiens évaluent la sécurité des applications et des interfaces et documentent leurs résultats:_\n\nIls clarifient tout d’abord les questions de sécurité relatives à l’environnement système, p. ex. quelles sont les interfaces existantes, qui sont les utilisateurs de l’application, quels autres systèmes accèdent à l’application, quel est le besoin de protection des données respectivement de l’application (disponibilité, confidentialité, fiabilité, intégrité), quelles directives internes ou prescriptions légales doivent être respectées.\n\nSur la base de leur examen, ils déduisent les risques auxquels peuvent être exposées l’application et ses interfaces. A cet égard, ils adoptent une démarche prospective et mettent en évidence les méthodes de menaces et les manipulations possibles provenant de l’extérieur. Ils discutent en équipe des résultats de leur analyse et en tirent les mesures appropriées qu’ils consignent (p. ex. encryptage des données, sécurité d’accès, gestion des identités, escaping). Enfin, ils adaptent le catalogue des exigences en fonction de leurs constats et en discutent avec la partie prenante.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "g3.1",
+            "descr": "Ils clarifient les questions de sécurité relatives à l’environnement système de façon prospective et en déduisent les risques potentiels.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g3.2",
+            "descr": "Ils se procurent en équipe ou au sein de la communauté les informations pertinentes relatives à la sécurité (p. ex. OWASP).",
+            "bloom": "C3"
+          },
+          {
+            "id": "g3.3",
+            "descr": "Ils consignent de façon compréhensible les risques de sécurité identifiés et les mesures en résultant.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g3.4",
+            "descr": "Ils expliquent au sein de leur équipe les mesures prises pour sécuriser les applications et les interfaces.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g3.5",
+            "descr": "Ils adaptent le catalogue des exigences en fonction de leurs constats et en discutent avec la partie prenante.",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "183",
+            "descr": "Implémenter la sécurité d’une application"
+          },
+          {
+            "id": "114",
+            "descr": "Mettre en œuvre des systèmes de codification, de compression et d’encryptage"
+          },
+          {
+            "id": "450",
+            "descr": "Tester des applications"
+          },
+          {
+            "id": "346",
+            "descr": "Concevoir et réaliser des solutions cloud"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "295",
+            "descr": "Réaliser le back-end pour des applications"
+          },
+          {
+            "id": "216",
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
+          },
+          {
+            "id": "217",
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
+          },
+          {
+            "id": "207",
+            "descr": "Mettre en œuvre des solutions ICT avec la technologie blockchain (module optionnel)Mettre en œuvre des solutions ICT avec la technologie blockchain (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "g4",
+        "title": "Compétence opérationnelle g4",
+        "subject": "Elaborer des variantes de mise en œuvre d’une application et développer la solution sur le plan conceptuel",
+        "description": "_Les informaticiennes et informaticiens élaborent des variantes de mise en œuvre d’une application et développent un concept de réalisation pour la variante choisie. Dans ce contexte, ils travaillent en étroite collaboration avec leur équipe et les parties prenantes:_\n\nA l’aide d’ébauches et de descriptions, ils présentent tout d’abord les variantes fondamentales en regard de leur implémentation (p. ex. technologies, composants, frameworks, librairies, systèmes). Conjointement avec les parties prenantes respectives, ils établissent une analyse d’utilité compréhensible des différentes variantes avec des critères décisionnels pertinents et évaluables. Sur la base de l’analyse d’utilité, ils conseillent la partie prenante dans sa prise de décision en vue de lui faire adopter la solution optimale. Ce faisant, ils veillent à ce que la solution soit défendable sur les plans éthique et légal. Enfin, ils vérifient la variante choisie, éventuellement sous la forme d’une analyse de faisabilité (→ a3).\n\nSur cette base, ils élaborent progressivement un concept de réalisation technique et spécialisé (p. ex. uses cases, composants, couches, déroulement, interfaces, classes, modèle de données). A cet effet, ils analysent les données, procédures, systèmes et interfaces pertinents et documentent leurs résultats. Ils utilisent pour ce faire des outils appropriés, p. ex. le langage de modélisation unifié (UML) ou d’autres diagrammes. Selon la situation, ils peuvent aussi concevoir des adaptations pour des applications existantes.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "g4.1",
+            "descr": "Ils présentent, à l’aide d’ébauches et de descriptions, les variantes fondamentales en regard de leur implémentation.",
+            "bloom": "C5"
+          },
+          {
+            "id": "g4.2",
+            "descr": "En collaboration avec les parties prenantes, ils établissent une analyse d’utilité compréhensible au moyen de critères décisionnels pertinents et évaluables.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g4.3",
+            "descr": "Ils conseillent la partie prenante dans sa prise de décision quant à la solution optimale, en tenant également compte des aspects éthiques et légaux.",
+            "bloom": "C5"
+          },
+          {
+            "id": "g4.4",
+            "descr": "Ils élaborent un concept de réalisation technique et spécialisé au moyen des outils appropriés.",
+            "bloom": "C5"
+          },
+          {
+            "id": "g4.5",
+            "descr": "Ils effectuent une analyse de faisabilité pour la variante choisie.",
+            "bloom": "C4"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "319",
+            "descr": "Concevoir et implémenter des applications"
+          },
+          {
+            "id": "320",
+            "descr": "Programmer orienté objet"
+          },
+          {
+            "id": "323",
+            "descr": "Programmer de manière fonctionnelle"
+          },
+          {
+            "id": "164",
+            "descr": "Créer des bases de données et y insérer des données"
+          },
+          {
+            "id": "321",
+            "descr": "Programmer des systèmes distribués"
+          },
+          {
+            "id": "346",
+            "descr": "Concevoir et réaliser des solutions cloud"
+          },
+          {
+            "id": "306",
+            "descr": "Réaliser de petits projets dans son propre environnement professionnel"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "106",
+            "descr": "Interroger, traiter et assurer la maintenance des bases de données"
+          },
+          {
+            "id": "223",
+            "descr": "Réaliser des applications multiutilisateurs orientées objets (module optionnel)"
+          },
+          {
+            "id": "335",
+            "descr": "Réaliser une application pour mobile (module optionnel)"
+          },
+          {
+            "id": "259",
+            "descr": "Développer des solutions ICT avec le Machine Learning (module optionnel)"
+          },
+          {
+            "id": "216",
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
+          },
+          {
+            "id": "217",
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
+          },
+          {
+            "id": "210",
+            "descr": "Utiliser un cloud public pour des applications (module optionnel)"
+          },
+          {
+            "id": "107",
+            "descr": "Mettre en œuvre des solutions ICT avec la technologie blockchain (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "g5",
+        "title": "Compétence opérationnelle g5",
+        "subject": "Implémenter les applications et les interfaces selon le concept en respectant les exigences de sécurité",
+        "description": "_Sur la base des exigences définies et des ébauches/modèles développés, les informaticiennes et informaticiens implémentent les applications et les interfaces. Il peut s’agir de nouvelles applications ou d’une extension apportée à une application existante:_\n\nIls mettent tout d’abord en place un environnement de développement et d’exécution approprié. Le concept de réalisation préétabli et les directives de l’entreprise servent de base à cette étape.\n\nIls passent ensuite à la programmation du back-end et du front-end selon les exigences définies. A cet effet, ils utilisent les langages de programmation donnés et des outils de développement. Ils testent régulièrement l’implémentation en vue de détecter des erreurs et les corrigent (débogage). Ils veillent à respecter systématiquement les dispositions réglementaires et les directives techniques (p. ex. frameworks, directives de design). Ils se conforment également aux exigences de sécurité.\n\nLors de l’implémentation, ils veillent à respecter les conventions de code afin de garantir clarté et traçabilité (p. ex. clean code, coding conventions).\n\nIls déposent en continu les éléments programmés dans un système de gestion des logiciels (p. ex. GIT). Ils sont en mesure d’accéder en tout temps aux étapes intermédiaires enregistrées. Ce faisant, ils respectent les directives internes de l’entreprise (p. ex. divisions). Ils apportent ensuite d’éventuelles adaptations au concept de réalisation afin de le maintenir à jour.\n\nIls développent rapidement les technologies informatiques. Ils s’informent en continu sur les nouveautés et leurs conséquences (p. ex. quels sont les nouveaux frameworks?) et appliquent les derniers enseignements et avancées technologiques à leur travail quotidien.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "g5.1",
+            "descr": "Ils mettent en place un environnement de développement et d’exécution approprié sur la base du concept de réalisation préétabli et des directives de l’entreprise.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g5.2",
+            "descr": "Ils programment de façon efficiente et structurée un back-end au moyen des langages de programmation prédéfinis et conformément aux consignes applicables en l’espèce.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g5.3",
+            "descr": "Ils programment de façon efficiente et structurée un front-end au moyen des langages de programmation prédéfinis et conformément aux consignes applicables en l’espèce.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g5.4",
+            "descr": "Ils vérifient les résultats intermédiaires au regard des exigences (fonctionnel, non fonctionnel, sécurité) et procèdent en continu à des corrections.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g5.5",
+            "descr": "Ils vérifient si les conventions de code sont bien respectées.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g5.6",
+            "descr": "Ils déposent les modifications et extensions de l’implémentation de façon claire et fiable dans un système de gestion des logiciels.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g5.7",
+            "descr": "Ils adaptent le concept de réalisation de façon claire et intelligible.",
+            "bloom": "C3"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "319",
+            "descr": "Concevoir et implémenter des applications"
+          },
+          {
+            "id": "320",
+            "descr": "Programmer orienté objet"
+          },
+          {
+            "id": "323",
+            "descr": "Programmer de manière fonctionnelle"
+          },
+          {
+            "id": "293",
+            "descr": "Créer et publier un site Web"
+          },
+          {
+            "id": "165",
+            "descr": "Utiliser des bases de données NoSQL"
+          },
+          {
+            "id": "321",
+            "descr": "Programmer des systèmes distribués"
+          },
+          {
+            "id": "322",
+            "descr": "Concevoir et implémenter des interfaces utilisateur"
+          },
+          {
+            "id": "183",
+            "descr": "Implémenter la sécurité d’une application"
+          },
+          {
+            "id": "426",
+            "descr": "Développer un logiciel avec des méthodes agiles"
+          },
+          {
+            "id": "324",
+            "descr": "Prendre en charge des processus DevOps avec des outils logiciels"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "106",
+            "descr": " Interroger, traiter et assurer la maintenance des bases de données"
+          },
+          {
+            "id": "294",
+            "descr": "Réaliser le front-end d’une application Web interactive"
+          },
+          {
+            "id": "295",
+            "descr": "Réaliser le back-end pour des applications"
+          },
+          {
+            "id": "223",
+            "descr": "Réaliser des applications multiutilisateurs orientées objets (module optionnel)"
+          },
+          {
+            "id": "335",
+            "descr": "Réaliser une application pour mobile (module optionnel)"
+          },
+          {
+            "id": "216",
+            "descr": "Intégrer les terminaux IoE dans une plateforme existante (module optionnel)"
+          },
+          {
+            "id": "217",
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel)"
+          }
+        ]
+      },
+      {
+        "id": "g6",
+        "title": "Compétence opérationnelle g6",
+        "subject": "Vérifier la qualité et la sécurité des applications et des interfaces",
+        "description": "_Les informaticiennes et informaticiens vérifient la qualité et la sécurité des applications et des interfaces sur la base de concepts de tests. Ils garantissent ainsi que les applications sont implémentées conformément aux exigences et les erreurs supprimées, et que l’application sera validée pour la mise en production:_\n\nIls établissent tout d’abord un concept de tests où ils décrivent l’environnement de tests de l’application avec les indications pertinentes (p. ex. système, acteur, données, utilisateurs, autorisations). Ils définissent ensuite les types de tests qui seront utilisés (p. ex. tests unitaires [unit tests], tests d’acceptation des utilisateurs, tests d’intégration, tests de charge/performance ou tests de sécurité.) Sur cette base, ils déterminent les moyens de test appropriés. Ils décrivent ensuite les cas de test (test cases) en relation avec les cas d’utilisation (use cases) et les exigences. Ce faisant, ils adoptent différents angles d’approche (p. ex. valeurs limites, situations d’erreurs). Ils s’assurent que les cas de test définis sont reproductibles (de manière automatisée ou manuelle). Ils définissent les résultats escomptés et les documentent de façon compréhensible.\n\nSi nécessaire, ils mettent en place un environnement de tests au cours d’une autre étape. Le concept de tests préalablement établi leur sert de base dans ce contexte. Ils implémentent, dans la mesure du possible, des cas de tests automatisables.\n\nIls exécutent ensuite tous les cas de test, évaluent le déroulement du test et consignent les résultats dans un rapport. Ils adoptent une démarche rigoureuse et établissent un rapport clair et compréhensible. En cas d’échec des cas de test, ils apportent des mesures correctives au test ou à l’implémentation. Les corrections apportées, ils effectuent de nouveaux tests.\n\nIls vérifient l’implémentation en fonction du concept de sécurité défini et, en cas d’écarts avec celui-ci, ils prennent des mesures appropriées en vue d’en respecter les différents points.",
+        "Objectifs évaluateurs entreprise": [
+          {
+            "id": "g6.1",
+            "descr": "Ils décrivent l’environnement de test d’une application avec toutes les indications pertinentes.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g6.2",
+            "descr": "Ils définissent les moyens de test sur la base des types de test sélectionnés.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g6.3",
+            "descr": "Ils décrivent de façon compréhensible des cas de test reproductibles en relation avec les cas d’utilisation et les exigences, et définissent les résultats escomptés.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g6.4",
+            "descr": "Ils mettent en place un environnement de test approprié selon le concept de tests.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g6.5",
+            "descr": "Ils implémentent les cas de test automatisables en fonction des moyens de test définis.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g6.6",
+            "descr": "Ils exécutent les cas de test intégralement et rigoureusement.",
+            "bloom": "C3"
+          },
+          {
+            "id": "g6.7",
+            "descr": "Ils évaluent le déroulement du test et consignent les résultats de façon compréhensible dans un rapport.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g6.8",
+            "descr": "Ils définissent des mesures correctives et les exécutent.",
+            "bloom": "C4"
+          },
+          {
+            "id": "g6.9",
+            "descr": "Ils vérifient l’implémentation en fonction du concept de sécurité défini et prennent les mesures correctives appropriées.",
+            "bloom": "C4"
+          }
+        ],
+        "Modules école professionnelle": [
+          {
+            "id": "183",
+            "descr": "Implémenter la sécurité d’une application"
+          },
+          {
+            "id": "426",
+            "descr": "Développer un logiciel avec des méthodes agiles"
+          },
+          {
+            "id": "450",
+            "descr": "Tester des applications"
+          },
+          {
+            "id": "324",
+            "descr": "Prendre en charge des processus DevOps avec des outils logiciels"
+          },
+          {
+            "id": "321",
+            "descr": "Programmer des systèmes distribués"
+          }
+        ],
+        "Modules cours interentreprises": [
+          {
+            "id": "295",
+            "descr": "Réaliser le back-end pour des applications"
+          },
+          {
+            "id": "223",
+            "descr": "Réaliser des applications multiutilisateurs orientées objets (module optionnel)"
+          },
+          {
+            "id": "259",
+            "descr": "Développer des solutions ICT avec le Machine Learning (module optionnel)"
+          },
+          {
+            "id": "217",
+            "descr": "Concevoir, planifier et mettre en place un service pour l’IoE (module optionnel) "
           }
         ]
       }
@@ -1490,49 +2506,49 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "h1.1",
-            "descr": "XXX",
+            "descr": "Ils identifient les dépendances entre les divers composants.",
             "bloom": "C4"
           },
           {
             "id": "h1.2",
-            "descr": "XXX",
+            "descr": "Ils déterminent la plateforme appropriée au fonctionnement de l’application.",
             "bloom": "C4"
           },
           {
             "id": "h1.3",
-            "descr": "XXX",
+            "descr": "Ils définissent le modèle de couches en fonction des conditions cadres de la partie prenante.",
             "bloom": "C4"
           },
           {
             "id": "h1.4",
-            "descr": "XXX",
+            "descr": "Ils identifient les exigences de sécurité devant être remplies par la plateforme et choisissent les services appropriés.",
             "bloom": "C4"
           },
           {
             "id": "h1.5",
-            "descr": "XXX",
+            "descr": "Ils sélectionnent les ressources requises en fonction des recommandations de l’opérateur de la plateforme.",
             "bloom": "C3"
           },
           {
             "id": "h1.6",
-            "descr": "XXX",
+            "descr": "Ils vérifient la cohérence de leur choix en collaboration avec leur équipe, procèdent à d’éventuelles adaptations et consignent les résultats.",
             "bloom": "C4"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "346",
-            "descr": ""
+            "descr": "Concevoir et réaliser des solutions cloud"
           },
           {
             "id": "347",
-            "descr": ""
+            "descr": "Utiliser un service avec des conteneurs"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "210",
-            "descr": ""
+            "descr": "Utiliser un cloud public pour des applications (module optionnel)"
           }
         ]
       },
@@ -1544,43 +2560,43 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "h2.1",
-            "descr": "XXX",
+            "descr": "Ils analysent les dépendances entre les composants en regard du processus de livraison.",
             "bloom": "C4"
           },
           {
             "id": "h2.2",
-            "descr": "XXX",
+            "descr": "Ils déterminent des pratiques d’intégration appropriées et les consignent.",
             "bloom": "C4"
           },
           {
             "id": "h2.3",
-            "descr": "XXX",
+            "descr": "Ils définissent les pratiques de déploiement adéquates et les consignent.",
             "bloom": "C4"
           },
           {
             "id": "h2.4",
-            "descr": "XXX",
+            "descr": "Ils déterminent la gestion des artefacts appropriée et la consignent.",
             "bloom": "C4"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "426",
-            "descr": ""
+            "descr": "Développer un logiciel avec des méthodes agiles"
           },
           {
             "id": "346",
-            "descr": ""
+            "descr": "Concevoir et réaliser des solutions cloud"
           },
           {
             "id": "324",
-            "descr": ""
+            "descr": "Prendre en charge des processus DevOps avec des outils logiciels"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "210",
-            "descr": ""
+            "descr": "Utiliser un cloud public pour de applications (module optionnel)"
           }
         ]
       },
@@ -1592,70 +2608,70 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "h3.1",
-            "descr": "XXX",
+            "descr": "Ils installent les services de livraison.",
             "bloom": "C3"
           },
           {
             "id": "h3.2",
-            "descr": "XXX",
+            "descr": "Ils écrivent les scripts d’automatisation et définissent les variables d’environnement au moyen des méthodes et des outils appropriés.",
             "bloom": "C3"
           },
           {
             "id": "h3.3",
-            "descr": "XXX",
+            "descr": "Ils mettent à disposition les composants pour la livraison.",
             "bloom": "C3"
           },
           {
             "id": "h3.4",
-            "descr": "XXX",
+            "descr": "Ils empaquètent l’application.",
             "bloom": "C3"
           },
           {
             "id": "h3.5",
-            "descr": "XXX",
+            "descr": "Ils administrent et versionnent les artefacts.",
             "bloom": "C3"
           },
           {
             "id": "h3.6",
-            "descr": "XXX",
+            "descr": "Ils vérifient le processus de livraison de l’application selon la procédure établie.",
             "bloom": "C3"
           },
           {
             "id": "h3.7",
-            "descr": "XXX",
+            "descr": "Ils vérifient la capacité de fonctionnement/ l’interaction des applications au moyen d’un concept de tests.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "122",
-            "descr": ""
+            "descr": "Automatiser des procédures à l’aide de scripts"
           },
           {
             "id": "324",
-            "descr": ""
+            "descr": "Prendre en charge des processus DevOps avec des outils logiciels"
           },
           {
             "id": "347",
-            "descr": ""
+            "descr": "Utiliser un service avec des conteneurs"
           },
           {
             "id": "346",
-            "descr": ""
+            "descr": "Concevoir et réaliser des solutions cloud"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "355",
-            "descr": ""
+            "descr": "Réaliser une application pour mobile (module optionnel)"
           },
           {
             "id": "190",
-            "descr": ""
+            "descr": "Mettre en place et exploiter une plateforme de virtualisation (module optionnel)"
           },
           {
             "id": "210",
-            "descr": ""
+            "descr": "Utiliser un cloud public pour des applications (module optionnel)"
           }
         ]
       },
@@ -1667,65 +2683,65 @@
         "Objectifs évaluateurs entreprise": [
           {
             "id": "h4.1",
-            "descr": "XXX",
+            "descr": "Ils définissent et configurent les outils pour le monitorage d’une application.",
             "bloom": "C3"
           },
           {
             "id": "h4.2",
-            "descr": "XXX",
+            "descr": "Ils effectuent le monitorage à intervalles réguliers de façon fiable et rigoureuse.",
             "bloom": "C3"
           },
           {
             "id": "h4.3",
-            "descr": "XXX",
+            "descr": "Ils analysent les problèmes en adoptant une procédure structurée.",
             "bloom": "C4"
           },
           {
             "id": "h4.4",
-            "descr": "XXX",
+            "descr": "Ils vérifient l’actualité et les paramètres de sécurité des applications et des interfaces en consultant régulièrement les informations des fabricants.",
             "bloom": "C4"
           },
           {
             "id": "h4.5",
-            "descr": "XXX",
+            "descr": "Ils définissent une procédure ciblée en vue de résoudre les problèmes et en discutent avec leur équipe et/ou la partie prenante concernée.",
             "bloom": "C5"
           },
           {
             "id": "h4.6",
-            "descr": "XXX",
+            "descr": "Ils mettent en œuvre les mesures convenues et les consignent de façon claire et compréhensible.",
             "bloom": "C3"
           }
         ],
         "Modules école professionnelle": [
           {
             "id": "183",
-            "descr": ""
+            "descr": "Implémenter la sécurité d’une application"
           },
           {
             "id": "431",
-            "descr": ""
+            "descr": "Exécuter des mandats de manière autonome dans un environnement professionnel"
           },
           {
             "id": "321",
-            "descr": ""
+            "descr": "Programmer des systèmes distribués"
           },
           {
             "id": "346",
-            "descr": ""
+            "descr": "Concevoir et réaliser des solutions cloud"
           }
         ],
         "Modules cours interentreprises": [
           {
             "id": "187",
-            "descr": ""
+            "descr": "Mettre en service un Poste de travail ICT avec le système d’exploitation"
           },
           {
             "id": "110",
-            "descr": ""
+            "descr": "Analyser et représenter des données avec des outils (module optionnel)"
           },
           {
             "id": "109",
-            "descr": ""
+            "descr": "Exploiter et surveiller des services dans le cloud public (module optionnel)"
           }
         ]
       }
