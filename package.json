@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "marked": "^4.0.18"
+  },
+  "name": "dossier-formation",
+  "description": "![](./media/img/dossier-formation.png) # Dossier formation d'informaticien·ne CFC (88611)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azecko/dossier-formation.git"
+  },
+  "keywords": [
+    "tpi",
+    "apprentis",
+    "ict",
+    "dossier-formation"
+  ],
+  "author": "Azecko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azecko/dossier-formation/issues"
+  },
+  "homepage": "https://github.com/Azecko/dossier-formation#readme"
+}
