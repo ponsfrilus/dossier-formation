@@ -10,3 +10,8 @@ pdf:
 		-V geometry:margin=2cm \
 		-o out.pdf && \
 		xdg-open out.pdf
+
+html:
+	npm i
+	node generateHTML.js > out.html
+	xdg-open out.html
