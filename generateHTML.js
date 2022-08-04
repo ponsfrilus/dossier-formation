@@ -186,7 +186,7 @@ console.log(`
                 checkboxesSetLocalStorage()
         });
 
-
+        // https://stackoverflow.com/a/18197341
         function download(filename, text) {
             var element = document.createElement('a');
             element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
@@ -205,12 +205,14 @@ console.log(`
 
         document.getElementById('import-file').addEventListener('change', handleFileSelect, false);
 
+        // https://stackoverflow.com/a/56737666
         function handleFileSelect(event) {
             const reader = new FileReader()
             reader.onload = handleFileLoad;
             reader.readAsText(event.target.files[0])
         }
 
+        // https://stackoverflow.com/a/3710226
         function isJsonString(str) {
             try {
                 JSON.parse(str);
