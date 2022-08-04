@@ -102,7 +102,7 @@ console.log(`
 // Body
 console.log(`
     <body>
-        <h1>Dossier formation</h1>
+        <h1 class="mt-3"><a href="https://github.com/Azecko/dossier-formation" target="_blank">Dossier formation</a></h1>
         <h2>Dossier de formation de <span id="dossier-name" contenteditable="true">Azecko</span></h2>
         
         <button id="export-button" class="btn btn-primary">Export to JSON</button>
@@ -177,6 +177,9 @@ for (domaineDeCompetance of data) {
 
 console.log(`
     </body>
+    <footer class="pt-3">
+        <p>Coded with ❤ by <a href="https://github.com/Azecko" target="_blank">Azecko</a></p>
+    </footer>
     <script>
         const setLocalStorage = () => {
             var localStorageItems = {};
