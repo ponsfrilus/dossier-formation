@@ -19,7 +19,11 @@ console.log(`<!DOCTYPE html>
 // Head
 console.log(`
     <head>
-        <title>Dossier formation</title>  
+        <title>Dossier formation</title>
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+        crossorigin="anonymous"></script>
         <style>
             html {
                 width: 60%;
@@ -86,7 +90,10 @@ console.log(`
 // Body
 console.log(`
     <body>
-        <h1>Dossier formation</h1>`)
+        <h1>Dossier formation</h1>
+        
+        <button id="export-button">Export to JSON</button>
+        <input type="file" id="import-file"/>`)
 
 for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
@@ -157,5 +164,77 @@ for (domaineDeCompetance of data) {
 
 console.log(`
     </body>
+    <script>
+        const checkboxesSetLocalStorage = () => {
+            var checkboxesList = {};
+            $('input[type=checkbox]').each(function () {
+                checkboxesList[$(this).attr('id')] = this.checked
+            });
+            localStorage.setItem('checkboxes', JSON.stringify(checkboxesList))
+        }
+        var checkboxesLocalStorage = localStorage.getItem('checkboxes');
+        if(!checkboxesLocalStorage) {
+            checkboxesSetLocalStorage()
+        }
+
+        $('input[type=checkbox]').each(function () {
+                $(this).prop('checked', JSON.parse(checkboxesLocalStorage)[$(this).attr('id')])
+        });
+
+        $('input:checkbox').change(
+            function(){
+                checkboxesSetLocalStorage()
+        });
+
+        // https://stackoverflow.com/a/18197341
+        function download(filename, text) {
+            var element = document.createElement('a');
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+            element.setAttribute('download', filename);
+
+            element.style.display = 'none';
+            document.body.appendChild(element);
+
+            element.click();
+            document.body.removeChild(element);
+        }
+
+        $('#export-button').click(function() {
+            download('dossier_formation_export.json', localStorage.getItem('checkboxes'));
+        });
+
+        document.getElementById('import-file').addEventListener('change', handleFileSelect, false);
+
+        // https://stackoverflow.com/a/56737666
+        function handleFileSelect(event) {
+            const reader = new FileReader()
+            reader.onload = handleFileLoad;
+            reader.readAsText(event.target.files[0])
+        }
+
+        // https://stackoverflow.com/a/3710226
+        function isJsonString(str) {
+            try {
+                JSON.parse(str);
+            } catch (e) {
+                return false;
+            }
+            return true;
+        }
+
+        function handleFileLoad(event) {
+            let confirm = window.confirm("Voulez-vous vraiment importer les données de ce fichier ?")
+            if(confirm) {
+                /* Check si la string est un JSON valide, si la personne load un fichier JSON autre qu'un fichier généré
+                par le site, ça l'écrira quand même dans le local storage MAIS le local storage sera récrit la prochaine fois
+                qu'une checkbox sera cliquée, donc (normalement) ça fera le taff */
+                if(!isJsonString(event.target.result)) {
+                    return alert("Merci d'importer un fichier JSON valide généré par le bouton Export to JSON.")
+                }
+                localStorage.setItem('checkboxes', event.target.result)
+                window.location.reload()
+            }
+        }
+    </script>
 </html>
 `)
