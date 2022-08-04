@@ -92,7 +92,8 @@ console.log(`
     <body>
         <h1>Dossier formation</h1>
         
-        <button id="export-button">Export to JSON</button>`)
+        <button id="export-button">Export to JSON</button>
+        <input type="file" id="import-file"/>`)
 
 for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
@@ -201,6 +202,37 @@ console.log(`
         $('#export-button').click(function() {
             download('dossier_formation_export.json', localStorage.getItem('checkboxes'));
         });
+
+        document.getElementById('import-file').addEventListener('change', handleFileSelect, false);
+
+        function handleFileSelect(event) {
+            const reader = new FileReader()
+            reader.onload = handleFileLoad;
+            reader.readAsText(event.target.files[0])
+        }
+
+        function isJsonString(str) {
+            try {
+                JSON.parse(str);
+            } catch (e) {
+                return false;
+            }
+            return true;
+        }
+
+        function handleFileLoad(event) {
+            let confirm = window.confirm("Voulez-vous vraiment importer les données de ce fichier ?")
+            if(confirm) {
+                /* Check si la string est un JSON valide, si la personne load un fichier JSON autre qu'un fichier généré
+                par le site, ça l'écrira quand même dans le local storage MAIS le local storage sera récrit la prochaine fois
+                qu'une checkbox sera cliquée, donc (normalement) ça fera le taff */
+                if(!isJsonString(event.target.result)) {
+                    return alert("Merci d'importer un fichier JSON valide généré par le bouton Export to JSON.")
+                }
+                localStorage.setItem('checkboxes', event.target.result)
+                window.location.reload()
+            }
+        }
     </script>
 </html>
 `)
