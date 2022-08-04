@@ -70,6 +70,10 @@ console.log(`
             input {
                 transform: scale(0.8);
             }
+            #dossier-name {
+                display: inline-block;
+                width: 500px;
+            }
 
             @media print {
 
@@ -91,6 +95,7 @@ console.log(`
 console.log(`
     <body>
         <h1>Dossier formation</h1>
+        <h2>Dossier de formation de <span id="dossier-name" contenteditable="true">Azecko</span></h2>
         
         <button id="export-button">Export to JSON</button>
         <input type="file" id="import-file"/>`)
@@ -170,6 +175,8 @@ console.log(`
             $('input[type=checkbox]').each(function () {
                 localStorageItems[$(this).attr('id')] = this.checked
             });
+            var dossierName = $('#dossier-name').text()
+            localStorageItems['name'] = dossierName
             localStorage.setItem('dossier-formation-properties', JSON.stringify(localStorageItems))
         }
         var dossierFormationLocalStorage = localStorage.getItem('dossier-formation-properties');
@@ -179,12 +186,17 @@ console.log(`
             $('input[type=checkbox]').each(function () {
                 $(this).prop('checked', JSON.parse(dossierFormationLocalStorage)[$(this).attr('id')])
             });
+            $('#dossier-name').text(JSON.parse(dossierFormationLocalStorage)['name'])
         }
 
         $('input:checkbox').change(
             function(){
                 setLocalStorage()
         });
+
+        document.getElementById("dossier-name").addEventListener("input", inputEvt => {
+            setLocalStorage()
+          }, false);
 
         // https://stackoverflow.com/a/18197341
         function download(filename, text) {
