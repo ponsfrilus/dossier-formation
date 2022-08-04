@@ -19,7 +19,11 @@ console.log(`<!DOCTYPE html>
 // Head
 console.log(`
     <head>
-        <title>Dossier formation</title>  
+        <title>Dossier formation</title>
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+        crossorigin="anonymous"></script>
         <style>
             html {
                 width: 60%;
@@ -157,5 +161,27 @@ for (domaineDeCompetance of data) {
 
 console.log(`
     </body>
+    <script>
+        const checkboxesSetLocalStorage = () => {
+            var checkboxesList = {};
+            $('input[type=checkbox]').each(function () {
+                checkboxesList[$(this).attr('id')] = this.checked
+            });
+            localStorage.setItem('checkboxes', JSON.stringify(checkboxesList))
+        }
+        var checkboxesLocalStorage = localStorage.getItem('checkboxes');
+        if(!checkboxesLocalStorage) {
+            checkboxesSetLocalStorage()
+        }
+
+        $('input[type=checkbox]').each(function () {
+                $(this).prop('checked', JSON.parse(checkboxesLocalStorage)[$(this).attr('id')])
+        });
+
+        $('input:checkbox').change(
+            function(){
+                checkboxesSetLocalStorage()
+        });
+    </script>
 </html>
 `)
