@@ -165,25 +165,25 @@ for (domaineDeCompetance of data) {
 console.log(`
     </body>
     <script>
-        const checkboxesSetLocalStorage = () => {
-            var checkboxesList = {};
+        const setLocalStorage = () => {
+            var localStorageItems = {};
             $('input[type=checkbox]').each(function () {
-                checkboxesList[$(this).attr('id')] = this.checked
+                localStorageItems[$(this).attr('id')] = this.checked
             });
-            localStorage.setItem('checkboxes', JSON.stringify(checkboxesList))
+            localStorage.setItem('dossier-formation-properties', JSON.stringify(localStorageItems))
         }
-        var checkboxesLocalStorage = localStorage.getItem('checkboxes');
-        if(!checkboxesLocalStorage) {
-            checkboxesSetLocalStorage()
+        var dossierFormationLocalStorage = localStorage.getItem('dossier-formation-properties');
+        if(!dossierFormationLocalStorage) {
+            setLocalStorage()
+        } else {
+            $('input[type=checkbox]').each(function () {
+                $(this).prop('checked', JSON.parse(dossierFormationLocalStorage)[$(this).attr('id')])
+            });
         }
-
-        $('input[type=checkbox]').each(function () {
-                $(this).prop('checked', JSON.parse(checkboxesLocalStorage)[$(this).attr('id')])
-        });
 
         $('input:checkbox').change(
             function(){
-                checkboxesSetLocalStorage()
+                setLocalStorage()
         });
 
         // https://stackoverflow.com/a/18197341
@@ -200,7 +200,7 @@ console.log(`
         }
 
         $('#export-button').click(function() {
-            download('dossier_formation_export.json', localStorage.getItem('checkboxes'));
+            download('dossier_formation_export.json', localStorage.getItem('dossier-formation-properties'));
         });
 
         document.getElementById('import-file').addEventListener('change', handleFileSelect, false);
@@ -231,7 +231,7 @@ console.log(`
                 if(!isJsonString(event.target.result)) {
                     return alert("Merci d'importer un fichier JSON valide généré par le bouton Export to JSON.")
                 }
-                localStorage.setItem('checkboxes', event.target.result)
+                localStorage.setItem('dossier-formation-properties', event.target.result)
                 window.location.reload()
             }
         }
