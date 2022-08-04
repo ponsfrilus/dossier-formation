@@ -90,7 +90,9 @@ console.log(`
 // Body
 console.log(`
     <body>
-        <h1>Dossier formation</h1>`)
+        <h1>Dossier formation</h1>
+        
+        <button id="export-button">Export to JSON</button>`)
 
 for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
@@ -181,6 +183,23 @@ console.log(`
         $('input:checkbox').change(
             function(){
                 checkboxesSetLocalStorage()
+        });
+
+
+        function download(filename, text) {
+            var element = document.createElement('a');
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+            element.setAttribute('download', filename);
+
+            element.style.display = 'none';
+            document.body.appendChild(element);
+
+            element.click();
+            document.body.removeChild(element);
+        }
+
+        $('#export-button').click(function() {
+            download('dossier_formation_export.json', localStorage.getItem('checkboxes'));
         });
     </script>
 </html>
