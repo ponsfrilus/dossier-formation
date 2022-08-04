@@ -24,6 +24,7 @@ console.log(`
         src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
         integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <style>
             html {
                 width: 60%;
@@ -32,7 +33,7 @@ console.log(`
                 margin: auto;
             }
             table, tr, td {
-                font-size: 9pt;
+                font-size: 10pt;
             }
             .external-border {
                 border: 1px solid gray;
@@ -60,19 +61,26 @@ console.log(`
             .modulesEcolePro, .modulesCoursInter {
                 width: 25%;
             }
-            #main-table tr:last-child td {
+            .main-table tr:last-child td {
                 border-bottom: 0;
             }
             .objectifs-check {
-                font-size: 8pt;
+                font-size: 9pt;
                 vertical-align: baseline;
             }
             input {
-                transform: scale(0.8);
+                transform: scale(0.9);
             }
             #dossier-name {
                 display: inline-block;
                 width: 500px;
+            }
+            h3 {
+                padding-top: 1em;
+            }
+            .custom-file-upload {
+                margin-top: 9px;
+                cursor: pointer;
             }
 
             @media print {
@@ -97,16 +105,16 @@ console.log(`
         <h1>Dossier formation</h1>
         <h2>Dossier de formation de <span id="dossier-name" contenteditable="true">Azecko</span></h2>
         
-        <button id="export-button">Export to JSON</button>
-        <input type="file" id="import-file"/>`)
+        <button id="export-button" class="btn btn-primary">Export to JSON</button>
+        <label class ="custom-file-upload btn btn-primary">Import JSON<input class="d-none" type="file" id="import-file"/></label>`)
 
 for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
         console.log(`
         <h3>${competence.title}: ${competence.subject}</h3>
-        <p>${renderMarkdown(competence.description)}</p>
+        <div>${renderMarkdown(competence.description)}</div>
 
-        <table id="main-table" class="external-border">
+        <table class="main-table external-border">
             <tr>
                 <th class="main-th border-bottom" colspan="2">Objectifs évaluateurs entreprise</th>
                 <th class="main-th border-bottom">Modules école professionnelle</th>
@@ -177,7 +185,7 @@ console.log(`
             });
             var dossierName = $('#dossier-name').text()
             localStorageItems['name'] = dossierName
-            localStorage.setItem('dossier-formation-properties', JSON.stringify(localStorageItems))
+            localStorage.setItem('dossier-formation-properties', JSON.stringify(localStorageItems, null, 2))
         }
         var dossierFormationLocalStorage = localStorage.getItem('dossier-formation-properties');
         if(!dossierFormationLocalStorage) {
