@@ -212,7 +212,10 @@ console.log(`
         }
 
         $('#export-button').click(function() {
-            download('dossier_formation_export.json', localStorage.getItem('dossier-formation-properties'));
+            var dossierFormationLocalStorage = localStorage.getItem('dossier-formation-properties');
+            var date = new Date()
+            var name = JSON.parse(dossierFormationLocalStorage)['name'].replaceAll(/\s\s+/g, '_').replaceAll(' ', '_')
+            download("dossier_formation_" + name + "_" + date.toISOString().split('T')[0] + ".json", localStorage.getItem('dossier-formation-properties'));
         });
 
         document.getElementById('import-file').addEventListener('change', handleFileSelect, false);
