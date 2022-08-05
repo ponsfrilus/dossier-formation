@@ -13,13 +13,13 @@ pdf:
 
 html:
 	npm i --quiet
-	node generateHTML.js > out.html
-	xdg-open out.html
+	$(MAKE) horizontal
+	$(MAKE) vertical
 
 horizontal:
-	$(MAKE) html
+	node generateHTML.js > index.html
+	xdg-open index.html
 
 vertical:
-	npm i --quiet
-	node generateHTML.js --vertical > out-v.html
-	xdg-open out-v.html
+	node generateHTML.js --vertical > index-vertical.html
+	xdg-open index-vertical.html

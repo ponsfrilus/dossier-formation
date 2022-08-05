@@ -112,8 +112,16 @@ console.log(`
 // Body
 console.log(`
     <body>
-        <h1>Dossier de formation de <span id="dossier-name" contenteditable="true">Prénom Nom (changez-moi)</span></h1>
+        <h1>Dossier de formation de <span id="dossier-name" contenteditable="true">Prénom Nom (changez-moi)</span></h1>`)
 
+if (mode_vertical) {
+    console.log(`
+            <div style="float: right"><a href="index.html">horizontal</a></div>`)
+} else {
+    console.log(`
+            <div style="float: right"><a href="index-vertical.html">vertical</a></div>`)
+}
+console.log(`
         <button id="export-button" class="btn btn-primary">Export to JSON</button>
         <label class ="custom-file-upload btn btn-primary">Import JSON<input class="d-none" type="file" id="import-file"/></label>`)
 
