@@ -23,6 +23,7 @@ jobs:
       - name: Generate your content
         run: |
           mkdir out
+          cp -r favicons out
           npm i
           node generateHTML.js > ./out/index.html
           node generateHTML.js --vertical > ./out/index-vertical.html
