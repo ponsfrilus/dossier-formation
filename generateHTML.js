@@ -31,6 +31,15 @@ console.log(`
                 justify-content: center;
                 margin: auto;
             }
+            /* For small screen such as Mobile */
+            @media screen and (max-width: 1024px) {
+                html, body {
+                    width: auto;
+                    margin: 0px 5px;
+                    padding: 0px 5px;
+                }
+            }
+
             table, tr, td {
                 font-size: 10pt;
             }
