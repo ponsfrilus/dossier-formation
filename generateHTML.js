@@ -133,15 +133,21 @@ for (domaineDeCompetance of data) {
                             <td class="border-bottom">${objectif.bloom}</td>
                         </tr>
                         <tr>
-                            <td class="objectifs-check">Expliqué</td>
+                            <td class="objectifs-check">
+                                <label for="${cleanId(objectif.id)}_explique">Expliqué</label>
+                            </td>
                             <td><input id="${cleanId(objectif.id)}_explique" type="checkbox" /></td>
                         </tr>
                         <tr>
-                            <td class="objectifs-check">Exercé</td>
+                            <td class="objectifs-check">
+                                <label for="${cleanId(objectif.id)}_exerce">Exercé</label>
+                            </td>
                             <td><input id="${cleanId(objectif.id)}_exerce" type="checkbox" /></td>
                         </tr>
                         <tr>
-                            <td class="objectifs-check">Autonome</td>
+                            <td class="objectifs-check">
+                                <label for="${cleanId(objectif.id)}_autonome">Autonome</label>
+                            </td>
                             <td><input id="${cleanId(objectif.id)}_autonome" type="checkbox" /></td>
                         </tr>
                     </table>
