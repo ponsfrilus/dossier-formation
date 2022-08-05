@@ -94,7 +94,7 @@ console.log(`
                 display: inline-block;
                 min-width: 200px;
             }
-            h3 {
+            h1, h2, h3, h4, h5, h6 {
                 padding-top: 1em;
             }
             .custom-file-upload {
@@ -140,7 +140,7 @@ for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
         let verticalColspan = mode_vertical ? 4 : 2
         console.log(`
-        <h3>${competence.title}: ${competence.subject}</h3>
+        <h4>${competence.title}: ${competence.subject}</h4>
         <div>${renderMarkdown(competence.description)}</div>
 
         <table class="main-table external-border">
