@@ -102,6 +102,20 @@ console.log(`
                 cursor: pointer;
             }
 
+            blockquote {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 20px;
+                padding-left: 15px;
+                border-left: 5px solid #b49b81;
+                display:inline-flex;
+            }
+
+            blockquote span {
+                margin-top:-10px;
+                margin-bottom:-10px;
+            }
+
             @media print {
 
                 body {
@@ -132,9 +146,57 @@ if (mode_vertical) {
 }
 console.log(`
         <button id="export-button" class="btn btn-primary">Export to JSON</button>
-        <label class ="custom-file-upload btn btn-primary">Import JSON<input class="d-none" type="file" id="import-file"/></label>
-        <p>Ce dossier de formation a pour but de se conformer à l'article 12 de l'Ordonnance du SEFRI sur la formation professionnelle 
-        initiale d'informaticienne / informaticien avec certificat fédéral de capacité (CFC).</p>`)
+        <label class ="custom-file-upload btn btn-primary">Import JSON<input class="d-none" type="file" id="import-file"/></label>`)
+
+console.log(`
+    <h2>À propos</h2>
+    <p>
+        Vous consultez actuellement un projet fonctionnel de dossier de formation électronique à l’attention des 
+        apprenti·e·s informaticien·ne en orientation développement d’applications. Des explications plus détaillées
+        ainsi que les sources du projet sont disponibles sur la page du projet sur
+        <a href="https://github.com/ponsfrilus/dossier-formation" target="_blank">GitHub</a>.
+    </p>
+    <p>
+        Ce dossier de formation a pour but de se conformer à l’<a href="https://www.fedlex.admin.ch/eli/oc/2020/941/fr">
+        article 12 de l’Ordonnance du SEFRI sur la formation professionnelle initiale d’informaticienne / informaticien 
+        avec certificat fédéral de capacité (CFC)</a>.
+        <blockquote>
+            Pendant la formation à la pratique professionnelle, la personne en formation tient un dossier de formation
+            dans lequel elle inscrit au fur et à mesure les travaux importants concernant les compétences opérationnelles à
+            acquérir. Au moins une fois par semestre, le formateur contrôle et signe le dossier de formation et en discute
+            avec la personne en formation.
+        </blockquote>
+    </p>
+    <p>
+        Les textes des différentes compétences opérationnelles de ce document sont repris du document officiel
+        disponible sur le site <a href="https://www.ict-berufsbildung.ch/formation-initiale/apprentissages-ict/informaticienne-cfc" target="blank">http://ict-formationprofessionnelle.ch</a>, plus particuliérement le document 
+        <a href="https://www.ict-berufsbildung.ch/resources/Bildungsplan_Informatik-EFZ_BiVo-2021_FR1.pdf">Bildungsplan_Informatik-EFZ_BiVo-2021_FR1.pdf</a>.
+    </p>
+    <p>
+        L’Institut fédéral des hautes études en formation professionnelle (IFFP) a élaboré des standards pour 
+        un dossier de formation de qualité dans la formation professionnelle initiale. Ce document est téléchargeable sur 
+        le site <a href="https://formationprof.ch/dyn/bin/18579-19380-1-20120917_ehb-standards_ld-f.pdf">formationprof.ch</a>,
+        et nous incitons apprenant·e·s et formateurs·trices à le consulter.
+    </p>
+    <h3>Utilisation</h3>
+    <p>
+        L'utilisation se veut très simple :
+        <ol>
+            <li>Commencez par modifier le titre de cette page en cliquant sur "Prénom Nom (changez-moi)".</li>
+            <li>Cochez les cases selon l'avancement de votre apprentissage ; le site sauvegarde automatiquement 
+                vos modifications dans le stockage de votre navigateur.</li>
+            <li>Utilisez les boutons "Export to JSON" et "Import JSON" pour partager votre dossier de formation avec 
+                des tiers (par exemple votre formateur·trice).</li>
+            <li>À toutes fins utiles, vous pouvez utiliser la fonction "imprimer" de votre navigateur pour sauver 
+                une version PDF du document.</li>
+        </ol>
+    </p>
+    <p>
+        Toutes questions ou commentaires peuvent être adressés via des issues sur la page du projet 
+        <a href="https://github.com/ponsfrilus/dossier-formation" target="_blank">GitHub</a>.
+    </p>
+    <hr size="1" />
+    `)
 
 for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
