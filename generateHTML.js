@@ -72,7 +72,7 @@ console.log(`
             }
             #dossier-name {
                 display: inline-block;
-                width: 500px;
+                min-width: 500px;
             }
             h3 {
                 padding-top: 1em;
@@ -101,8 +101,7 @@ console.log(`
 // Body
 console.log(`
     <body>
-        <h1 class="mt-3"><a href="https://github.com/Azecko/dossier-formation" target="_blank">Dossier formation</a></h1>
-        <h2>Dossier de formation de <span id="dossier-name" contenteditable="true">John Doe</span></h2>
+        <h1>Dossier de formation de <span id="dossier-name" contenteditable="true">Prénom Nom (changez-moi)</span></h1>
 
         <button id="export-button" class="btn btn-primary">Export to JSON</button>
         <label class ="custom-file-upload btn btn-primary">Import JSON<input class="d-none" type="file" id="import-file"/></label>`)
