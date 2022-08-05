@@ -191,11 +191,13 @@ console.log(`
         const dossierFormationVarName = 'dossier-formation-properties'
         const setLocalStorage = () => {
             var localStorageItems = {};
+            var dossierName = $('#dossier-name').text()
+            localStorageItems['name'] = dossierName
+            localStorageItems[dossierFormationVarName] = true
+            localStorageItems['dossier-formation-version'] = '${version}'
             $('input[type=checkbox]').each(function () {
                 localStorageItems[$(this).attr('id')] = this.checked
             });
-            var dossierName = $('#dossier-name').text()
-            localStorageItems['name'] = dossierName
             localStorage.setItem(dossierFormationVarName, JSON.stringify(localStorageItems, null, 2))
         }
         var dossierFormationLocalStorage = localStorage.getItem(dossierFormationVarName);
