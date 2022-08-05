@@ -60,8 +60,8 @@ console.log(`
             .modulesEcolePro, .modulesCoursInter {
                 width: 25%;
             }
-            .main-table tr:last-child td {
-                border-bottom: 0;
+            .main-table tr:last-child td  {
+                border-bottom: 0 !important;
             }
             .objectifs-check {
                 font-size: 9pt;
