@@ -21,9 +21,9 @@ console.log(`
     <head>
         <title>Dossier formation</title>
         <script
-        src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-        crossorigin="anonymous"></script>
+            src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <style>
             html {
@@ -94,7 +94,7 @@ console.log(`
                 html {
                     width: 100%;
                 }
-              
+
             }
         </style>
     </head>`)
@@ -103,8 +103,8 @@ console.log(`
 console.log(`
     <body>
         <h1 class="mt-3"><a href="https://github.com/Azecko/dossier-formation" target="_blank">Dossier formation</a></h1>
-        <h2>Dossier de formation de <span id="dossier-name" contenteditable="true">Azecko</span></h2>
-        
+        <h2>Dossier de formation de <span id="dossier-name" contenteditable="true">John Doe</span></h2>
+
         <button id="export-button" class="btn btn-primary">Export to JSON</button>
         <label class ="custom-file-upload btn btn-primary">Import JSON<input class="d-none" type="file" id="import-file"/></label>`)
 
@@ -207,45 +207,45 @@ console.log(`
 
         document.getElementById("dossier-name").addEventListener("input", inputEvt => {
             setLocalStorage()
-          }, false);
+          }, false)
 
         // https://stackoverflow.com/a/18197341
         function download(filename, text) {
             var element = document.createElement('a');
-            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-            element.setAttribute('download', filename);
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text))
+            element.setAttribute('download', filename)
 
-            element.style.display = 'none';
-            document.body.appendChild(element);
+            element.style.display = 'none'
+            document.body.appendChild(element)
 
-            element.click();
-            document.body.removeChild(element);
+            element.click()
+            document.body.removeChild(element)
         }
 
         $('#export-button').click(function() {
-            var dossierFormationLocalStorage = localStorage.getItem('dossier-formation-properties');
+            var dossierFormationLocalStorage = localStorage.getItem('dossier-formation-properties')
             var date = new Date()
             var name = JSON.parse(dossierFormationLocalStorage)['name'].replaceAll(/\s\s+/g, '_').replaceAll(' ', '_')
-            download("dossier_formation_" + name + "_" + date.toISOString().split('T')[0] + ".json", localStorage.getItem('dossier-formation-properties'));
+            download("dossier_formation_" + name + "_" + date.toISOString().split('T')[0] + ".json", localStorage.getItem('dossier-formation-properties'))
         });
 
-        document.getElementById('import-file').addEventListener('change', handleFileSelect, false);
+        document.getElementById('import-file').addEventListener('change', handleFileSelect, false)
 
         // https://stackoverflow.com/a/56737666
         function handleFileSelect(event) {
             const reader = new FileReader()
-            reader.onload = handleFileLoad;
+            reader.onload = handleFileLoad
             reader.readAsText(event.target.files[0])
         }
 
         // https://stackoverflow.com/a/3710226
         function isJsonString(str) {
             try {
-                JSON.parse(str);
+                JSON.parse(str)
             } catch (e) {
-                return false;
+                return false
             }
-            return true;
+            return true
         }
 
         function handleFileLoad(event) {
