@@ -4,7 +4,7 @@
   },
   "name": "dossier-formation",
   "description": "![](./media/img/dossier-formation.png) # Dossier formation d'informaticien·ne CFC (88611)",
-  "version": "1.1.1",
+  "version": "1.4.0",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
