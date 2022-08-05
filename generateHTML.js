@@ -19,7 +19,7 @@ console.log(`<!DOCTYPE html>
 // Head
 console.log(`
     <head>
-        <title>Dossier formation</title>
+        <title>Dossier de formation de</title>
         <script
             src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
             integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
@@ -189,8 +189,9 @@ console.log(`
     <script>
         const dossierFormationVarName = 'dossier-formation-properties'
         const setLocalStorage = () => {
-            var localStorageItems = {};
+            var localStorageItems = {}
             var dossierName = $('#dossier-name').text()
+            document.title = 'Dossier de formation de ' + dossierName
             localStorageItems['name'] = dossierName
             localStorageItems[dossierFormationVarName] = true
             localStorageItems['dossier-formation-version'] = '${version}'
@@ -199,7 +200,7 @@ console.log(`
             });
             localStorage.setItem(dossierFormationVarName, JSON.stringify(localStorageItems, null, 2))
         }
-        var dossierFormationLocalStorage = localStorage.getItem(dossierFormationVarName);
+        var dossierFormationLocalStorage = localStorage.getItem(dossierFormationVarName)
         if(!dossierFormationLocalStorage) {
             setLocalStorage()
         } else {
@@ -207,6 +208,7 @@ console.log(`
                 $(this).prop('checked', JSON.parse(dossierFormationLocalStorage)[$(this).attr('id')])
             });
             $('#dossier-name').text(JSON.parse(dossierFormationLocalStorage)['name'])
+            document.title = 'Dossier de formation de ' + JSON.parse(dossierFormationLocalStorage)['name']
         }
 
         $('input:checkbox').change(
