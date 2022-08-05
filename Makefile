@@ -12,6 +12,14 @@ pdf:
 		xdg-open out.pdf
 
 html:
-	npm i
+	npm i --quiet
 	node generateHTML.js > out.html
 	xdg-open out.html
+
+horizontal:
+	$(MAKE) html
+
+vertical:
+	npm i --quiet
+	node generateHTML.js --vertical > out-v.html
+	xdg-open out-v.html

@@ -13,6 +13,13 @@ const moduleLink = (moduleId) => {
     return `<a href="https://www.modulbaukasten.ch/module/${moduleId}/0/fr-FR" target="_blank">${moduleId}</a>`
 }
 
+// Change the layout of the checkboxes
+let mode_vertical = false
+const args = process.argv.slice(2)
+if (args[0] === '--vertical') {
+    mode_vertical = true
+}
+
 console.log(`<!DOCTYPE html>
 <html lang="en">`)
 
@@ -51,8 +58,12 @@ console.log(`
                 padding-left: 5px;
             }
             .vericaltext{
-                writing-mode: vertical-lr;
-                text-orientation: upright;
+                writing-mode: vertical-rl;
+                /*text-orientation: sideways;*/
+                transform:scale(-1);
+            }
+            .no-padding {
+                padding: 0;
             }
             .module {
                 width: 50%;
@@ -72,7 +83,7 @@ console.log(`
             }
             #dossier-name {
                 display: inline-block;
-                min-width: 500px;
+                min-width: 200px;
             }
             h3 {
                 padding-top: 1em;
@@ -108,48 +119,70 @@ console.log(`
 
 for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
+        let verticalColspan = mode_vertical ? 4 : 2
         console.log(`
         <h3>${competence.title}: ${competence.subject}</h3>
         <div>${renderMarkdown(competence.description)}</div>
 
         <table class="main-table external-border">
             <tr>
-                <th class="main-th border-bottom" colspan="2">Objectifs évaluateurs entreprise</th>
+                <th class="main-th border-bottom" colspan="${verticalColspan}">Objectifs évaluateurs entreprise</th>
                 <th class="main-th border-bottom">Modules école professionnelle</th>
                 <th class="main-th border-bottom">Modules cours interentreprises</th>
             </tr>`)
+        if (mode_vertical) {
+            console.log(`
+            <tr>
+                <td class="border-bottom border-right">&nbsp;</td>
+                <td class="vericaltext border-bottom border-right no-padding">expliqué</td>
+                <td class="vericaltext border-bottom border-right no-padding">exercé</td>
+                <td class="vericaltext border-bottom border-right no-padding">autonome</td>
+                <td class="border-bottom border-right">&nbsp;</td>
+                <td class="border-bottom">&nbsp;</td>
+            </tr>`)
+        }
         let alreadyDisplayModuleEcolePro = false
         let alreadyDisplayModuleCoursInter = false
         for (objectif of competence["Objectifs évaluateurs entreprise"]) {
-            console.log(`
-            <tr>
-                <td class="module border-bottom"><p>${objectif.id}: ${objectif.descr}</p></td>
-                <td class="border-bottom border-right">
-                    <table>
-                        <tr>
-                            <td class="border-bottom">Bloom</td>
-                            <td class="border-bottom">${objectif.bloom}</td>
-                        </tr>
-                        <tr>
-                            <td class="objectifs-check">
-                                <label for="${cleanId(objectif.id)}_explique">Expliqué</label>
-                            </td>
-                            <td><input id="${cleanId(objectif.id)}_explique" type="checkbox" /></td>
-                        </tr>
-                        <tr>
-                            <td class="objectifs-check">
-                                <label for="${cleanId(objectif.id)}_exerce">Exercé</label>
-                            </td>
-                            <td><input id="${cleanId(objectif.id)}_exerce" type="checkbox" /></td>
-                        </tr>
-                        <tr>
-                            <td class="objectifs-check">
-                                <label for="${cleanId(objectif.id)}_autonome">Autonome</label>
-                            </td>
-                            <td><input id="${cleanId(objectif.id)}_autonome" type="checkbox" /></td>
-                        </tr>
-                    </table>
-                </td>`)
+            if (mode_vertical) {
+                console.log(`
+                <tr>
+                    <td class="module border-bottom"><p>${objectif.id}: ${objectif.descr}</p></td>
+                    <td class="border-bottom"><input id="${cleanId(objectif.id)}_explique" type="checkbox" /></td>
+                    <td class="border-bottom"><input id="${cleanId(objectif.id)}_exerce" type="checkbox" /></td>
+                    <td class="border-bottom border-right"><input id="${cleanId(objectif.id)}_autonome" type="checkbox" /></td>`)
+            } else {
+                console.log(`
+                <tr>
+                    <td class="module border-bottom"><p>${objectif.id}: ${objectif.descr}</p></td>
+                    <td class="border-bottom border-right">
+                        <table>
+                            <tr>
+                                <td class="border-bottom">Bloom</td>
+                                <td class="border-bottom">${objectif.bloom}</td>
+                            </tr>
+                            <tr>
+                                <td class="objectifs-check">
+                                    <label for="${cleanId(objectif.id)}_explique">Expliqué</label>
+                                </td>
+                                <td><input id="${cleanId(objectif.id)}_explique" type="checkbox" /></td>
+                            </tr>
+                            <tr>
+                                <td class="objectifs-check">
+                                    <label for="${cleanId(objectif.id)}_exerce">Exercé</label>
+                                </td>
+                                <td><input id="${cleanId(objectif.id)}_exerce" type="checkbox" /></td>
+                            </tr>
+                            <tr>
+                                <td class="objectifs-check">
+                                    <label for="${cleanId(objectif.id)}_autonome">Autonome</label>
+                                </td>
+                                <td><input id="${cleanId(objectif.id)}_autonome" type="checkbox" /></td>
+                            </tr>
+                        </table>
+                    </td>`)
+            }
+
             if(competence["Modules école professionnelle"] && !alreadyDisplayModuleEcolePro) {
                 alreadyDisplayModuleEcolePro = true
                 console.log(`                <td class="modulesEcolePro border-right" rowspan="${competence["Objectifs évaluateurs entreprise"].length}">`)
@@ -197,7 +230,7 @@ console.log(`
             localStorageItems['dossier-formation-version'] = '${version}'
             $('input[type=checkbox]').each(function () {
                 localStorageItems[$(this).attr('id')] = this.checked
-            });
+            })
             localStorage.setItem(dossierFormationVarName, JSON.stringify(localStorageItems, null, 2))
         }
         var dossierFormationLocalStorage = localStorage.getItem(dossierFormationVarName)
@@ -206,7 +239,7 @@ console.log(`
         } else {
             $('input[type=checkbox]').each(function () {
                 $(this).prop('checked', JSON.parse(dossierFormationLocalStorage)[$(this).attr('id')])
-            });
+            })
             $('#dossier-name').text(JSON.parse(dossierFormationLocalStorage)['name'])
             document.title = 'Dossier de formation de ' + JSON.parse(dossierFormationLocalStorage)['name']
         }
@@ -214,7 +247,7 @@ console.log(`
         $('input:checkbox').change(
             function(){
                 setLocalStorage()
-        });
+        })
 
         document.getElementById("dossier-name").addEventListener("input", inputEvt => {
             setLocalStorage()
@@ -222,7 +255,7 @@ console.log(`
 
         // https://stackoverflow.com/a/18197341
         function download(filename, text) {
-            var element = document.createElement('a');
+            var element = document.createElement('a')
             element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text))
             element.setAttribute('download', filename)
 
@@ -238,7 +271,7 @@ console.log(`
             var date = new Date()
             var name = JSON.parse(dossierFormationLocalStorage)['name'].replaceAll(/\s\s+/g, '_').replaceAll(' ', '_')
             download("dossier_formation_" + name + "_" + date.toISOString().split('T')[0] + ".json", localStorage.getItem(dossierFormationVarName))
-        });
+        })
 
         document.getElementById('import-file').addEventListener('change', handleFileSelect, false)
 
