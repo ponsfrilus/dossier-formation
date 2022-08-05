@@ -19,7 +19,7 @@ console.log(`<!DOCTYPE html>
 // Head
 console.log(`
     <head>
-        <title>Dossier formation</title>
+        <title>Dossier de formation de</title>
         <script
             src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
             integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
@@ -72,7 +72,7 @@ console.log(`
             }
             #dossier-name {
                 display: inline-block;
-                width: 500px;
+                min-width: 500px;
             }
             h3 {
                 padding-top: 1em;
@@ -101,8 +101,7 @@ console.log(`
 // Body
 console.log(`
     <body>
-        <h1 class="mt-3"><a href="https://github.com/Azecko/dossier-formation" target="_blank">Dossier formation</a></h1>
-        <h2>Dossier de formation de <span id="dossier-name" contenteditable="true">John Doe</span></h2>
+        <h1>Dossier de formation de <span id="dossier-name" contenteditable="true">Prénom Nom (changez-moi)</span></h1>
 
         <button id="export-button" class="btn btn-primary">Export to JSON</button>
         <label class ="custom-file-upload btn btn-primary">Import JSON<input class="d-none" type="file" id="import-file"/></label>`)
@@ -180,22 +179,28 @@ for (domaineDeCompetance of data) {
     }
 }
 
+const version = require('./package.json').version
 console.log(`
     </body>
     <footer class="pt-3">
-        <p>Coded with ❤ by <a href="https://github.com/Azecko" target="_blank">Azecko</a></p>
+        <p>Coded with ❤ by <a href="https://github.com/Azecko" target="_blank">Azecko</a>
+        <br><small class="version"></small></p>
     </footer>
     <script>
+        const dossierFormationVarName = 'dossier-formation-properties'
         const setLocalStorage = () => {
-            var localStorageItems = {};
+            var localStorageItems = {}
+            var dossierName = $('#dossier-name').text()
+            document.title = 'Dossier de formation de ' + dossierName
+            localStorageItems['name'] = dossierName
+            localStorageItems[dossierFormationVarName] = true
+            localStorageItems['dossier-formation-version'] = '${version}'
             $('input[type=checkbox]').each(function () {
                 localStorageItems[$(this).attr('id')] = this.checked
             });
-            var dossierName = $('#dossier-name').text()
-            localStorageItems['name'] = dossierName
-            localStorage.setItem('dossier-formation-properties', JSON.stringify(localStorageItems, null, 2))
+            localStorage.setItem(dossierFormationVarName, JSON.stringify(localStorageItems, null, 2))
         }
-        var dossierFormationLocalStorage = localStorage.getItem('dossier-formation-properties');
+        var dossierFormationLocalStorage = localStorage.getItem(dossierFormationVarName)
         if(!dossierFormationLocalStorage) {
             setLocalStorage()
         } else {
@@ -203,6 +208,7 @@ console.log(`
                 $(this).prop('checked', JSON.parse(dossierFormationLocalStorage)[$(this).attr('id')])
             });
             $('#dossier-name').text(JSON.parse(dossierFormationLocalStorage)['name'])
+            document.title = 'Dossier de formation de ' + JSON.parse(dossierFormationLocalStorage)['name']
         }
 
         $('input:checkbox').change(
@@ -228,10 +234,10 @@ console.log(`
         }
 
         $('#export-button').click(function() {
-            var dossierFormationLocalStorage = localStorage.getItem('dossier-formation-properties')
+            var dossierFormationLocalStorage = localStorage.getItem(dossierFormationVarName)
             var date = new Date()
             var name = JSON.parse(dossierFormationLocalStorage)['name'].replaceAll(/\s\s+/g, '_').replaceAll(' ', '_')
-            download("dossier_formation_" + name + "_" + date.toISOString().split('T')[0] + ".json", localStorage.getItem('dossier-formation-properties'))
+            download("dossier_formation_" + name + "_" + date.toISOString().split('T')[0] + ".json", localStorage.getItem(dossierFormationVarName))
         });
 
         document.getElementById('import-file').addEventListener('change', handleFileSelect, false)
@@ -256,16 +262,17 @@ console.log(`
         function handleFileLoad(event) {
             let confirm = window.confirm("Voulez-vous vraiment importer les données de ce fichier ?")
             if(confirm) {
-                /* Check si la string est un JSON valide, si la personne load un fichier JSON autre qu'un fichier généré
-                par le site, ça l'écrira quand même dans le local storage MAIS le local storage sera récrit la prochaine fois
-                qu'une checkbox sera cliquée, donc (normalement) ça fera le taff */
-                if(!isJsonString(event.target.result)) {
-                    return alert("Merci d'importer un fichier JSON valide généré par le bouton Export to JSON.")
+                var resultObject = JSON.parse(event.target.result)
+                if(!resultObject[dossierFormationVarName] || !resultObject['dossier-formation-version']) {
+                    alert("Merci d'importer un fichier JSON valide généré par le bouton Export to JSON.")
+                } else {
+                    localStorage.setItem(dossierFormationVarName, event.target.result)
+                    window.location.reload()
                 }
-                localStorage.setItem('dossier-formation-properties', event.target.result)
-                window.location.reload()
             }
         }
+
+        $('.version').html('<a href="https://github.com/Azecko/dossier-formation" target="_blank">Dossier formation</a> | ${version}')
     </script>
 </html>
 `)
