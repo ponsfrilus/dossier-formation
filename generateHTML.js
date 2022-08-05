@@ -132,7 +132,9 @@ if (mode_vertical) {
 }
 console.log(`
         <button id="export-button" class="btn btn-primary">Export to JSON</button>
-        <label class ="custom-file-upload btn btn-primary">Import JSON<input class="d-none" type="file" id="import-file"/></label>`)
+        <label class ="custom-file-upload btn btn-primary">Import JSON<input class="d-none" type="file" id="import-file"/></label>
+        <p>Ce dossier de formation a pour but de se conformer à l'article 12 de l'Ordonnance du SEFRI sur la formation professionnelle 
+        initiale d'informaticienne / informaticien avec certificat fédéral de capacité (CFC).</p>`)
 
 for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
