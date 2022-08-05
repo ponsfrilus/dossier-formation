@@ -154,7 +154,7 @@ console.log(`
 // Body
 console.log(`
     <body>
-        <h1>Dossier de formation de <span id="dossier-name" contenteditable="true">Prénom Nom (changez-moi)</span></h1>`)
+        <h1><img src="favicons/favicon-32x32.png" /> Dossier de formation de <span id="dossier-name" contenteditable="true">Prénom Nom (changez-moi)</span></h1>`)
 
 if (mode_vertical) {
     console.log(`
