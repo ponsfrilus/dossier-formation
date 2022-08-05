@@ -32,6 +32,21 @@ console.log(`
             integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
             crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="manifest" href="favicons/site.webmanifest">
+        <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="favicons/favicon.ico">
+        <meta name="apple-mobile-web-app-title" content="dossier-formation">
+        <meta name="application-name" content="dossier-formation">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- CSS -->
         <style>
             body {
                 width: 60%;
