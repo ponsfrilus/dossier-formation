@@ -21,9 +21,10 @@ console.log(`
     <head>
         <title>Dossier formation</title>
         <script
-        src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-        crossorigin="anonymous"></script>
+            src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <style>
             html {
                 width: 60%;
@@ -32,7 +33,7 @@ console.log(`
                 margin: auto;
             }
             table, tr, td {
-                font-size: 9pt;
+                font-size: 10pt;
             }
             .external-border {
                 border: 1px solid gray;
@@ -60,15 +61,26 @@ console.log(`
             .modulesEcolePro, .modulesCoursInter {
                 width: 25%;
             }
-            #main-table tr:last-child td {
+            .main-table tr:last-child td {
                 border-bottom: 0;
             }
             .objectifs-check {
-                font-size: 8pt;
+                font-size: 9pt;
                 vertical-align: baseline;
             }
             input {
-                transform: scale(0.8);
+                transform: scale(0.9);
+            }
+            #dossier-name {
+                display: inline-block;
+                width: 500px;
+            }
+            h3 {
+                padding-top: 1em;
+            }
+            .custom-file-upload {
+                margin-top: 9px;
+                cursor: pointer;
             }
 
             @media print {
@@ -82,7 +94,7 @@ console.log(`
                 html {
                     width: 100%;
                 }
-              
+
             }
         </style>
     </head>`)
@@ -90,18 +102,19 @@ console.log(`
 // Body
 console.log(`
     <body>
-        <h1>Dossier formation</h1>
-        
-        <button id="export-button">Export to JSON</button>
-        <input type="file" id="import-file"/>`)
+        <h1 class="mt-3"><a href="https://github.com/Azecko/dossier-formation" target="_blank">Dossier formation</a></h1>
+        <h2>Dossier de formation de <span id="dossier-name" contenteditable="true">John Doe</span></h2>
+
+        <button id="export-button" class="btn btn-primary">Export to JSON</button>
+        <label class ="custom-file-upload btn btn-primary">Import JSON<input class="d-none" type="file" id="import-file"/></label>`)
 
 for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
         console.log(`
         <h3>${competence.title}: ${competence.subject}</h3>
-        <p>${renderMarkdown(competence.description)}</p>
+        <div>${renderMarkdown(competence.description)}</div>
 
-        <table id="main-table" class="external-border">
+        <table class="main-table external-border">
             <tr>
                 <th class="main-th border-bottom" colspan="2">Objectifs évaluateurs entreprise</th>
                 <th class="main-th border-bottom">Modules école professionnelle</th>
@@ -164,62 +177,75 @@ for (domaineDeCompetance of data) {
 
 console.log(`
     </body>
+    <footer class="pt-3">
+        <p>Coded with ❤ by <a href="https://github.com/Azecko" target="_blank">Azecko</a></p>
+    </footer>
     <script>
-        const checkboxesSetLocalStorage = () => {
-            var checkboxesList = {};
+        const setLocalStorage = () => {
+            var localStorageItems = {};
             $('input[type=checkbox]').each(function () {
-                checkboxesList[$(this).attr('id')] = this.checked
+                localStorageItems[$(this).attr('id')] = this.checked
             });
-            localStorage.setItem('checkboxes', JSON.stringify(checkboxesList))
+            var dossierName = $('#dossier-name').text()
+            localStorageItems['name'] = dossierName
+            localStorage.setItem('dossier-formation-properties', JSON.stringify(localStorageItems, null, 2))
         }
-        var checkboxesLocalStorage = localStorage.getItem('checkboxes');
-        if(!checkboxesLocalStorage) {
-            checkboxesSetLocalStorage()
+        var dossierFormationLocalStorage = localStorage.getItem('dossier-formation-properties');
+        if(!dossierFormationLocalStorage) {
+            setLocalStorage()
+        } else {
+            $('input[type=checkbox]').each(function () {
+                $(this).prop('checked', JSON.parse(dossierFormationLocalStorage)[$(this).attr('id')])
+            });
+            $('#dossier-name').text(JSON.parse(dossierFormationLocalStorage)['name'])
         }
-
-        $('input[type=checkbox]').each(function () {
-                $(this).prop('checked', JSON.parse(checkboxesLocalStorage)[$(this).attr('id')])
-        });
 
         $('input:checkbox').change(
             function(){
-                checkboxesSetLocalStorage()
+                setLocalStorage()
         });
+
+        document.getElementById("dossier-name").addEventListener("input", inputEvt => {
+            setLocalStorage()
+          }, false)
 
         // https://stackoverflow.com/a/18197341
         function download(filename, text) {
             var element = document.createElement('a');
-            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-            element.setAttribute('download', filename);
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text))
+            element.setAttribute('download', filename)
 
-            element.style.display = 'none';
-            document.body.appendChild(element);
+            element.style.display = 'none'
+            document.body.appendChild(element)
 
-            element.click();
-            document.body.removeChild(element);
+            element.click()
+            document.body.removeChild(element)
         }
 
         $('#export-button').click(function() {
-            download('dossier_formation_export.json', localStorage.getItem('checkboxes'));
+            var dossierFormationLocalStorage = localStorage.getItem('dossier-formation-properties')
+            var date = new Date()
+            var name = JSON.parse(dossierFormationLocalStorage)['name'].replaceAll(/\s\s+/g, '_').replaceAll(' ', '_')
+            download("dossier_formation_" + name + "_" + date.toISOString().split('T')[0] + ".json", localStorage.getItem('dossier-formation-properties'))
         });
 
-        document.getElementById('import-file').addEventListener('change', handleFileSelect, false);
+        document.getElementById('import-file').addEventListener('change', handleFileSelect, false)
 
         // https://stackoverflow.com/a/56737666
         function handleFileSelect(event) {
             const reader = new FileReader()
-            reader.onload = handleFileLoad;
+            reader.onload = handleFileLoad
             reader.readAsText(event.target.files[0])
         }
 
         // https://stackoverflow.com/a/3710226
         function isJsonString(str) {
             try {
-                JSON.parse(str);
+                JSON.parse(str)
             } catch (e) {
-                return false;
+                return false
             }
-            return true;
+            return true
         }
 
         function handleFileLoad(event) {
@@ -231,7 +257,7 @@ console.log(`
                 if(!isJsonString(event.target.result)) {
                     return alert("Merci d'importer un fichier JSON valide généré par le bouton Export to JSON.")
                 }
-                localStorage.setItem('checkboxes', event.target.result)
+                localStorage.setItem('dossier-formation-properties', event.target.result)
                 window.location.reload()
             }
         }
