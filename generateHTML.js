@@ -177,9 +177,10 @@ console.log(`
             <a href="https://github.com/ponsfrilus/dossier-formation" target="_blank">GitHub</a>.
         </p>
         <p>
-            Ce dossier de formation a pour but de se conformer à l’<a href="https://www.fedlex.admin.ch/eli/oc/2020/941/fr">
-            article 12 de l’Ordonnance du SEFRI sur la formation professionnelle initiale d’informaticienne / informaticien 
-            avec certificat fédéral de capacité (CFC)</a>.
+            Ce dossier de formation a pour but de se conformer à 
+            l’<a href="https://www.fedlex.admin.ch/eli/oc/2020/941/fr">article 12 de l’Ordonnance du SEFRI sur la 
+            formation professionnelle initiale d’informaticienne / informaticien avec certificat fédéral de capacité 
+            (CFC)</a>.
             <blockquote>
                 Pendant la formation à la pratique professionnelle, la personne en formation tient un dossier de formation
                 dans lequel elle inscrit au fur et à mesure les travaux importants concernant les compétences opérationnelles à
