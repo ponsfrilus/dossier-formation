@@ -24,6 +24,7 @@ jobs:
         run: |
           mkdir out
           cp -r favicons out
+          cp styles.css out
           npm i
           node generateHTML.js > ./out/index.html
           node generateHTML.js --vertical > ./out/index-vertical.html
@@ -31,9 +32,7 @@ jobs:
 
       - name: Publish current workdir (which contains generated content) to GitHub Pages
         uses: rayluo/github-pages-overwriter@v1.2
-
         with:
-
           # Optional. Default value "." means the root directory of your project will be published.
           # You can use whatever directory your project uses, for example "wwwroot".
           # Such a directory does *not* have to already exist in your repo,

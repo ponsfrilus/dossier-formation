@@ -30,8 +30,11 @@ console.log(`
         <script
             src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
             integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-            crossorigin="anonymous"></script>
+            crossorigin="anonymous">
+        </script>
+        
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -45,110 +48,6 @@ console.log(`
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-config" content="favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-
-        <!-- CSS -->
-        <style>
-            body {
-                width: 60%;
-                justify-content: center;
-                margin: auto;
-            }
-            /* For small screen such as Mobile */
-            @media screen and (max-width: 1024px) {
-                html, body {
-                    width: auto;
-                    margin: 0px 5px;
-                    padding: 0px 5px;
-                }
-            }
-
-            table, tr, td {
-                font-size: 10pt;
-            }
-            .external-border {
-                border: 1px solid gray;
-            }
-            .main-th {
-                padding: 15px;
-            }
-            .border-bottom {
-                border-bottom: 1px solid gray; 
-            }
-            .border-right {
-                border-right: 1px solid gray;
-            }
-            td {
-                vertical-align: top;
-                padding-left: 5px;
-            }
-            .vericaltext{
-                writing-mode: vertical-rl;
-                /*text-orientation: sideways;*/
-                transform:scale(-1);
-            }
-            .no-padding {
-                padding: 0;
-            }
-            .module {
-                width: 50%;
-            }
-            .modulesEcolePro, .modulesCoursInter {
-                width: 25%;
-            }
-            .main-table tr:last-child td  {
-                border-bottom: 0 !important;
-            }
-            .objectifs-check {
-                font-size: 9pt;
-                vertical-align: baseline;
-            }
-            input {
-                transform: scale(0.9);
-            }
-            #dossier-name {
-                display: inline-block;
-                min-width: 200px;
-            }
-            h1, h2, h3, h4, h5, h6 {
-                padding-top: 1em;
-            }
-            .custom-file-upload {
-                margin-top: 9px;
-                cursor: pointer;
-            }
-
-            blockquote {
-                margin-top: 10px;
-                margin-bottom: 10px;
-                margin-left: 20px;
-                padding-left: 15px;
-                border-left: 5px solid #b49b81;
-                display:inline-flex;
-            }
-
-            blockquote span {
-                margin-top:-10px;
-                margin-bottom:-10px;
-            }
-
-            /* Just set tuning for the print version in here */
-            @media print {
-                body {
-                    width: auto;
-                    margin: 0px 5px;
-                    padding: 0px 5px;
-                }
-                html {
-                    width: 100%;
-                }
-                footer {
-                    display: none;
-                }
-                .no-print, .no-print * {
-                    display: none !important;
-                }
-            }
-        </style>
     </head>`)
 
 // Body
