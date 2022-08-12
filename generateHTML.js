@@ -9,6 +9,10 @@ const cleanId = (id) => {
     return id.replace(".", "_")
 }
 
+const anchorText = (txt) => {
+    return encodeURIComponent(txt)
+}
+
 const moduleLink = (moduleId) => {
     return `<a href="https://www.modulbaukasten.ch/module/${moduleId}/0/fr-FR" target="_blank">${moduleId}</a>`
 }
@@ -57,10 +61,10 @@ console.log(`
 
 if (mode_vertical) {
     console.log(`
-            <div class="no-print" style="float: right"><a href="index.html">horizontal</a></div>`)
+        <div class="no-print" style="float: right"><a href="index.html">horizontal</a></div>`)
 } else {
     console.log(`
-            <div class="no-print" style="float: right"><a href="index-vertical.html">vertical</a></div>`)
+        <div class="no-print" style="float: right"><a href="index-vertical.html">vertical</a></div>`)
 }
 console.log(`
         <button id="export-button" class="btn btn-primary no-print">Export to JSON</button>
@@ -68,7 +72,7 @@ console.log(`
 
 console.log(`
     <div class="no-print">
-        <h2>À propos</h2>
+    <h2 id="a-propos">À propos</h2>
         <p>
             Vous consultez actuellement un projet fonctionnel de dossier de formation électronique à l’attention des 
             apprenti·e·s informaticien·ne en orientation développement d’applications. Des explications plus détaillées
@@ -98,7 +102,7 @@ console.log(`
             le site <a href="https://formationprof.ch/dyn/bin/18579-19380-1-20120917_ehb-standards_ld-f.pdf">formationprof.ch</a>,
             et nous incitons apprenant·e·s et formateurs·trices à le consulter.
         </p>
-        <h3>Utilisation</h3>
+        <h3 id="utilisation">Utilisation</h3>
         <p>
             L'utilisation se veut très simple :
             <ol>
@@ -123,7 +127,7 @@ for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
         let verticalColspan = mode_vertical ? 4 : 2
         console.log(`
-        <h4>${competence.title}: ${competence.subject}</h4>
+        <h4 id="${anchorText(competence.title)}">${competence.title}: ${competence.subject}</h4>
         <div>${renderMarkdown(competence.description)}</div>
 
         <table class="main-table external-border">
@@ -310,6 +314,17 @@ console.log(`
             }
 
             $('.version').html('v${version}')
+
+            /* add some anchors to titles */
+            $("h2, h3, h4").hover(
+                function () {
+                    let id = $( this ).attr('id')
+                    $( this ).append( "<span class='anchor'><a href='#"+id+"'>§</a></span>" )
+
+                }, function () {
+                    $( this ).find( ".anchor" ).last().remove()
+                }
+            )
         </script>
     </body>
 </html>
