@@ -155,10 +155,8 @@ for (domaineDeCompetance of data) {
                 <tr>
                     <td class="module border-bottom">
                         <p>${objectif.id}: ${objectif.descr} (${objectif.bloom})</p>
-                        <small>Montrer commentaire / Cacher commentaire</small>
-                        <div id="${objectif.id}-comment">
-                            <textarea style="height: 110px; width: 500px;" placeholder="Petit commentaire expliquant votre ressenti au sujet de cet objectif ou des notes personnelles."></textarea>
-                        </div>
+                        <small class="show-hide-comment" data-objectifId="${cleanId(objectif.id)}">Montrer commentaire / Cacher commentaire</small>
+                        <div id="${cleanId(objectif.id)}-comment" contenteditable="true">Vous pouvez écrire vos commentaires personnels ici.</div>
                     </td>
                     <td class="border-bottom"><input id="${cleanId(objectif.id)}_explique" type="checkbox" /></td>
                     <td class="border-bottom"><input id="${cleanId(objectif.id)}_exerce" type="checkbox" /></td>
@@ -168,10 +166,8 @@ for (domaineDeCompetance of data) {
                 <tr>
                     <td class="module border-bottom">
                         <p>${objectif.id}: ${objectif.descr}</p>
-                        <small>Montrer commentaire / Cacher commentaire</small>
-                        <div id="${objectif.id}-comment">
-                            <textarea style="height: 110px; width: 500px;" placeholder="Petit commentaire expliquant votre ressenti au sujet de cet objectif ou des notes personnelles."></textarea>
-                        </div>
+                        <small class="show-hide-comment" data-objectifId="${cleanId(objectif.id)}">Montrer commentaire / Cacher commentaire</small>
+                        <div id="${cleanId(objectif.id)}-comment" contenteditable="true">Vous pouvez écrire vos commentaires personnels ici.</div>
                     </td>
                     <td class="border-bottom border-right">
                         <table>
@@ -294,6 +290,12 @@ console.log(`
             })
 
             document.getElementById('import-file').addEventListener('change', handleFileSelect, false)
+
+            $('.show-hide-comment').click(function() {
+                let objectifComment = "#" + $(this).attr('data-objectifId') + "-comment"
+                $(objectifComment).toggle() 
+                $(this).text($(objectifComment).css("display") == "block" ? 'Cacher commentaire' : 'Montrer commentaire')
+            })
 
             // https://stackoverflow.com/a/56737666
             function handleFileSelect(event) {

@@ -82,6 +82,10 @@ td.modulesEcolePro, td.modulesCoursInter {
 .objectifs-check {
     vertical-align: baseline;
 }
+.show-hide-comment {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 /* Just set tuning for the print version in here */
 @media print {
