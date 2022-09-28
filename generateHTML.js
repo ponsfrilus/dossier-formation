@@ -153,14 +153,26 @@ for (domaineDeCompetance of data) {
             if (mode_vertical) {
                 console.log(`
                 <tr>
-                    <td class="module border-bottom"><p>${objectif.id}: ${objectif.descr} (${objectif.bloom})</p></td>
+                    <td class="module border-bottom">
+                        <p>${objectif.id}: ${objectif.descr} (${objectif.bloom})</p>
+                        <small>Montrer commentaire / Cacher commentaire</small>
+                        <div id="${objectif.id}-comment">
+                            <textarea style="height: 110px; width: 500px;" placeholder="Petit commentaire expliquant votre ressenti au sujet de cet objectif ou des notes personnelles."></textarea>
+                        </div>
+                    </td>
                     <td class="border-bottom"><input id="${cleanId(objectif.id)}_explique" type="checkbox" /></td>
                     <td class="border-bottom"><input id="${cleanId(objectif.id)}_exerce" type="checkbox" /></td>
                     <td class="border-bottom border-right"><input id="${cleanId(objectif.id)}_autonome" type="checkbox" /></td>`)
             } else {
                 console.log(`
                 <tr>
-                    <td class="module border-bottom"><p>${objectif.id}: ${objectif.descr}</p></td>
+                    <td class="module border-bottom">
+                        <p>${objectif.id}: ${objectif.descr}</p>
+                        <small>Montrer commentaire / Cacher commentaire</small>
+                        <div id="${objectif.id}-comment">
+                            <textarea style="height: 110px; width: 500px;" placeholder="Petit commentaire expliquant votre ressenti au sujet de cet objectif ou des notes personnelles."></textarea>
+                        </div>
+                    </td>
                     <td class="border-bottom border-right">
                         <table>
                             <tr>
