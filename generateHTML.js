@@ -127,7 +127,7 @@ for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
         let verticalColspan = mode_vertical ? 4 : 2
         console.log(`
-        <h4 id="${anchorText(competence.title)}">${competence.title}: ${competence.subject}</h4>
+        <h4 id="${anchorText(competence.title)}">${competence.title}&#8239: ${competence.subject}</h4>
         <div>${renderMarkdown(competence.description)}</div>
 
         <table class="main-table external-border">
@@ -153,14 +153,22 @@ for (domaineDeCompetance of data) {
             if (mode_vertical) {
                 console.log(`
                 <tr>
-                    <td class="module border-bottom"><p>${objectif.id}: ${objectif.descr} (${objectif.bloom})</p></td>
+                    <td class="module border-bottom">
+                        <p>${objectif.id}: ${objectif.descr} (${objectif.bloom})</p>
+                        <small class="show-hide-comment" data-objectifId="${cleanId(objectif.id)}">Montrer commentaire / Cacher commentaire</small>
+                        <div id="${cleanId(objectif.id)}-comment" contenteditable="true" class="editable-comment-div">Vous pouvez écrire vos commentaires personnels ici.</div>
+                    </td>
                     <td class="border-bottom"><input id="${cleanId(objectif.id)}_explique" type="checkbox" /></td>
                     <td class="border-bottom"><input id="${cleanId(objectif.id)}_exerce" type="checkbox" /></td>
                     <td class="border-bottom border-right"><input id="${cleanId(objectif.id)}_autonome" type="checkbox" /></td>`)
             } else {
                 console.log(`
                 <tr>
-                    <td class="module border-bottom"><p>${objectif.id}: ${objectif.descr}</p></td>
+                    <td class="module border-bottom">
+                        <p>${objectif.id}: ${objectif.descr}</p>
+                        <small class="show-hide-comment" data-objectifId="${cleanId(objectif.id)}">Montrer commentaire / Cacher commentaire</small>
+                        <div id="${cleanId(objectif.id)}-comment" contenteditable="true" class="editable-comment-div">Vous pouvez écrire vos commentaires personnels ici.</div>
+                    </td>
                     <td class="border-bottom border-right">
                         <table>
                             <tr>
@@ -239,6 +247,9 @@ console.log(`
                 $('input[type=checkbox]').each(function () {
                     localStorageItems[$(this).attr('id')] = this.checked
                 })
+                $('.editable-comment-div').each(function() {
+                    localStorageItems[$(this).attr('id')] = $(this).text()
+                })
                 localStorage.setItem(dossierFormationVarName, JSON.stringify(localStorageItems, null, 2))
             }
             var dossierFormationLocalStorage = localStorage.getItem(dossierFormationVarName)
@@ -248,6 +259,9 @@ console.log(`
                 $('input[type=checkbox]').each(function () {
                     $(this).prop('checked', JSON.parse(dossierFormationLocalStorage)[$(this).attr('id')])
                 })
+                $('.editable-comment-div').each(function() {
+                    $(this).text(JSON.parse(dossierFormationLocalStorage)[$(this).attr('id')])
+                })
                 $('#dossier-name').text(JSON.parse(dossierFormationLocalStorage)['name'])
                 document.title = 'Dossier de formation de ' + JSON.parse(dossierFormationLocalStorage)['name']
             }
@@ -255,6 +269,10 @@ console.log(`
             $('input:checkbox').change(
                 function(){
                     setLocalStorage()
+            })
+
+            $('.editable-comment-div').on('DOMSubtreeModified', function(){
+                setLocalStorage()
             })
 
             document.getElementById("dossier-name").addEventListener("input", inputEvt => {
@@ -282,6 +300,12 @@ console.log(`
             })
 
             document.getElementById('import-file').addEventListener('change', handleFileSelect, false)
+
+            $('.show-hide-comment').click(function() {
+                let objectifComment = "#" + $(this).attr('data-objectifId') + "-comment"
+                $(objectifComment).toggle() 
+                $(this).text($(objectifComment).css("display") == "block" ? 'Cacher commentaire' : 'Montrer commentaire')
+            })
 
             // https://stackoverflow.com/a/56737666
             function handleFileSelect(event) {
