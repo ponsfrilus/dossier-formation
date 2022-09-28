@@ -127,7 +127,7 @@ for (domaineDeCompetance of data) {
     for (competence of domaineDeCompetance.competences) {
         let verticalColspan = mode_vertical ? 4 : 2
         console.log(`
-        <h4 id="${anchorText(competence.title)}">${competence.title}: ${competence.subject}</h4>
+        <h4 id="${anchorText(competence.title)}">${competence.title}&#8239: ${competence.subject}</h4>
         <div>${renderMarkdown(competence.description)}</div>
 
         <table class="main-table external-border">
