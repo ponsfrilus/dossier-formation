@@ -156,7 +156,7 @@ for (domaineDeCompetance of data) {
                     <td class="module border-bottom">
                         <p>${objectif.id}: ${objectif.descr} (${objectif.bloom})</p>
                         <small class="show-hide-comment" data-objectifId="${cleanId(objectif.id)}">Montrer commentaire / Cacher commentaire</small>
-                        <div id="${cleanId(objectif.id)}-comment" contenteditable="true">Vous pouvez écrire vos commentaires personnels ici.</div>
+                        <div id="${cleanId(objectif.id)}-comment" contenteditable="true" class="editable-comment-div">Vous pouvez écrire vos commentaires personnels ici.</div>
                     </td>
                     <td class="border-bottom"><input id="${cleanId(objectif.id)}_explique" type="checkbox" /></td>
                     <td class="border-bottom"><input id="${cleanId(objectif.id)}_exerce" type="checkbox" /></td>
@@ -167,7 +167,7 @@ for (domaineDeCompetance of data) {
                     <td class="module border-bottom">
                         <p>${objectif.id}: ${objectif.descr}</p>
                         <small class="show-hide-comment" data-objectifId="${cleanId(objectif.id)}">Montrer commentaire / Cacher commentaire</small>
-                        <div id="${cleanId(objectif.id)}-comment" contenteditable="true">Vous pouvez écrire vos commentaires personnels ici.</div>
+                        <div id="${cleanId(objectif.id)}-comment" contenteditable="true" class="editable-comment-div">Vous pouvez écrire vos commentaires personnels ici.</div>
                     </td>
                     <td class="border-bottom border-right">
                         <table>
@@ -247,6 +247,9 @@ console.log(`
                 $('input[type=checkbox]').each(function () {
                     localStorageItems[$(this).attr('id')] = this.checked
                 })
+                $('.editable-comment-div').each(function() {
+                    localStorageItems[$(this).attr('id')] = $(this).text()
+                })
                 localStorage.setItem(dossierFormationVarName, JSON.stringify(localStorageItems, null, 2))
             }
             var dossierFormationLocalStorage = localStorage.getItem(dossierFormationVarName)
@@ -256,6 +259,9 @@ console.log(`
                 $('input[type=checkbox]').each(function () {
                     $(this).prop('checked', JSON.parse(dossierFormationLocalStorage)[$(this).attr('id')])
                 })
+                $('.editable-comment-div').each(function() {
+                    $(this).text(JSON.parse(dossierFormationLocalStorage)[$(this).attr('id')])
+                })
                 $('#dossier-name').text(JSON.parse(dossierFormationLocalStorage)['name'])
                 document.title = 'Dossier de formation de ' + JSON.parse(dossierFormationLocalStorage)['name']
             }
@@ -263,6 +269,10 @@ console.log(`
             $('input:checkbox').change(
                 function(){
                     setLocalStorage()
+            })
+
+            $('.editable-comment-div').on('DOMSubtreeModified', function(){
+                setLocalStorage()
             })
 
             document.getElementById("dossier-name").addEventListener("input", inputEvt => {
