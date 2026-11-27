@@ -1,0 +1,109 @@
+body {
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+}
+
+/* For small screen such as Mobile */
+@media screen and (max-width: 1261px) {
+    body {
+        width: auto;
+        margin: 0px 5px;
+        padding: 0px 5px;
+    }
+}
+@media screen and (min-width: 1262px) and (max-width: 2285px) {
+    body {
+        width: 80%;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 1em;
+}
+.no-padding {
+    padding: 0;
+}
+.vericaltext{
+    writing-mode: vertical-rl;
+    transform:scale(-1);
+}
+
+#dossier-name {
+    display: inline-block;
+    min-width: 200px;
+}
+.custom-file-upload {
+    margin-top: 9px;
+    cursor: pointer;
+}
+blockquote {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: 5px solid #b49b81;
+    display: inline-flex;
+}
+blockquote span {
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+.anchor a {
+    color: grey;
+    padding-left: 5px;
+}
+
+table.external-border {
+    border: 1px solid gray;
+}
+th.main-th {
+    padding: 15px;
+}
+td {
+    vertical-align: top;
+    padding-left: 5px;
+}
+td.border-bottom {
+    border-bottom: 1px solid gray; 
+}
+td.border-right {
+    border-right: 1px solid gray;
+}
+td.module {
+    width: 50%;
+}
+td.modulesEcolePro, td.modulesCoursInter {
+    width: 25%;
+}
+.main-table tr:last-child td  {
+    border-bottom: 0 !important;
+}
+.objectifs-check {
+    vertical-align: baseline;
+}
+.show-hide-comment {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.editable-comment-div {
+    font-size: 90%;
+}
+
+/* Just set tuning for the print version in here */
+@media print {
+    body {
+        width: auto;
+        margin: 0px 5px;
+        padding: 0px 5px;
+    }
+    html {
+        width: 100%;
+    }
+    footer {
+        display: none;
+    }
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
